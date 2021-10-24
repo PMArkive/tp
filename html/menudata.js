@@ -141,6 +141,7 @@ var menudata={children:[
 {text:"m",url:"functions_enum.html#index_m"},
 {text:"o",url:"functions_enum.html#index_o"},
 {text:"p",url:"functions_enum.html#index_p"},
+{text:"s",url:"functions_enum.html#index_s"},
 {text:"t",url:"functions_enum.html#index_t"},
 {text:"u",url:"functions_enum.html#index_u"}]},
 {text:"Enumerator",url:"functions_eval.html",children:[
