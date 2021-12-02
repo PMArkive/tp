@@ -82,12 +82,13 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="c__xyz_8h_source.html">SSystem/SComponent/c_xyz.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mtx_8h_source.html">dolphin/mtx/mtx.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="math_8h_source.html">msl_c/math.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for c_lib.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="c__lib_8h__incl.svg" width="407" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="c__lib_8h__incl.svg" width="522" height="380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -103,6 +104,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a0f724c06a2ec092856d39ad89902477e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__lib_8h.html#a0f724c06a2ec092856d39ad89902477e">cLib_IsZero</a> (<a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> f)</td></tr>
+<tr class="separator:a0f724c06a2ec092856d39ad89902477e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a434e340843cc7481f2c58f51b88190b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__lib_8h.html#a434e340843cc7481f2c58f51b88190b5">cLib_memCpy</a> (void *dst, const void *src, unsigned long size)</td></tr>
 <tr class="separator:a434e340843cc7481f2c58f51b88190b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16ee1f3d87c2d6e3599459223b15da18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__lib_8h.html#a16ee1f3d87c2d6e3599459223b15da18">cLib_memSet</a> (void *ptr, int value, unsigned long size)</td></tr>
@@ -177,31 +180,31 @@ Functions</h2></td></tr>
           <td class="memname">float cLib_addCalc </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_3</em>, </td>
+          <td class="paramname"><em>maxStep</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_4</em>&#160;</td>
+          <td class="paramname"><em>minStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -223,19 +226,19 @@ Functions</h2></td></tr>
           <td class="memname">void cLib_addCalc0 </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>maxStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -257,25 +260,25 @@ Functions</h2></td></tr>
           <td class="memname">void cLib_addCalc2 </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_3</em>&#160;</td>
+          <td class="paramname"><em>maxStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -383,31 +386,31 @@ Functions</h2></td></tr>
           <td class="memname">float cLib_addCalcPos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcXyz.html">cXyz</a> *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_3</em>, </td>
+          <td class="paramname"><em>maxStep</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_4</em>&#160;</td>
+          <td class="paramname"><em>minStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -429,25 +432,25 @@ Functions</h2></td></tr>
           <td class="memname">void cLib_addCalcPos2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcXyz.html">cXyz</a> *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_3</em>&#160;</td>
+          <td class="paramname"><em>maxStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -469,31 +472,31 @@ Functions</h2></td></tr>
           <td class="memname">float cLib_addCalcPosXZ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcXyz.html">cXyz</a> *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_3</em>, </td>
+          <td class="paramname"><em>maxStep</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_4</em>&#160;</td>
+          <td class="paramname"><em>minStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -515,25 +518,25 @@ Functions</h2></td></tr>
           <td class="memname">void cLib_addCalcPosXZ2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcXyz.html">cXyz</a> *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>scale</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_3</em>&#160;</td>
+          <td class="paramname"><em>maxStep</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -589,19 +592,19 @@ Functions</h2></td></tr>
           <td class="memname">int cLib_chaseF </td>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -623,19 +626,19 @@ Functions</h2></td></tr>
           <td class="memname">int cLib_chasePos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcXyz.html">cXyz</a> *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -657,19 +660,19 @@ Functions</h2></td></tr>
           <td class="memname">int cLib_chasePosXZ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structcXyz.html">cXyz</a> *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -725,19 +728,19 @@ Functions</h2></td></tr>
           <td class="memname">int cLib_chaseUC </td>
           <td>(</td>
           <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>pValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned char&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned char&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -809,6 +812,32 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f724c06a2ec092856d39ad89902477e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f724c06a2ec092856d39ad89902477e">&#9670;&nbsp;</a></span>cLib_IsZero()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cLib_IsZero </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
