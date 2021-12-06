@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gxcitexfmt_100035',['GXCITexFmt',['../GX_8h.html#a52470bd14b14386057131086810cde19',1,'GX.h']]]
+  ['gxcitexfmt_103453',['GXCITexFmt',['../GX_8h.html#a52470bd14b14386057131086810cde19',1,'GX.h']]]
 ];
