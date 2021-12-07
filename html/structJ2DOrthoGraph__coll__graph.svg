@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="130,-0.5 130,-19.5 214,-19.5 214,-0.5 130,-0.5"/>
-<text text-anchor="middle" x="172" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">J2DOrthoGraph</text>
+<polygon fill="#bfbfbf" stroke="black" points="29,-0.5 29,-19.5 113,-19.5 113,-0.5 29,-0.5"/>
+<text text-anchor="middle" x="71" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">J2DOrthoGraph</text>
 </a>
 </g>
 </g>
@@ -30,14 +30,8 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M165.58,-47.42C164.87,-38.05 165.31,-27.14 166.91,-19.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="162.12,-47.97 166.94,-57.41 169.05,-47.03 162.12,-47.97"/>
-</g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge7" class="edge">
-<title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M178.42,-47.42C179.13,-38.05 178.69,-27.14 177.09,-19.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="174.95,-47.03 177.06,-57.41 181.88,-47.97 174.95,-47.03"/>
+<path fill="none" stroke="midnightblue" d="M147.27,-52.54C128.36,-42.24 102.86,-28.35 86.67,-19.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="145.76,-55.7 156.22,-57.41 149.11,-49.55 145.76,-55.7"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -49,11 +43,11 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge8" class="edge">
+<g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M62.47,-147.37C61.55,-123.66 63.57,-82.69 85,-57 100.21,-38.76 124.55,-26.77 143.63,-19.61"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="58.98,-147.72 63.08,-157.49 65.97,-147.29 58.98,-147.72"/>
-<text text-anchor="middle" x="102.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mOrtho</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M64.86,-146.86C66.39,-113.03 69.51,-43.97 70.61,-19.68"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="61.35,-147.07 64.4,-157.22 68.34,-147.39 61.35,-147.07"/>
+<text text-anchor="middle" x="86.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mOrtho</text>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
@@ -93,10 +87,10 @@
 <title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M184.13,-147.22C180.87,-125.95 175.71,-92.22 173.31,-76.54"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="180.7,-147.95 185.67,-157.3 187.62,-146.89 180.7,-147.95"/>
-<text text-anchor="middle" x="206" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> field_0x24</text>
-<text text-anchor="middle" x="206" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00">field_0x28</text>
-<text text-anchor="middle" x="206" y="-109" font-family="Helvetica,sans-Serif" font-size="10.00">field_0x2c</text>
-<text text-anchor="middle" x="206" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00">field_0x30</text>
+<text text-anchor="middle" x="206" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> mColorBL</text>
+<text text-anchor="middle" x="206" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00">mColorBR</text>
+<text text-anchor="middle" x="206" y="-109" font-family="Helvetica,sans-Serif" font-size="10.00">mColorTL</text>
+<text text-anchor="middle" x="206" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00">mColorTR</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -127,7 +121,7 @@
 <title>Node7&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M294.29,-149.35C279.86,-133.78 256.64,-110.63 233,-95 221.6,-87.46 207.75,-81.14 196.13,-76.51"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="292.03,-152.08 301.34,-157.13 297.22,-147.37 292.03,-152.08"/>
-<text text-anchor="middle" x="306" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00"> field_0x14</text>
+<text text-anchor="middle" x="307.5" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mPrevPos</text>
 </g>
 </g>
 </svg>
