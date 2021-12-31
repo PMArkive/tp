@@ -383,7 +383,25 @@ $(function() {
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span>*)(<a class="code" href="d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286">offset</a> + 0x80000000);</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;}</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="OS_8h.html#a8671171aa2940c1dc5b815485a5fff01">  307</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <a class="code" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code" href="OS_8h.html#a8671171aa2940c1dc5b815485a5fff01">__OSf32tou8</a>(<span class="keyword">register</span> <a class="code" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src) {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> tmp;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keyword">register</span> <a class="code" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *p = &amp;tmp;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keyword">register</span> <a class="code" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> ret;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keyword">asm</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        psq_st src, 0(p), 1, 2</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        lbz    ret, 0(p)</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160; </div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;}</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160; </div>
+<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="OS_8h.html#ac6b7178b3df8ee35c416885bf7815f87">  321</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="OS_8h.html#ac6b7178b3df8ee35c416885bf7815f87">OSf32tou8</a>(<span class="keyword">register</span> <a class="code" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>* src, <span class="keyword">volatile</span> <span class="keyword">register</span> <a class="code" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>* dst) {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    *dst = <a class="code" href="OS_8h.html#a8671171aa2940c1dc5b815485a5fff01">__OSf32tou8</a>(*src);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;}</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160; </div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aOSError_8h_html"><div class="ttname"><a href="OSError_8h.html">OSError.h</a></div></div>
 <div class="ttc" id="aOSLink_8h_html"><div class="ttname"><a href="OSLink_8h.html">OSLink.h</a></div></div>
 <div class="ttc" id="aOS_8h_html_a005f33ae90e85ef55cea634312d5c475"><div class="ttname"><a href="OS_8h.html#a005f33ae90e85ef55cea634312d5c475">OSReportForceEnableOff</a></div><div class="ttdeci">void OSReportForceEnableOff(void)</div><div class="ttdef"><b>Definition:</b> m_Do_printf.cpp:95</div></div>
@@ -426,6 +444,7 @@ $(function() {
 <div class="ttc" id="aOS_8h_html_a7ebcf7b3af822560b18128c3508924ac"><div class="ttname"><a href="OS_8h.html#a7ebcf7b3af822560b18128c3508924ac">OSSetSoundMode</a></div><div class="ttdeci">void OSSetSoundMode(OSSoundMode mode)</div></div>
 <div class="ttc" id="aOS_8h_html_a8007223ca78cecd19ec43c763d655e68"><div class="ttname"><a href="OS_8h.html#a8007223ca78cecd19ec43c763d655e68">OSGetSoundMode</a></div><div class="ttdeci">u32 OSGetSoundMode(void)</div><div class="ttdef"><b>Definition:</b> OSRtc.cpp:150</div></div>
 <div class="ttc" id="aOS_8h_html_a80e07ff78899a76e5bf48053da63dcb4"><div class="ttname"><a href="OS_8h.html#a80e07ff78899a76e5bf48053da63dcb4">OSTick</a></div><div class="ttdeci">u32 OSTick</div><div class="ttdef"><b>Definition:</b> OS.h:83</div></div>
+<div class="ttc" id="aOS_8h_html_a8671171aa2940c1dc5b815485a5fff01"><div class="ttname"><a href="OS_8h.html#a8671171aa2940c1dc5b815485a5fff01">__OSf32tou8</a></div><div class="ttdeci">static u8 __OSf32tou8(register f32 src)</div><div class="ttdef"><b>Definition:</b> OS.h:307</div></div>
 <div class="ttc" id="aOS_8h_html_a8dde1ddc5e7cdd9f10988499422d322a"><div class="ttname"><a href="OS_8h.html#a8dde1ddc5e7cdd9f10988499422d322a">OSSetArenaHi</a></div><div class="ttdeci">void OSSetArenaHi(u32 param_1)</div></div>
 <div class="ttc" id="aOS_8h_html_a94220589ec98d4d8781083857b5e8abe"><div class="ttname"><a href="OS_8h.html#a94220589ec98d4d8781083857b5e8abe">OSReportEnable</a></div><div class="ttdeci">void OSReportEnable(void)</div><div class="ttdef"><b>Definition:</b> m_Do_printf.cpp:85</div></div>
 <div class="ttc" id="aOS_8h_html_a9783636684aed892ac5e90565570f31c"><div class="ttname"><a href="OS_8h.html#a9783636684aed892ac5e90565570f31c">OSReport</a></div><div class="ttdeci">void OSReport(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> m_Do_printf.cpp:187</div></div>
@@ -444,6 +463,7 @@ $(function() {
 <div class="ttc" id="aOS_8h_html_ac3847b6893d6bdbd20e352bb89c73f62"><div class="ttname"><a href="OS_8h.html#ac3847b6893d6bdbd20e352bb89c73f62">OSGetStackPointer</a></div><div class="ttdeci">u8 * OSGetStackPointer(void)</div><div class="ttdef"><b>Definition:</b> OSContext.cpp:119</div></div>
 <div class="ttc" id="aOS_8h_html_ac432c75636393b80628546fe70b3a19b"><div class="ttname"><a href="OS_8h.html#ac432c75636393b80628546fe70b3a19b">OSSetSaveRegion</a></div><div class="ttdeci">void OSSetSaveRegion(void *start, void *end)</div></div>
 <div class="ttc" id="aOS_8h_html_ac540b8ab45b64548e31395f193f0fc49"><div class="ttname"><a href="OS_8h.html#ac540b8ab45b64548e31395f193f0fc49">OSLockMutex</a></div><div class="ttdeci">void OSLockMutex(OSMutex *mutex)</div></div>
+<div class="ttc" id="aOS_8h_html_ac6b7178b3df8ee35c416885bf7815f87"><div class="ttname"><a href="OS_8h.html#ac6b7178b3df8ee35c416885bf7815f87">OSf32tou8</a></div><div class="ttdeci">static void OSf32tou8(register f32 *src, volatile register u8 *dst)</div><div class="ttdef"><b>Definition:</b> OS.h:321</div></div>
 <div class="ttc" id="aOS_8h_html_ac7419735237887c3f422e7ef1ffd9c70"><div class="ttname"><a href="OS_8h.html#ac7419735237887c3f422e7ef1ffd9c70">OSPhysicalToCached</a></div><div class="ttdeci">void * OSPhysicalToCached(u32 offset)</div><div class="ttdef"><b>Definition:</b> OS.h:302</div></div>
 <div class="ttc" id="aOS_8h_html_acd39b7eb8a0f4b65ee3188875b70b787"><div class="ttname"><a href="OS_8h.html#acd39b7eb8a0f4b65ee3188875b70b787">OSGetTick</a></div><div class="ttdeci">OSTick OSGetTick(void)</div><div class="ttdef"><b>Definition:</b> OSTime.cpp:45</div></div>
 <div class="ttc" id="aOS_8h_html_ad1485851616ee42973a6e262ecafb437"><div class="ttname"><a href="OS_8h.html#ad1485851616ee42973a6e262ecafb437">OSReport_Warning</a></div><div class="ttdeci">void OSReport_Warning(const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> m_Do_printf.cpp:227</div></div>
@@ -603,6 +623,7 @@ $(function() {
 <div class="ttc" id="atypes_8h_html_a050c65e107f0c828f856a231f4b4e788"><div class="ttname"><a href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a></div><div class="ttdeci">int BOOL</div><div class="ttdef"><b>Definition:</b> types.h:27</div></div>
 <div class="ttc" id="atypes_8h_html_a2caf5cd7bcdbe1eefa727f44ffb10bac"><div class="ttname"><a href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a></div><div class="ttdeci">unsigned long u32</div><div class="ttdef"><b>Definition:</b> types.h:10</div></div>
 <div class="ttc" id="atypes_8h_html_a4258bfb2c3a440d06c4aaa3c2b450dde"><div class="ttname"><a href="types_8h.html#a4258bfb2c3a440d06c4aaa3c2b450dde">s64</a></div><div class="ttdeci">signed long long s64</div><div class="ttdef"><b>Definition:</b> types.h:7</div></div>
+<div class="ttc" id="atypes_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdef"><b>Definition:</b> types.h:22</div></div>
 <div class="ttc" id="atypes_8h_html_a9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition:</b> types.h:9</div></div>
 <div class="ttc" id="atypes_8h_html_ad758b7a5c3f18ed79d2fcd23d9f16357"><div class="ttname"><a href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a></div><div class="ttdeci">unsigned long long u64</div><div class="ttdef"><b>Definition:</b> types.h:11</div></div>
 <div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition:</b> types.h:6</div></div>

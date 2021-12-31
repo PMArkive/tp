@@ -303,6 +303,10 @@ Functions</h2></td></tr>
 <tr class="separator:a0bdc4b73078b3315007228cb407b9ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7419735237887c3f422e7ef1ffd9c70"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ac7419735237887c3f422e7ef1ffd9c70">OSPhysicalToCached</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="el" href="d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286">offset</a>)</td></tr>
 <tr class="separator:ac7419735237887c3f422e7ef1ffd9c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8671171aa2940c1dc5b815485a5fff01"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a8671171aa2940c1dc5b815485a5fff01">__OSf32tou8</a> (register <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src)</td></tr>
+<tr class="separator:a8671171aa2940c1dc5b815485a5fff01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b7178b3df8ee35c416885bf7815f87"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ac6b7178b3df8ee35c416885bf7815f87">OSf32tou8</a> (register <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *src, volatile register <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *dst)</td></tr>
+<tr class="separator:ac6b7178b3df8ee35c416885bf7815f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a24b1d8059dd9c28417f8ef31ec709410"></a>
@@ -582,6 +586,32 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8671171aa2940c1dc5b815485a5fff01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8671171aa2940c1dc5b815485a5fff01">&#9670;&nbsp;</a></span>__OSf32tou8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> __OSf32tou8 </td>
+          <td>(</td>
+          <td class="paramtype">register <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a175d62ba1caad8b54b649b4ff312defe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a175d62ba1caad8b54b649b4ff312defe">&#9670;&nbsp;</a></span>LCDisable()</h2>
 
@@ -852,6 +882,42 @@ Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6b7178b3df8ee35c416885bf7815f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6b7178b3df8ee35c416885bf7815f87">&#9670;&nbsp;</a></span>OSf32tou8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void OSf32tou8 </td>
+          <td>(</td>
+          <td class="paramtype">register <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">volatile register <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
