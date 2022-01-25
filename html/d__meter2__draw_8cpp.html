@@ -84,13 +84,12 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="d__meter2__draw_8h_source.html">d/meter/d_meter2_draw.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="J2DAnmLoader_8h_source.html">JSystem/J2DGraph/J2DAnmLoader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__com__inf__game_8h_source.html">d/com/d_com_inf_game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__kantera__icon__meter_8h_source.html">d/d_kantera_icon_meter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__meter__HIO_8h_source.html">d/meter/d_meter_HIO.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__msg__object_8h_source.html">d/msg/d_msg_object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/__ct__13dMeter2Draw_cFP10JKRExpHeap.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/__dt__13dMeter2Draw_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/init__13dMeter2Draw_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/exec__13dMeter2Draw_cFUl.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/draw__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/initLife__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/initMagic__13dMeter2Draw_cFv.s&quot;</code><br />
@@ -98,9 +97,6 @@ $(function() {
 <code>#include &quot;asm/d/meter/d_meter2_draw/initRupeeKey__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/initButton__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/initButtonCross__13dMeter2Draw_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/playPikariBckAnimation__13dMeter2Draw_cFf.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/setPikariBpkAnimation__13dMeter2Draw_cFP11J2DAnmColor.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/playPikariBpkAnimation__13dMeter2Draw_cFf.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/playOxygenBpkAnimation__13dMeter2Draw_cFP11J2DAnmColor.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/func_80213FF0.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/func_802140DC.s&quot;</code><br />
@@ -139,7 +135,6 @@ $(function() {
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawButtonZ__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawButton3D__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawButtonC__13dMeter2Draw_cFUcb.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/drawButtonS__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawButtonBin__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawButtonXY__13dMeter2Draw_cFiUcUcbb.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/getButtonCrossParentInitTransY__13dMeter2Draw_cFv.s&quot;</code><br />
@@ -161,7 +156,6 @@ $(function() {
 <code>#include &quot;asm/d/meter/d_meter2_draw/setButtonIconBAlpha__13dMeter2Draw_cFUcUlb.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/setButtonIconMidonaAlpha__13dMeter2Draw_cFUl.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/setButtonIconAlpha__13dMeter2Draw_cFiUcUlb.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/getNumberTexture__13dMeter2Draw_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/getActionString__13dMeter2Draw_cFUcUcPUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/changeTextureItemB__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/changeTextureItemXY__13dMeter2Draw_cFiUc.s&quot;</code><br />
@@ -170,23 +164,16 @@ $(function() {
 <code>#include &quot;asm/d/meter/d_meter2_draw/setItemNum__13dMeter2Draw_cFUcUcUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawItemNum__13dMeter2Draw_cFUcf.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/drawKanteraMeter__13dMeter2Draw_cFUcf.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/isButtonVisible__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/setItemParamX__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/setItemParamY__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/setItemParamZ__13dMeter2Draw_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/setItemParamB__13dMeter2Draw_cFUc.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/getFishingType__13dMeter2Draw_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/getCanoeFishing__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/getCameraSubject__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/getItemSubject__13dMeter2Draw_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/getPlayerSubject__13dMeter2Draw_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/meter/d_meter2_draw/isBButtonShow__13dMeter2Draw_cFb.s&quot;</code><br />
-<code>#include &quot;asm/d/meter/d_meter2_draw/getButtonTimer__13dMeter2Draw_cFv.s&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdKantera__icon__c.html">dKantera_icon_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structZ2SeMgr.html">Z2SeMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structZ2AudioMgr.html">Z2AudioMgr</a></td></tr>
@@ -548,16 +535,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3f61243ebf5cbb2ff90548d397b16772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed5bd59c54272a132a5b4da4beff66d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#abed5bd59c54272a132a5b4da4beff66d">_restgpr_29</a> ()</td></tr>
 <tr class="separator:abed5bd59c54272a132a5b4da4beff66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b2c1fac32b22b345ec04b01d8c7fc92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a4b2c1fac32b22b345ec04b01d8c7fc92">COMPILER_STRIP_GATE</a> (0x80398258, &amp;<a class="el" href="d__meter2__draw_8cpp.html#a59f34ee08d336730d9db329a3d6be7ba">a_tag</a>)</td></tr>
-<tr class="separator:a4b2c1fac32b22b345ec04b01d8c7fc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada9c455695175f597bfe0aa763519498"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ada9c455695175f597bfe0aa763519498">COMPILER_STRIP_GATE</a> (0x80398280, &amp;<a class="el" href="d__meter2__draw_8cpp.html#abf902956c7d38f6ef6f1a3646f331958">b_tag</a>)</td></tr>
-<tr class="separator:ada9c455695175f597bfe0aa763519498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f792a0e5332461c62ddf686face9d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#af3f792a0e5332461c62ddf686face9d3">COMPILER_STRIP_GATE</a> (0x803982A8, &amp;<a class="el" href="d__meter2__draw_8cpp.html#a8f0b0c657043570a74892bc6d3aa0c6f">z_tag</a>)</td></tr>
-<tr class="separator:af3f792a0e5332461c62ddf686face9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af708dd114edfb9e0ab7c099c75a0dc77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#af708dd114edfb9e0ab7c099c75a0dc77">COMPILER_STRIP_GATE</a> (0x803982D0, &amp;<a class="el" href="d__meter2__draw_8cpp.html#ae20e090461422e876d9add691b0f9965">x_tag</a>)</td></tr>
-<tr class="separator:af708dd114edfb9e0ab7c099c75a0dc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41635da0f93078c78c92c33418490495"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a41635da0f93078c78c92c33418490495">COMPILER_STRIP_GATE</a> (0x803982F8, &amp;<a class="el" href="d__meter2__draw_8cpp.html#aa9201e789f19594f79cb8fd5ec53a1f5">y_tag</a>)</td></tr>
-<tr class="separator:a41635da0f93078c78c92c33418490495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0742a567465451919ef922eb851e8a28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a0742a567465451919ef922eb851e8a28">dComIfGp_checkPlayerStatus0</a> (int param_0, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_1)</td></tr>
+<tr class="separator:a0742a567465451919ef922eb851e8a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad904616a0070713deae619edd71e5fa0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ad904616a0070713deae619edd71e5fa0">COMPILER_STRIP_GATE</a> (0x80398320, &amp;<a class="el" href="d__meter2__draw_8cpp.html#af661b1e338a1928caa11c0200d07067e">life_tag</a>)</td></tr>
 <tr class="separator:ad904616a0070713deae619edd71e5fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acac770fa58053ce40a5863d72b3a6646"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#acac770fa58053ce40a5863d72b3a6646">COMPILER_STRIP_GATE</a> (0x803983C0, &amp;<a class="el" href="d__meter2__draw_8cpp.html#ae721aa3305134d2e7be4f5988c3497a3">mark_tag</a>)</td></tr>
@@ -605,16 +584,16 @@ Variables</h2></td></tr>
 <tr class="separator:a82ae1769e9dd9895636ef419a0f45dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad67787539c06f56ed809b53a55900a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ad67787539c06f56ed809b53a55900a46">mAudioMgrPtr__10Z2AudioMgr</a> [4+4]</td></tr>
 <tr class="separator:ad67787539c06f56ed809b53a55900a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f34ee08d336730d9db329a3d6be7ba"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a59f34ee08d336730d9db329a3d6be7ba">a_tag</a> [40]</td></tr>
-<tr class="separator:a59f34ee08d336730d9db329a3d6be7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf902956c7d38f6ef6f1a3646f331958"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#abf902956c7d38f6ef6f1a3646f331958">b_tag</a> [40]</td></tr>
-<tr class="separator:abf902956c7d38f6ef6f1a3646f331958"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f0b0c657043570a74892bc6d3aa0c6f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a8f0b0c657043570a74892bc6d3aa0c6f">z_tag</a> [40]</td></tr>
-<tr class="separator:a8f0b0c657043570a74892bc6d3aa0c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae20e090461422e876d9add691b0f9965"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ae20e090461422e876d9add691b0f9965">x_tag</a> [40]</td></tr>
-<tr class="separator:ae20e090461422e876d9add691b0f9965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9201e789f19594f79cb8fd5ec53a1f5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#aa9201e789f19594f79cb8fd5ec53a1f5">y_tag</a> [40]</td></tr>
-<tr class="separator:aa9201e789f19594f79cb8fd5ec53a1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa815978e5e820b3b69ea4cbd815d4aef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#aa815978e5e820b3b69ea4cbd815d4aef">a_tag</a> [5]</td></tr>
+<tr class="separator:aa815978e5e820b3b69ea4cbd815d4aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14b097e461d945c1e07736266102b5f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#af14b097e461d945c1e07736266102b5f">b_tag</a> [5]</td></tr>
+<tr class="separator:af14b097e461d945c1e07736266102b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07887d493ee32aa27cce5b52fc329464"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a07887d493ee32aa27cce5b52fc329464">z_tag</a> [5]</td></tr>
+<tr class="separator:a07887d493ee32aa27cce5b52fc329464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab37b043365942804f2bfd535cdd694d9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ab37b043365942804f2bfd535cdd694d9">x_tag</a> [5]</td></tr>
+<tr class="separator:ab37b043365942804f2bfd535cdd694d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f33412c0b91be5bec3e98d699ae4f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ab1f33412c0b91be5bec3e98d699ae4f1">y_tag</a> [5]</td></tr>
+<tr class="separator:ab1f33412c0b91be5bec3e98d699ae4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c01f55e72f770680e8f76be57d221e1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a7c01f55e72f770680e8f76be57d221e1">stringBase_803988D0</a> = &quot;zel_00.bmg&quot;</td></tr>
 <tr class="separator:a7c01f55e72f770680e8f76be57d221e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a503816e2b3a18ace3758434475999f32"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a503816e2b3a18ace3758434475999f32">stringBase_803988DB</a> = &quot;zel_01.bmg&quot;</td></tr>
@@ -649,8 +628,8 @@ Variables</h2></td></tr>
 <tr class="separator:a4f4b1473f94682600c021cabe73021e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13f091204cc4df4909df1366fc5cb7f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a13f091204cc4df4909df1366fc5cb7f1">stringBase_803989BF</a> = &quot;&quot;</td></tr>
 <tr class="separator:a13f091204cc4df4909df1366fc5cb7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec442bb5244b3f7c25b568d3f93b5224"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#aec442bb5244b3f7c25b568d3f93b5224">bmg_filename</a> [10]</td></tr>
-<tr class="separator:aec442bb5244b3f7c25b568d3f93b5224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02de1461e3d9ad1d1eea759d424c03f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#ad02de1461e3d9ad1d1eea759d424c03f">bmg_filename</a> [10]</td></tr>
+<tr class="separator:ad02de1461e3d9ad1d1eea759d424c03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666cd551d2001b56b864dec0f4aa4ba6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a666cd551d2001b56b864dec0f4aa4ba6">i_action_num</a> [516]</td></tr>
 <tr class="separator:a666cd551d2001b56b864dec0f4aa4ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f4aaa89f03ae0ff88d5dec8fd6f23ed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__meter2__draw_8cpp.html#a2f4aaa89f03ae0ff88d5dec8fd6f23ed">lit_9008</a> [9]</td></tr>
@@ -1490,148 +1469,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b2c1fac32b22b345ec04b01d8c7fc92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b2c1fac32b22b345ec04b01d8c7fc92">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[1/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">COMPILER_STRIP_GATE </td>
-          <td>(</td>
-          <td class="paramtype">0x80398258&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>a_tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada9c455695175f597bfe0aa763519498"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada9c455695175f597bfe0aa763519498">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[2/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">COMPILER_STRIP_GATE </td>
-          <td>(</td>
-          <td class="paramtype">0x80398280&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>b_tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af3f792a0e5332461c62ddf686face9d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f792a0e5332461c62ddf686face9d3">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[3/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">COMPILER_STRIP_GATE </td>
-          <td>(</td>
-          <td class="paramtype">0x803982A8&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>z_tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af708dd114edfb9e0ab7c099c75a0dc77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af708dd114edfb9e0ab7c099c75a0dc77">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[4/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">COMPILER_STRIP_GATE </td>
-          <td>(</td>
-          <td class="paramtype">0x803982D0&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>x_tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41635da0f93078c78c92c33418490495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41635da0f93078c78c92c33418490495">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[5/22]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">COMPILER_STRIP_GATE </td>
-          <td>(</td>
-          <td class="paramtype">0x803982F8&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>y_tag</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad904616a0070713deae619edd71e5fa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad904616a0070713deae619edd71e5fa0">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[6/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad904616a0070713deae619edd71e5fa0">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[1/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1659,7 +1498,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acac770fa58053ce40a5863d72b3a6646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acac770fa58053ce40a5863d72b3a6646">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[7/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acac770fa58053ce40a5863d72b3a6646">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[2/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1687,7 +1526,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3228fb3debf8511d99daab8319e987b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3228fb3debf8511d99daab8319e987b2">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[8/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3228fb3debf8511d99daab8319e987b2">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[3/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1715,7 +1554,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a20fe6bd92920075434c8b232b49c0629"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20fe6bd92920075434c8b232b49c0629">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[9/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a20fe6bd92920075434c8b232b49c0629">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[4/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1743,7 +1582,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a357f1f1e1e67259b3c93568fd0a3d62e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a357f1f1e1e67259b3c93568fd0a3d62e">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[10/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a357f1f1e1e67259b3c93568fd0a3d62e">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[5/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1771,7 +1610,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a081a4a1735e0f4bd814146f92a3b1d9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a081a4a1735e0f4bd814146f92a3b1d9c">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[11/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a081a4a1735e0f4bd814146f92a3b1d9c">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[6/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1799,7 +1638,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3e36cfdbcc73e0e000ffc82583655749"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e36cfdbcc73e0e000ffc82583655749">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[12/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e36cfdbcc73e0e000ffc82583655749">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[7/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1827,7 +1666,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a391e54f8fe926050af4d100822b59a1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a391e54f8fe926050af4d100822b59a1d">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[13/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a391e54f8fe926050af4d100822b59a1d">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[8/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1855,7 +1694,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0565b7e824eb3ecc6efb2fe9f1533a7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0565b7e824eb3ecc6efb2fe9f1533a7f">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[14/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0565b7e824eb3ecc6efb2fe9f1533a7f">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[9/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1883,7 +1722,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8fb505347e761b88fe59dd0c4f7dc25b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fb505347e761b88fe59dd0c4f7dc25b">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[15/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb505347e761b88fe59dd0c4f7dc25b">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[10/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1911,7 +1750,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae5bf059ad4a86e4df6ced094ef79602d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5bf059ad4a86e4df6ced094ef79602d">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[16/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5bf059ad4a86e4df6ced094ef79602d">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[11/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1939,7 +1778,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa85c56798d8816e5431d423fd5d8ae1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa85c56798d8816e5431d423fd5d8ae1e">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[17/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa85c56798d8816e5431d423fd5d8ae1e">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[12/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1967,7 +1806,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afda3c48be53b06eee3d924c5fd9ba4fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afda3c48be53b06eee3d924c5fd9ba4fe">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[18/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afda3c48be53b06eee3d924c5fd9ba4fe">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[13/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1995,7 +1834,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3ade20b52e4f8ee4da5cc4e0bcbd97bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ade20b52e4f8ee4da5cc4e0bcbd97bf">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[19/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ade20b52e4f8ee4da5cc4e0bcbd97bf">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[14/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2023,7 +1862,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a004d4318405a7f4b7c9b6424326facd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a004d4318405a7f4b7c9b6424326facd1">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[20/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a004d4318405a7f4b7c9b6424326facd1">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[15/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2051,7 +1890,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a9c83fdf6b58507459df59b69644d037c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c83fdf6b58507459df59b69644d037c">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[21/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c83fdf6b58507459df59b69644d037c">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[16/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2079,7 +1918,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a28f9cf084b3e3652adf337a03de6ebb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28f9cf084b3e3652adf337a03de6ebb9">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[22/22]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28f9cf084b3e3652adf337a03de6ebb9">&#9670;&nbsp;</a></span>COMPILER_STRIP_GATE() <span class="overload">[17/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2119,6 +1958,42 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0742a567465451919ef922eb851e8a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0742a567465451919ef922eb851e8a28">&#9670;&nbsp;</a></span>dComIfGp_checkPlayerStatus0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dComIfGp_checkPlayerStatus0 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>param_0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>param_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -4540,8 +4415,8 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a59f34ee08d336730d9db329a3d6be7ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59f34ee08d336730d9db329a3d6be7ba">&#9670;&nbsp;</a></span>a_tag</h2>
+<a id="aa815978e5e820b3b69ea4cbd815d4aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa815978e5e820b3b69ea4cbd815d4aef">&#9670;&nbsp;</a></span>a_tag</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4550,7 +4425,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const a_tag[40]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const a_tag[5]</td>
         </tr>
       </table>
   </td>
@@ -4560,15 +4435,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x61, 0x74, 0x31, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x61,</div>
-<div class="line">    0x74, 0x32, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x61, 0x74, 0x33, 0x63, 0x6F, 0x6E, 0x74,</div>
-<div class="line">    0x5F, 0x61, 0x74, 0x34, 0x00, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x61, 0x74,</div>
+<div class="line">    <span class="stringliteral">&#39;cont_at1&#39;</span>, <span class="stringliteral">&#39;cont_at2&#39;</span>, <span class="stringliteral">&#39;cont_at3&#39;</span>, <span class="stringliteral">&#39;cont_at4&#39;</span>, <span class="stringliteral">&#39;cont_at&#39;</span>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="abf902956c7d38f6ef6f1a3646f331958"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf902956c7d38f6ef6f1a3646f331958">&#9670;&nbsp;</a></span>b_tag</h2>
+<a id="af14b097e461d945c1e07736266102b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14b097e461d945c1e07736266102b5f">&#9670;&nbsp;</a></span>b_tag</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4577,7 +4450,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const b_tag[40]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const b_tag[5]</td>
         </tr>
       </table>
   </td>
@@ -4587,9 +4460,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x62, 0x74, 0x31, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x62,</div>
-<div class="line">    0x74, 0x32, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x62, 0x74, 0x33, 0x63, 0x6F, 0x6E, 0x74,</div>
-<div class="line">    0x5F, 0x62, 0x74, 0x34, 0x00, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x62, 0x74,</div>
+<div class="line">    <span class="stringliteral">&#39;cont_bt1&#39;</span>, <span class="stringliteral">&#39;cont_bt2&#39;</span>, <span class="stringliteral">&#39;cont_bt3&#39;</span>, <span class="stringliteral">&#39;cont_bt4&#39;</span>, <span class="stringliteral">&#39;cont_bt&#39;</span>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -4628,8 +4499,8 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aec442bb5244b3f7c25b568d3f93b5224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec442bb5244b3f7c25b568d3f93b5224">&#9670;&nbsp;</a></span>bmg_filename</h2>
+<a id="ad02de1461e3d9ad1d1eea759d424c03f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02de1461e3d9ad1d1eea759d424c03f">&#9670;&nbsp;</a></span>bmg_filename</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4638,7 +4509,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* bmg_filename[10]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> char* bmg_filename[10]</td>
         </tr>
       </table>
   </td>
@@ -4648,18 +4519,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0xB),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x16),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x21),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x2C),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x37),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x42),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x4D),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x58),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)&amp;<a class="code" href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a>) + 0x63),</div>
+<div class="line">    <span class="stringliteral">&quot;zel_00.bmg&quot;</span>, <span class="stringliteral">&quot;zel_01.bmg&quot;</span>, <span class="stringliteral">&quot;zel_02.bmg&quot;</span>, <span class="stringliteral">&quot;zel_03.bmg&quot;</span>, <span class="stringliteral">&quot;zel_04.bmg&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;zel_05.bmg&quot;</span>, <span class="stringliteral">&quot;zel_06.bmg&quot;</span>, <span class="stringliteral">&quot;zel_07.bmg&quot;</span>, <span class="stringliteral">&quot;zel_08.bmg&quot;</span>, <span class="stringliteral">&quot;zel_99.bmg&quot;</span>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__meter2__draw_8cpp_html_af4380be50635cb4e41afb31e8329a5a2"><div class="ttname"><a href="d__meter2__draw_8cpp.html#af4380be50635cb4e41afb31e8329a5a2">d_meter_d_meter2_draw__stringBase0</a></div><div class="ttdeci">char const  *const d_meter_d_meter2_draw__stringBase0</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -7515,8 +7377,8 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae20e090461422e876d9add691b0f9965"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae20e090461422e876d9add691b0f9965">&#9670;&nbsp;</a></span>x_tag</h2>
+<a id="ab37b043365942804f2bfd535cdd694d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab37b043365942804f2bfd535cdd694d9">&#9670;&nbsp;</a></span>x_tag</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7525,7 +7387,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const x_tag[40]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const x_tag[5]</td>
         </tr>
       </table>
   </td>
@@ -7535,15 +7397,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x78, 0x74, 0x31, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x78,</div>
-<div class="line">    0x74, 0x32, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x78, 0x74, 0x33, 0x63, 0x6F, 0x6E, 0x74,</div>
-<div class="line">    0x5F, 0x78, 0x74, 0x34, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x78, 0x74, 0x35,</div>
+<div class="line">    <span class="stringliteral">&#39;cont_xt1&#39;</span>, <span class="stringliteral">&#39;cont_xt2&#39;</span>, <span class="stringliteral">&#39;cont_xt3&#39;</span>, <span class="stringliteral">&#39;cont_xt4&#39;</span>, <span class="stringliteral">&#39;cont_xt5&#39;</span>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aa9201e789f19594f79cb8fd5ec53a1f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9201e789f19594f79cb8fd5ec53a1f5">&#9670;&nbsp;</a></span>y_tag</h2>
+<a id="ab1f33412c0b91be5bec3e98d699ae4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1f33412c0b91be5bec3e98d699ae4f1">&#9670;&nbsp;</a></span>y_tag</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7552,7 +7412,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const y_tag[40]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const y_tag[5]</td>
         </tr>
       </table>
   </td>
@@ -7562,15 +7422,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x79, 0x74, 0x31, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x79,</div>
-<div class="line">    0x74, 0x32, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x79, 0x74, 0x33, 0x63, 0x6F, 0x6E, 0x74,</div>
-<div class="line">    0x5F, 0x79, 0x74, 0x34, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x79, 0x74, 0x35,</div>
+<div class="line">    <span class="stringliteral">&#39;cont_yt1&#39;</span>, <span class="stringliteral">&#39;cont_yt2&#39;</span>, <span class="stringliteral">&#39;cont_yt3&#39;</span>, <span class="stringliteral">&#39;cont_yt4&#39;</span>, <span class="stringliteral">&#39;cont_yt5&#39;</span>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a8f0b0c657043570a74892bc6d3aa0c6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f0b0c657043570a74892bc6d3aa0c6f">&#9670;&nbsp;</a></span>z_tag</h2>
+<a id="a07887d493ee32aa27cce5b52fc329464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07887d493ee32aa27cce5b52fc329464">&#9670;&nbsp;</a></span>z_tag</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7579,7 +7437,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> const z_tag[40]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ad758b7a5c3f18ed79d2fcd23d9f16357">u64</a> const z_tag[5]</td>
         </tr>
       </table>
   </td>
@@ -7589,9 +7447,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x7A, 0x74, 0x31, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x7A,</div>
-<div class="line">    0x74, 0x32, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x7A, 0x74, 0x33, 0x63, 0x6F, 0x6E, 0x74,</div>
-<div class="line">    0x5F, 0x7A, 0x74, 0x34, 0x00, 0x63, 0x6F, 0x6E, 0x74, 0x5F, 0x72, 0x74,</div>
+<div class="line">    <span class="stringliteral">&#39;cont_zt1&#39;</span>, <span class="stringliteral">&#39;cont_zt2&#39;</span>, <span class="stringliteral">&#39;cont_zt3&#39;</span>, <span class="stringliteral">&#39;cont_zt4&#39;</span>, <span class="stringliteral">&#39;cont_rt&#39;</span>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>

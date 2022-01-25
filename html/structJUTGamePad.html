@@ -211,6 +211,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:acc2cbf8b5fdc9532536905c11e05f285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a095aac14f148f354e029bcfd48a83"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#a59a095aac14f148f354e029bcfd48a83">setResetCallback</a> (<a class="el" href="JUTGamePad_8h.html#a2f0b00652a669749e07a12c29412b6b2">callbackFn</a> callback, void *param_0)</td></tr>
 <tr class="separator:a59a095aac14f148f354e029bcfd48a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39508fcd1859a95cfe11f206100d15f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#aa39508fcd1859a95cfe11f206100d15f">getPortStatus</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> port)</td></tr>
+<tr class="separator:aa39508fcd1859a95cfe11f206100d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -250,12 +252,10 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a963f9618a7310ebb0236db237dbcb36c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#a963f9618a7310ebb0236db237dbcb36c">sRumbleSupported</a> [4]</td></tr>
 <tr class="separator:a963f9618a7310ebb0236db237dbcb36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad050f733aabbfb4562e50bcca060c3cb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#ad050f733aabbfb4562e50bcca060c3cb">mPadStatus</a> [48]</td></tr>
-<tr class="separator:ad050f733aabbfb4562e50bcca060c3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa552699c0398293a8a5c4ecce7604c97"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#aa552699c0398293a8a5c4ecce7604c97">mPadList</a> [12]</td></tr>
 <tr class="separator:aa552699c0398293a8a5c4ecce7604c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8578c8e56856c9d9477b0ec61913b09e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structPADStatus.html">PADStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#a8578c8e56856c9d9477b0ec61913b09e">mPadStatus</a> [4]</td></tr>
-<tr class="separator:a8578c8e56856c9d9477b0ec61913b09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a973fdcb98e11d7758076a7d249b43ea7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structPADStatus.html">PADStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#a973fdcb98e11d7758076a7d249b43ea7">mPadStatus</a> [4]</td></tr>
+<tr class="separator:a973fdcb98e11d7758076a7d249b43ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0cae3add9782b13e0d7fd48fcc59fa0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#aa0cae3add9782b13e0d7fd48fcc59fa0">mPadButton</a> [192]</td></tr>
 <tr class="separator:aa0cae3add9782b13e0d7fd48fcc59fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7309bd879d5c5293ae56d454f0fe63a1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTGamePad.html#a7309bd879d5c5293ae56d454f0fe63a1">mPadMStick</a> [64]</td></tr>
@@ -772,6 +772,32 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa39508fcd1859a95cfe11f206100d15f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa39508fcd1859a95cfe11f206100d15f">&#9670;&nbsp;</a></span>getPortStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> JUTGamePad::getPortStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1412,8 +1438,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad050f733aabbfb4562e50bcca060c3cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad050f733aabbfb4562e50bcca060c3cb">&#9670;&nbsp;</a></span>mPadStatus <span class="overload">[1/2]</span></h2>
+<a id="a973fdcb98e11d7758076a7d249b43ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973fdcb98e11d7758076a7d249b43ea7">&#9670;&nbsp;</a></span>mPadStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1423,28 +1449,6 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structPADStatus.html">PADStatus</a> JUTGamePad::mPadStatus</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8578c8e56856c9d9477b0ec61913b09e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8578c8e56856c9d9477b0ec61913b09e">&#9670;&nbsp;</a></span>mPadStatus <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structPADStatus.html">PADStatus</a> JUTGamePad::mPadStatus[4]</td>
         </tr>
       </table>
   </td>
@@ -1647,7 +1651,6 @@ Friends</h2></td></tr>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>src/d/<a class="el" href="d__vibration_8cpp.html">d_vibration.cpp</a></li>
 <li>src/d/menu/<a class="el" href="d__menu__option_8cpp.html">d_menu_option.cpp</a></li>
-<li>src/m_Do/<a class="el" href="m__Do__graphic_8cpp.html">m_Do_graphic.cpp</a></li>
 <li>include/JSystem/JUtility/<a class="el" href="JUTGamePad_8h_source.html">JUTGamePad.h</a></li>
 <li>libs/JSystem/JUtility/<a class="el" href="JUTGamePad_8cpp.html">JUTGamePad.cpp</a></li>
 </ul>

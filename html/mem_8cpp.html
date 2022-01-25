@@ -97,8 +97,6 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4a469eda933d9930df223beeb5338dd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mem_8cpp.html#a4a469eda933d9930df223beeb5338dd8">memcmp</a> ()</td></tr>
-<tr class="separator:a4a469eda933d9930df223beeb5338dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebafd156af5fac64f3d3856ed7976c9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mem_8cpp.html#aebafd156af5fac64f3d3856ed7976c9a">__memrchr</a> ()</td></tr>
 <tr class="separator:aebafd156af5fac64f3d3856ed7976c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae562bc8cdefcc3bed3d798c4cee9d52c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mem_8cpp.html#ae562bc8cdefcc3bed3d798c4cee9d52c">memchr</a> ()</td></tr>
@@ -113,6 +111,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad224beb939d72be52de2a2e7fa3dcf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6838714ca832c7735db8d0a95dcddf5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mem_8cpp.html#a6838714ca832c7735db8d0a95dcddf5b">__copy_longs_aligned</a> ()</td></tr>
 <tr class="separator:a6838714ca832c7735db8d0a95dcddf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7288b730030d916aee21d69c142f8cd"><td class="memItemLeft" align="right" valign="top">asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mem_8cpp.html#ae7288b730030d916aee21d69c142f8cd">memcmp</a> (const void *, const void *, <a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>)</td></tr>
+<tr class="separator:ae7288b730030d916aee21d69c142f8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6838714ca832c7735db8d0a95dcddf5b"></a>
@@ -217,17 +217,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4a469eda933d9930df223beeb5338dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a469eda933d9930df223beeb5338dd8">&#9670;&nbsp;</a></span>memcmp()</h2>
+<a id="ae7288b730030d916aee21d69c142f8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7288b730030d916aee21d69c142f8cd">&#9670;&nbsp;</a></span>memcmp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void memcmp </td>
+          <td class="memname">asm int memcmp </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

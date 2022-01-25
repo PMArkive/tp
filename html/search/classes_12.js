@@ -19,5 +19,6 @@ var searchData=
   ['room_5fclass_57621',['room_class',['../structdDrawPath__c_1_1room__class.html',1,'dDrawPath_c']]],
   ['room_5fof_5fscene_5fclass_57622',['room_of_scene_class',['../structroom__of__scene__class.html',1,'']]],
   ['roomdzs_5fc_57623',['roomDzs_c',['../classdStage__roomControl__c_1_1roomDzs__c.html',1,'dStage_roomControl_c']]],
-  ['roomread_5fclass_57624',['roomRead_class',['../structroomRead__class.html',1,'']]]
+  ['roomread_5fclass_57624',['roomRead_class',['../structroomRead__class.html',1,'']]],
+  ['roomread_5fdata_5fclass_57625',['roomRead_data_class',['../structroomRead__data__class.html',1,'']]]
 ];
