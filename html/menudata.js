@@ -183,6 +183,7 @@ var menudata={children:[
 {text:"v",url:"functions_eval_v.html#index_v"},
 {text:"w",url:"functions_eval_w.html#index_w"},
 {text:"x",url:"functions_eval_x.html#index_x"},
+{text:"y",url:"functions_eval_y.html#index_y"},
 {text:"z",url:"functions_eval_z.html#index_z"}]},
 {text:"Related Functions",url:"functions_rela.html"}]}]},
 {text:"Files",url:"files.html",children:[
@@ -290,7 +291,8 @@ var menudata={children:[
 {text:"r",url:"globals_type_r.html#index_r"},
 {text:"s",url:"globals_type_s.html#index_s"},
 {text:"u",url:"globals_type_u.html#index_u"},
-{text:"v",url:"globals_type_v.html#index_v"}]},
+{text:"v",url:"globals_type_v.html#index_v"},
+{text:"w",url:"globals_type_w.html#index_w"}]},
 {text:"Enumerations",url:"globals_enum.html",children:[
 {text:"_",url:"globals_enum.html#index__5F"},
 {text:"b",url:"globals_enum.html#index_b"},
