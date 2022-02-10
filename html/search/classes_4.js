@@ -368,8 +368,8 @@ var searchData=
   ['ddemo_5fparticle_5fc_365',['dDemo_particle_c',['../structdDemo__particle__c.html',1,'']]],
   ['ddemo_5fsystem_5fc_366',['dDemo_system_c',['../structdDemo__system__c.html',1,'']]],
   ['ddlst_5f2d_5fc_367',['dDlst_2D_c',['../structdDlst__2D__c.html',1,'']]],
-  ['ddlst_5f2dm_5fc_368',['dDlst_2Dm_c',['../structdDlst__2Dm__c.html',1,'']]],
-  ['ddlst_5f2dm_5fc_369',['dDlst_2DM_c',['../structdDlst__2DM__c.html',1,'']]],
+  ['ddlst_5f2dm_5fc_368',['dDlst_2DM_c',['../structdDlst__2DM__c.html',1,'']]],
+  ['ddlst_5f2dm_5fc_369',['dDlst_2Dm_c',['../structdDlst__2Dm__c.html',1,'']]],
   ['ddlst_5f2dmt_5fc_370',['dDlst_2DMt_c',['../structdDlst__2DMt__c.html',1,'']]],
   ['ddlst_5f2dpoint_5fc_371',['dDlst_2DPoint_c',['../structdDlst__2DPoint__c.html',1,'']]],
   ['ddlst_5f2dquad_5fc_372',['dDlst_2DQuad_c',['../structdDlst__2DQuad__c.html',1,'']]],
@@ -708,5 +708,6 @@ var searchData=
   ['dvdfileinfo_705',['DVDFileInfo',['../structDVDFileInfo.html',1,'']]],
   ['dvibration_5fc_706',['dVibration_c',['../structdVibration__c.html',1,'']]],
   ['dynamicmodulecontrol_707',['DynamicModuleControl',['../structDynamicModuleControl.html',1,'']]],
-  ['dynamicmodulecontrolbase_708',['DynamicModuleControlBase',['../structDynamicModuleControlBase.html',1,'']]]
+  ['dynamicmodulecontrolbase_708',['DynamicModuleControlBase',['../structDynamicModuleControlBase.html',1,'']]],
+  ['dynamicnametableentry_709',['DynamicNameTableEntry',['../structDynamicNameTableEntry.html',1,'']]]
 ];

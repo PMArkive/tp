@@ -62,8 +62,8 @@ var searchData=
   ['tag_5fpip_59',['tag_pip',['../d__menu__letter_8cpp.html#a730ab64bc43c7fef72ac4f7dd331e8fc',1,'d_menu_letter.cpp']]],
   ['tag_5fsub0_60',['tag_sub0',['../d__menu__letter_8cpp.html#a57204efb9272e407e999b100dce33ac8',1,'tag_sub0():&#160;d_menu_letter.cpp'],['../d__menu__skill_8cpp.html#a5ea15f4cddeff59ffcb3a0d376d8cd39',1,'tag_sub0():&#160;d_menu_skill.cpp']]],
   ['tag_5fsub1_61',['tag_sub1',['../d__menu__letter_8cpp.html#a41f712b332888dfb9219d0b042b504d0',1,'tag_sub1():&#160;d_menu_letter.cpp'],['../d__menu__skill_8cpp.html#acaae0a92a6421a48e04d21998a556a5f',1,'tag_sub1():&#160;d_menu_skill.cpp']]],
-  ['tail_62',['TAIL',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5aafec09f67c269de8b3813b8738de58cd',1,'JKRAramHeap']]],
-  ['tail_63',['tail',['../structOSThreadQueue.html#a6d0b8f6e742b2cd88561cf339dd427c6',1,'OSThreadQueue']]],
+  ['tail_62',['tail',['../structOSThreadQueue.html#a6d0b8f6e742b2cd88561cf339dd427c6',1,'OSThreadQueue']]],
+  ['tail_63',['TAIL',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5aafec09f67c269de8b3813b8738de58cd',1,'JKRAramHeap']]],
   ['taktmodemute_64',['taktModeMute',['../structZ2SeqMgr.html#a534034fa30882bd0bde6a8561d33279b',1,'Z2SeqMgr']]],
   ['taktmodemute_5f_5f8z2seqmgrfv_65',['taktModeMute__8Z2SeqMgrFv',['../d__a__alink_8cpp.html#a773b7b44f7c9a64accd62cec7ae24088',1,'taktModeMute__8Z2SeqMgrFv():&#160;d_a_alink.cpp'],['../Z2SeqMgr_8cpp.html#a773b7b44f7c9a64accd62cec7ae24088',1,'taktModeMute__8Z2SeqMgrFv():&#160;Z2SeqMgr.cpp']]],
   ['taktmodemuteoff_66',['taktModeMuteOff',['../structZ2SeqMgr.html#abcadae592daa82eeb728a3da9439f3d9',1,'Z2SeqMgr']]],
@@ -686,6 +686,6 @@ var searchData=
   ['typegroupdata_5fc_683',['typeGroupData_c',['../structdTres__c_1_1typeGroupData__c.html',1,'dTres_c']]],
   ['types_2eh_684',['types.h',['../types_8h.html',1,'']]],
   ['typetime_685',['TypeTime',['../SIBios_8cpp.html#ae396679fb616de5f2f49038d662665e5',1,'SIBios.cpp']]],
-  ['typetotypegroup_686',['typeToTypeGroup',['../structdTres__c.html#ad4c0294e9e2ee35808b7e438aff47029',1,'dTres_c']]],
+  ['typetotypegroup_686',['typeToTypeGroup',['../structdTres__c.html#ae89f73915b4c7b36f0c266755ecbbe15',1,'dTres_c']]],
   ['typetotypegroup_5f_5f7dtres_5fc_687',['typeToTypeGroup__7dTres_c',['../d__tresure_8cpp.html#a58fa548a9020b596b9fac52d037a2f02',1,'d_tresure.cpp']]]
 ];

@@ -420,7 +420,7 @@ var searchData=
   ['jkrexpandswitch_417',['JKRExpandSwitch',['../structJKRExpandSwitch.html',1,'']]],
   ['jkrexpheap_418',['JKRExpHeap',['../structJKRExpHeap.html',1,'']]],
   ['jkrfile_419',['JKRFile',['../structJKRFile.html',1,'']]],
-  ['jkrfilecache_420',['JKRFileCache',['../structJKRFileCache.html',1,'']]],
+  ['jkrfilecache_420',['JKRFileCache',['../classJKRFileCache.html',1,'']]],
   ['jkrfilefinder_421',['JKRFileFinder',['../classJKRFileFinder.html',1,'']]],
   ['jkrfilefinder_5funknownbase_422',['JKRFileFinder_UnknownBase',['../structJKRFileFinder__UnknownBase.html',1,'']]],
   ['jkrfileloader_423',['JKRFileLoader',['../structJKRFileLoader.html',1,'']]],

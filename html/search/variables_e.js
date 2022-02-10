@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../structJKRArchive_1_1SDirEntry.html#aa2f5fa81919217127d1a60e346f4812e',1,'JKRArchive::SDirEntry::name()'],['../structJKRThreadName__.html#a30552ea4ade1451d39e45fa17ca575aa',1,'JKRThreadName_::name()'],['../structJStudio_1_1stb_1_1data_1_1THeader_1_1Target.html#a98955d043dc8904fe5fafc11e768aa3d',1,'JStudio::stb::data::THeader::Target::name()'],['../structDVDDirectoryEntry.html#a45b88408d96a8a210d8adc0ed31420d7',1,'DVDDirectoryEntry::name()']]],
+  ['name_0',['name',['../structDVDDirectoryEntry.html#a45b88408d96a8a210d8adc0ed31420d7',1,'DVDDirectoryEntry::name()'],['../structJKRArchive_1_1SDirEntry.html#aa2f5fa81919217127d1a60e346f4812e',1,'JKRArchive::SDirEntry::name()'],['../structJKRThreadName__.html#a30552ea4ade1451d39e45fa17ca575aa',1,'JKRThreadName_::name()'],['../structJStudio_1_1stb_1_1data_1_1THeader_1_1Target.html#a98955d043dc8904fe5fafc11e768aa3d',1,'JStudio::stb::data::THeader::Target::name()'],['../structDynamicNameTableEntry.html#a54701775a5e92f459d8f9e43cc6604f7',1,'DynamicNameTableEntry::name()']]],
   ['name0_1',['name0',['../d__a__alink_8cpp.html#a57bef45a0dcdd40eade3d8f9d4007ea1',1,'d_a_alink.cpp']]],
   ['name1_2',['name1',['../d__a__alink_8cpp.html#ad8e1e239377f95cdecbfbbec993c9b01',1,'d_a_alink.cpp']]],
   ['name_5f0_3',['name_0',['../d__menu__fishing_8cpp.html#a32a97bd451b3a186795f43ec40ff27e7',1,'d_menu_fishing.cpp']]],

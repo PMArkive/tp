@@ -135,6 +135,6 @@ var searchData=
   ['type_5fflags_5fand_5fname_5foffset_132',['type_flags_and_name_offset',['../structJKRArchive_1_1SDIFileEntry.html#a85cc76a96d2e3ebae90cdb8b0c0816cd',1,'JKRArchive::SDIFileEntry']]],
   ['typecallback_133',['TypeCallback',['../SIBios_8cpp.html#ae5026783d296a4b5185c46344fd05717',1,'SIBios.cpp']]],
   ['typetime_134',['TypeTime',['../SIBios_8cpp.html#ae396679fb616de5f2f49038d662665e5',1,'SIBios.cpp']]],
-  ['typetotypegroup_135',['typeToTypeGroup',['../structdTres__c.html#ad4c0294e9e2ee35808b7e438aff47029',1,'dTres_c']]],
+  ['typetotypegroup_135',['typeToTypeGroup',['../structdTres__c.html#ae89f73915b4c7b36f0c266755ecbbe15',1,'dTres_c']]],
   ['typetotypegroup_5f_5f7dtres_5fc_136',['typeToTypeGroup__7dTres_c',['../d__tresure_8cpp.html#a58fa548a9020b596b9fac52d037a2f02',1,'d_tresure.cpp']]]
 ];
