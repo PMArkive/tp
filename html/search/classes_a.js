@@ -210,7 +210,7 @@ var searchData=
   ['j3dmtxcalcnoanmbase_207',['J3DMtxCalcNoAnmBase',['../classJ3DMtxCalcNoAnmBase.html',1,'']]],
   ['j3dnbtscale_208',['J3DNBTScale',['../structJ3DNBTScale.html',1,'']]],
   ['j3dnbtscaleinfo_209',['J3DNBTScaleInfo',['../structJ3DNBTScaleInfo.html',1,'']]],
-  ['j3dpacket_210',['J3DPacket',['../structJ3DPacket.html',1,'']]],
+  ['j3dpacket_210',['J3DPacket',['../classJ3DPacket.html',1,'']]],
   ['j3dpatchedmaterial_211',['J3DPatchedMaterial',['../structJ3DPatchedMaterial.html',1,'']]],
   ['j3dpeblock_212',['J3DPEBlock',['../structJ3DPEBlock.html',1,'']]],
   ['j3dpeblockfogoff_213',['J3DPEBlockFogOff',['../classJ3DPEBlockFogOff.html',1,'']]],

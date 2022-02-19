@@ -56,7 +56,7 @@ var searchData=
   ['zeldagframework_53',['zeldaGFrameWork',['../structZ2AudioMgr.html#a2f7eb7ff564d7ab3aa55e87c162c455e',1,'Z2AudioMgr']]],
   ['zeldagframework_5f_5f10z2audiomgrfv_54',['zeldaGFrameWork__10Z2AudioMgrFv',['../Z2AudioMgr_8cpp.html#a98205266e573065a753ee29ca4ca28e4',1,'Z2AudioMgr.cpp']]],
   ['zero_55',['zero',['../structJAISoundParamsTransition_1_1TTransition.html#a573777e396c2c4dbd593f1ff38aa8f44',1,'JAISoundParamsTransition::TTransition::zero()'],['../structJGeometry_1_1TVec3_3_01f32_01_4.html#ab9fe898e43ab4959740e5c13ce6e8cca',1,'JGeometry::TVec3&lt; f32 &gt;::zero()']]],
-  ['zonecountcheck_56',['zoneCountCheck',['../structdStage__roomControl__c.html#aaf61872e28362044859bb8af48cbb484',1,'dStage_roomControl_c']]],
+  ['zonecountcheck_56',['zoneCountCheck',['../structdStage__roomControl__c.html#a53150fb6d16722d46f7add91f7259bbb',1,'dStage_roomControl_c']]],
   ['zonecountcheck_5f_5f20dstage_5froomcontrol_5fccfi_57',['zoneCountCheck__20dStage_roomControl_cCFi',['../d__stage_8cpp.html#aceaa51d0c07072400dc2c1d5b5a7c154',1,'d_stage.cpp']]],
   ['zoom_5fall_5fto_5fregion_5finit_58',['zoom_all_to_region_init',['../classdMenu__Fmap__c.html#ab088dfefcc22f1f505141c99a36f4ea8',1,'dMenu_Fmap_c']]],
   ['zoom_5fall_5fto_5fregion_5finit_5f_5f12dmenu_5ffmap_5fcfv_59',['zoom_all_to_region_init__12dMenu_Fmap_cFv',['../d__menu__fmap_8cpp.html#a0e70960505c78c3627e3f5c2d5851eb1',1,'d_menu_fmap.cpp']]],

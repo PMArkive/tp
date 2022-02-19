@@ -15,7 +15,7 @@ var searchData=
   ['resntab_12',['ResNTAB',['../structResNTAB.html',1,'']]],
   ['restimg_13',['ResTIMG',['../structResTIMG.html',1,'']]],
   ['restlut_14',['ResTLUT',['../structResTLUT.html',1,'']]],
-  ['room_5fc_15',['room_c',['../structdaSus__c_1_1room__c.html',1,'daSus_c']]],
+  ['room_5fc_15',['room_c',['../classdaSus__c_1_1room__c.html',1,'daSus_c']]],
   ['room_5fclass_16',['room_class',['../structdDrawPath__c_1_1room__class.html',1,'dDrawPath_c']]],
   ['room_5fof_5fscene_5fclass_17',['room_of_scene_class',['../classroom__of__scene__class.html',1,'']]],
   ['roomdzs_5fc_18',['roomDzs_c',['../classdStage__roomControl__c_1_1roomDzs__c.html',1,'dStage_roomControl_c']]],
