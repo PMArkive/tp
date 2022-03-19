@@ -8,9 +8,10 @@ var searchData=
   ['jgadget_5',['JGadget',['../namespaceJGadget.html',1,'']]],
   ['jgeometry_6',['JGeometry',['../namespaceJGeometry.html',1,'']]],
   ['jmath_7',['JMath',['../namespaceJMath.html',1,'']]],
-  ['jstudio_8',['JStudio',['../namespaceJStudio.html',1,'']]],
-  ['jutility_9',['JUtility',['../namespaceJUtility.html',1,'']]],
-  ['object_10',['object',['../namespaceJStudio_1_1object.html',1,'JStudio']]],
-  ['stb_11',['stb',['../namespaceJStudio_1_1stb.html',1,'JStudio']]],
-  ['vector_12',['vector',['../namespaceJGadget_1_1vector.html',1,'JGadget']]]
+  ['jmessage_8',['JMessage',['../namespaceJMessage.html',1,'']]],
+  ['jstudio_9',['JStudio',['../namespaceJStudio.html',1,'']]],
+  ['jutility_10',['JUtility',['../namespaceJUtility.html',1,'']]],
+  ['object_11',['object',['../namespaceJStudio_1_1object.html',1,'JStudio']]],
+  ['stb_12',['stb',['../namespaceJStudio_1_1stb.html',1,'JStudio']]],
+  ['vector_13',['vector',['../namespaceJGadget_1_1vector.html',1,'JGadget']]]
 ];

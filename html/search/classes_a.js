@@ -87,7 +87,7 @@ var searchData=
   ['j3danmclusterfulldata_84',['J3DAnmClusterFullData',['../structJ3DAnmClusterFullData.html',1,'']]],
   ['j3danmclusterkey_85',['J3DAnmClusterKey',['../structJ3DAnmClusterKey.html',1,'']]],
   ['j3danmclusterkeydata_86',['J3DAnmClusterKeyData',['../structJ3DAnmClusterKeyData.html',1,'']]],
-  ['j3danmcolor_87',['J3DAnmColor',['../structJ3DAnmColor.html',1,'']]],
+  ['j3danmcolor_87',['J3DAnmColor',['../classJ3DAnmColor.html',1,'']]],
   ['j3danmcolorfull_88',['J3DAnmColorFull',['../structJ3DAnmColorFull.html',1,'']]],
   ['j3danmcolorfulldata_89',['J3DAnmColorFullData',['../structJ3DAnmColorFullData.html',1,'']]],
   ['j3danmcolorfulltable_90',['J3DAnmColorFullTable',['../structJ3DAnmColorFullTable.html',1,'']]],
