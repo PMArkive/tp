@@ -735,7 +735,7 @@ var searchData=
   ['printcontext_732',['printContext',['../structJUTException.html#a54ab1a092bbdda10c832ee250c28e7e5',1,'JUTException']]],
   ['printcontext_5f_5f12jutexceptionfusp9oscontextulul_733',['printContext__12JUTExceptionFUsP9OSContextUlUl',['../JUTException_8cpp.html#a2914a9aa7cb72dbd4c6c7eab74336f5e',1,'JUTException.cpp']]],
   ['printdebuginfo_734',['printDebugInfo',['../structJUTException.html#a770f7d0a092dc03a36cb8eefb2a41433',1,'JUTException']]],
-  ['printf_735',['printf',['../msl__c_2string_8h.html#ad3275c2da349019932874fbf31fd91c6',1,'printf(const char *,...):&#160;printf.cpp'],['../d__menu__save_8cpp.html#a5c5074291fd0137d04a381e8dcca00c7',1,'printf():&#160;d_menu_save.cpp'],['../printf_8cpp.html#a58fb692d4b1dd08ec3bf0a3f297091f1',1,'printf(const char *,...):&#160;printf.cpp'],['../printf_8h.html#a80c56c9c691463312ba42b1467c29696',1,'printf(const char *,...):&#160;printf.cpp']]],
+  ['printf_735',['printf',['../string_8h.html#ad3275c2da349019932874fbf31fd91c6',1,'printf(const char *,...):&#160;printf.cpp'],['../d__menu__save_8cpp.html#a5c5074291fd0137d04a381e8dcca00c7',1,'printf():&#160;d_menu_save.cpp'],['../printf_8cpp.html#a58fb692d4b1dd08ec3bf0a3f297091f1',1,'printf(const char *,...):&#160;printf.cpp'],['../printf_8h.html#a80c56c9c691463312ba42b1467c29696',1,'printf(const char *,...):&#160;printf.cpp']]],
   ['printf_2ecpp_736',['printf.cpp',['../printf_8cpp.html',1,'']]],
   ['printf_2eh_737',['printf.h',['../printf_8h.html',1,'']]],
   ['printreturn_738',['printReturn',['../structJ2DPrint.html#a7e036328b02be77646965b350336ee25',1,'J2DPrint']]],

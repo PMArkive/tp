@@ -43,7 +43,7 @@ var searchData=
   ['std_2dvector_2ecpp_40',['std-vector.cpp',['../std-vector_8cpp.html',1,'']]],
   ['std_2dvector_2eh_41',['std-vector.h',['../std-vector_8h.html',1,'']]],
   ['string_2ecpp_42',['string.cpp',['../string_8cpp.html',1,'']]],
-  ['string_2eh_43',['string.h',['../msl__c_2string_8h.html',1,'(Global Namespace)'],['../MSL__C_8PPCEABI_8bare_8H_2MSL__Common_2Src_2string_8h.html',1,'(Global Namespace)']]],
+  ['string_2eh_43',['string.h',['../string_8h.html',1,'(Global Namespace)'],['../MSL__Common_2Src_2string_8h.html',1,'(Global Namespace)']]],
   ['strtoul_2ecpp_44',['strtoul.cpp',['../strtoul_8cpp.html',1,'']]],
   ['strtoul_2eh_45',['strtoul.h',['../strtoul_8h.html',1,'']]],
   ['support_2ecpp_46',['support.cpp',['../support_8cpp.html',1,'']]],
