@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['../structQuaternion.html#aa44a65ab99e36f6ab8771030eed8a7ad',1,'Quaternion']]],
+  ['w_0',['w',['../structQuaternion.html#a8e1d2e0f176abd8a22e6235b25683a5f',1,'Quaternion']]],
   ['waitingbits_1',['WaitingBits',['../Pad_8cpp.html#a9c989ce1c5c86f783b1e1d6fb481081a',1,'Pad.cpp']]],
   ['waitingcoverclose_2',['WaitingCoverClose',['../dvdlow_8cpp.html#abc7ce2faf2b4f79cbb2ec4cb57ecf478',1,'dvdlow.cpp']]],
   ['waitingqueue_3',['WaitingQueue',['../dvdqueue_8cpp.html#a9aa05cd28c26899b1e0dfd6a2ccaba93',1,'dvdqueue.cpp']]],

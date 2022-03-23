@@ -110,14 +110,14 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a1a5bfd1d44eea9738d2ab238892c1c37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a1a5bfd1d44eea9738d2ab238892c1c37">PSQUATMultiply</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> *src_a, const <a class="el" href="structQuaternion.html">Quaternion</a> *src_b, <a class="el" href="structQuaternion.html">Quaternion</a> *dst)</td></tr>
 <tr class="separator:a1a5bfd1d44eea9738d2ab238892c1c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa77860e5019c2cada559407dca8cad5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#aa77860e5019c2cada559407dca8cad5a">C_QUATRotAxisRad</a> (<a class="el" href="structQuaternion.html">Quaternion</a> *quat, const <a class="el" href="structVec.html">Vec</a> *axis, float rad)</td></tr>
-<tr class="separator:aa77860e5019c2cada559407dca8cad5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d201e63dd9323507de9eaa7bb117eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#ad8d201e63dd9323507de9eaa7bb117eb">C_QUATSlerp</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> *p, const <a class="el" href="structQuaternion.html">Quaternion</a> *q, <a class="el" href="structQuaternion.html">Quaternion</a> *r, float t)</td></tr>
-<tr class="separator:ad8d201e63dd9323507de9eaa7bb117eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac811a4c6438793b6e24e3ba8d1888d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a4ac811a4c6438793b6e24e3ba8d1888d">C_QUATRotAxisRad</a> (<a class="el" href="structQuaternion.html">Quaternion</a> *q, const <a class="el" href="structVec.html">Vec</a> *axis, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> rad)</td></tr>
+<tr class="separator:a4ac811a4c6438793b6e24e3ba8d1888d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6358d20e8c30f0138ce3032c0d20649f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a6358d20e8c30f0138ce3032c0d20649f">C_QUATSlerp</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> *p, const <a class="el" href="structQuaternion.html">Quaternion</a> *q, <a class="el" href="structQuaternion.html">Quaternion</a> *r, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> t)</td></tr>
+<tr class="separator:a6358d20e8c30f0138ce3032c0d20649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aa77860e5019c2cada559407dca8cad5a" name="aa77860e5019c2cada559407dca8cad5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa77860e5019c2cada559407dca8cad5a">&#9670;&nbsp;</a></span>C_QUATRotAxisRad()</h2>
+<a id="a4ac811a4c6438793b6e24e3ba8d1888d" name="a4ac811a4c6438793b6e24e3ba8d1888d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac811a4c6438793b6e24e3ba8d1888d">&#9670;&nbsp;</a></span>C_QUATRotAxisRad()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -126,7 +126,7 @@ Functions</h2></td></tr>
           <td class="memname">void C_QUATRotAxisRad </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structQuaternion.html">Quaternion</a> *&#160;</td>
-          <td class="paramname"><em>quat</em>, </td>
+          <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -137,7 +137,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
           <td class="paramname"><em>rad</em>&#160;</td>
         </tr>
         <tr>
@@ -150,8 +150,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8d201e63dd9323507de9eaa7bb117eb" name="ad8d201e63dd9323507de9eaa7bb117eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8d201e63dd9323507de9eaa7bb117eb">&#9670;&nbsp;</a></span>C_QUATSlerp()</h2>
+<a id="a6358d20e8c30f0138ce3032c0d20649f" name="a6358d20e8c30f0138ce3032c0d20649f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6358d20e8c30f0138ce3032c0d20649f">&#9670;&nbsp;</a></span>C_QUATSlerp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +177,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
           <td class="paramname"><em>t</em>&#160;</td>
         </tr>
         <tr>

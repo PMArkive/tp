@@ -177,8 +177,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa65c8d71200e7bc7332b36675eae141f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9698ad228e88ed96289bf7968ba711a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ae9698ad228e88ed96289bf7968ba711a">OSThreadState</a></td></tr>
 <tr class="separator:ae9698ad228e88ed96289bf7968ba711a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c20d6cc41fc6609919f8220b4ac612"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a78c20d6cc41fc6609919f8220b4ac612">OSAlarmHandler</a>) (<a class="el" href="structOSAlarm.html">OSAlarm</a> *, <a class="el" href="structOSContext.html">OSContext</a> *)</td></tr>
-<tr class="separator:a78c20d6cc41fc6609919f8220b4ac612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080fc1637ee78eb6f2e7a16e5db8868d"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a080fc1637ee78eb6f2e7a16e5db8868d">OSAlarmHandler</a>) (<a class="el" href="structOSAlarm.html">OSAlarm</a> *alarm, <a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a080fc1637ee78eb6f2e7a16e5db8868d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -203,8 +203,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa0069da2bf329181260acb3d03788d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98ab8e2c8a51cb93e69c5224c4b791be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a98ab8e2c8a51cb93e69c5224c4b791be">OSGetThreadPriority</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread)</td></tr>
 <tr class="separator:a98ab8e2c8a51cb93e69c5224c4b791be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8c944219293d9717eeb6cd3ccd2f4f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ae8c944219293d9717eeb6cd3ccd2f4f9">OSCreateThread</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread, void *func, void *param, void *<a class="el" href="m__Do__dvd__thread_8h.html#a9869bae99ba0a972c476392372b9eaa7">stack</a>, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> stackSize, int param_6, int param_7)</td></tr>
-<tr class="separator:ae8c944219293d9717eeb6cd3ccd2f4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8a057f98996cdb78752129ff33db76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#aec8a057f98996cdb78752129ff33db76">OSCreateThread</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread, void *func, void *param, void *<a class="el" href="m__Do__dvd__thread_8h.html#a9869bae99ba0a972c476392372b9eaa7">stack</a>, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> stackSize, int priority, int attr)</td></tr>
+<tr class="separator:aec8a057f98996cdb78752129ff33db76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dc00e8b9758c58fbdbb73350637f805"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a4dc00e8b9758c58fbdbb73350637f805">OSCancelThread</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread)</td></tr>
 <tr class="separator:a4dc00e8b9758c58fbdbb73350637f805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c8cbb581c038073ea97105cbc389e73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a5c8cbb581c038073ea97105cbc389e73">OSDetachThread</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread)</td></tr>
@@ -213,8 +213,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1aacb698b0ee2fe116a332baaf949da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab73b90066e9e23ce482529593cad8b59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ab73b90066e9e23ce482529593cad8b59">OSExitThread</a> (void *exit_val)</td></tr>
 <tr class="separator:ab73b90066e9e23ce482529593cad8b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f69a1fabb381b76c7aad7ffa4248486"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a6f69a1fabb381b76c7aad7ffa4248486">OSIsThreadSuspended</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread)</td></tr>
-<tr class="separator:a6f69a1fabb381b76c7aad7ffa4248486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0074df288baf29c18a7c823c258ba353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a0074df288baf29c18a7c823c258ba353">OSIsThreadSuspended</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread)</td></tr>
+<tr class="separator:a0074df288baf29c18a7c823c258ba353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bec4859c6c3575439660463ab58fc14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a0bec4859c6c3575439660463ab58fc14">OSIsThreadTerminated</a> (<a class="el" href="structOSThread.html">OSThread</a> *thread)</td></tr>
 <tr class="separator:a0bec4859c6c3575439660463ab58fc14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2073ff0f8a37c638c1ff88a75da06fd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="OS_8h.html#a97d7f058b58da0d2beeb58cbd3e937db">OSSwitchThreadCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a2073ff0f8a37c638c1ff88a75da06fd2">OSSetSwitchThreadCallback</a> (<a class="el" href="OS_8h.html#a97d7f058b58da0d2beeb58cbd3e937db">OSSwitchThreadCallback</a> callback)</td></tr>
@@ -269,28 +269,28 @@ Functions</h2></td></tr>
 <tr class="separator:aa48ff43b0ca084a169a4c413c67eb588"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b0b6b48cc5a11e346547e9a3cd36020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a7b0b6b48cc5a11e346547e9a3cd36020">OSGetArenaHi</a> ()</td></tr>
 <tr class="separator:a7b0b6b48cc5a11e346547e9a3cd36020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b6fe73c47281feffe1f71acc9344edb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a5b6fe73c47281feffe1f71acc9344edb">OSInitAlloc</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> low, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> high, int param_3)</td></tr>
-<tr class="separator:a5b6fe73c47281feffe1f71acc9344edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eafb18d1fe004fdc1700374bccb5600"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a0eafb18d1fe004fdc1700374bccb5600">OSSetArenaLo</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_1)</td></tr>
-<tr class="separator:a0eafb18d1fe004fdc1700374bccb5600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dde1ddc5e7cdd9f10988499422d322a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a8dde1ddc5e7cdd9f10988499422d322a">OSSetArenaHi</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_1)</td></tr>
-<tr class="separator:a8dde1ddc5e7cdd9f10988499422d322a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8cb3da0fcba80cbc851c61aacd91c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ac8cb3da0fcba80cbc851c61aacd91c09">OSInitAlloc</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> low, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> high, int maxHeaps)</td></tr>
+<tr class="separator:ac8cb3da0fcba80cbc851c61aacd91c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae74893216829b13c9bc76fea37a6d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a3ae74893216829b13c9bc76fea37a6d4">OSSetArenaLo</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> newLo)</td></tr>
+<tr class="separator:a3ae74893216829b13c9bc76fea37a6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae959b874907f3ea964d9c4031059912e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ae959b874907f3ea964d9c4031059912e">OSSetArenaHi</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> newHi)</td></tr>
+<tr class="separator:ae959b874907f3ea964d9c4031059912e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa95b0234592d454df13d08213414df9f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#aa95b0234592d454df13d08213414df9f">OSAllocFromArenaLo</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> size, int alignment)</td></tr>
 <tr class="separator:aa95b0234592d454df13d08213414df9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03d1b0af602295a14f6df01d5a0aa12e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a03d1b0af602295a14f6df01d5a0aa12e">OSInitMutex</a> (<a class="el" href="structOSMutex.html">OSMutex</a> *mutex)</td></tr>
 <tr class="separator:a03d1b0af602295a14f6df01d5a0aa12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac540b8ab45b64548e31395f193f0fc49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ac540b8ab45b64548e31395f193f0fc49">OSLockMutex</a> (<a class="el" href="structOSMutex.html">OSMutex</a> *mutex)</td></tr>
 <tr class="separator:ac540b8ab45b64548e31395f193f0fc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee5168fd8dc4f813f7a78381604e7a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#aee5168fd8dc4f813f7a78381604e7a1b">OSTryLockMutex</a> (<a class="el" href="structOSMutex.html">OSMutex</a> *mutex)</td></tr>
-<tr class="separator:aee5168fd8dc4f813f7a78381604e7a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5892ff24353a07eaec68242ef44998d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a5892ff24353a07eaec68242ef44998d2">OSTryLockMutex</a> (<a class="el" href="structOSMutex.html">OSMutex</a> *mutex)</td></tr>
+<tr class="separator:a5892ff24353a07eaec68242ef44998d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdcea1245d3bf588114b33e213892d6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#abdcea1245d3bf588114b33e213892d6f">OSUnlockMutex</a> (<a class="el" href="structOSMutex.html">OSMutex</a> *mutex)</td></tr>
 <tr class="separator:abdcea1245d3bf588114b33e213892d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d60b5a7337f446b472ea99a94bdd998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a9d60b5a7337f446b472ea99a94bdd998">OSDisableInterrupts</a> ()</td></tr>
-<tr class="separator:a9d60b5a7337f446b472ea99a94bdd998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab53ee75c05850fa026fb8e577dfa6dff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ab53ee75c05850fa026fb8e577dfa6dff">OSEnableInterrupts</a> ()</td></tr>
-<tr class="separator:ab53ee75c05850fa026fb8e577dfa6dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27a26525e7fd71c49bb73e2e2ea186f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a27a26525e7fd71c49bb73e2e2ea186f4">OSRestoreInterrupts</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> level)</td></tr>
-<tr class="separator:a27a26525e7fd71c49bb73e2e2ea186f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd904277ca039ab62ea0425c311e807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#abcd904277ca039ab62ea0425c311e807">OSDisableInterrupts</a> ()</td></tr>
+<tr class="separator:abcd904277ca039ab62ea0425c311e807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfaab32b212a6a745d50a5be04bd7b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#aebfaab32b212a6a745d50a5be04bd7b1">OSEnableInterrupts</a> ()</td></tr>
+<tr class="separator:aebfaab32b212a6a745d50a5be04bd7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e5a43b524a923d6c17e5c0595017e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a92e5a43b524a923d6c17e5c0595017e2">OSRestoreInterrupts</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> level)</td></tr>
+<tr class="separator:a92e5a43b524a923d6c17e5c0595017e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7fbe96a77b9a85eb08208b2ac9f7ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a1c7fbe96a77b9a85eb08208b2ac9f7ea">OSResetSystem</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> param_1, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_2, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> param_3)</td></tr>
 <tr class="separator:a1c7fbe96a77b9a85eb08208b2ac9f7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac432c75636393b80628546fe70b3a19b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ac432c75636393b80628546fe70b3a19b">OSSetSaveRegion</a> (void *start, void *end)</td></tr>
@@ -301,12 +301,18 @@ Functions</h2></td></tr>
 <tr class="separator:a1632643a792c6d50e661f4a286428143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7824d0e3b0cb1d8b566ffe80e9305a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ad7824d0e3b0cb1d8b566ffe80e9305a2">OSGetStackPointer</a> (void)</td></tr>
 <tr class="separator:ad7824d0e3b0cb1d8b566ffe80e9305a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb2b29f4f33bc852a117c64fda591f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#adb2b29f4f33bc852a117c64fda591f7e">OSCreateAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *)</td></tr>
-<tr class="separator:adb2b29f4f33bc852a117c64fda591f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace0fb2478827598741ee767dc96d76aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ace0fb2478827598741ee767dc96d76aa">OSCancelAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *)</td></tr>
-<tr class="separator:ace0fb2478827598741ee767dc96d76aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc8e1e81fafdf50e3111c619e51229d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a7dc8e1e81fafdf50e3111c619e51229d">OSSetAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *, <a class="el" href="OS_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a>, <a class="el" href="OS_8h.html#a78c20d6cc41fc6609919f8220b4ac612">OSAlarmHandler</a>)</td></tr>
-<tr class="separator:a7dc8e1e81fafdf50e3111c619e51229d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a664886e2a2735e954d8d82f5dfdcc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a5a664886e2a2735e954d8d82f5dfdcc8">OSCreateAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *alarm)</td></tr>
+<tr class="separator:a5a664886e2a2735e954d8d82f5dfdcc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08820cab8590f7b2a3345b3ed8c3a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ad08820cab8590f7b2a3345b3ed8c3a0e">OSCancelAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *alarm)</td></tr>
+<tr class="separator:ad08820cab8590f7b2a3345b3ed8c3a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619c3ff131020bfc7b5267d8a815dbf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a619c3ff131020bfc7b5267d8a815dbf2">OSSetAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *alarm, <a class="el" href="OS_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a> <a class="el" href="GXInit_8cpp.html#a34e459429f04027e70dfa35aaa4fe268">time</a>, <a class="el" href="OS_8h.html#a080fc1637ee78eb6f2e7a16e5db8868d">OSAlarmHandler</a> handler)</td></tr>
+<tr class="separator:a619c3ff131020bfc7b5267d8a815dbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b4f423221a0f3bff5b68efd1c8524e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a2b4f423221a0f3bff5b68efd1c8524e6">OSInitCond</a> (<a class="el" href="structOSCond.html">OSCond</a> *cond)</td></tr>
+<tr class="separator:a2b4f423221a0f3bff5b68efd1c8524e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7172aefdb664fa1dbc3fb666fae2c157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a7172aefdb664fa1dbc3fb666fae2c157">OSWaitCond</a> (<a class="el" href="structOSCond.html">OSCond</a> *cond, <a class="el" href="structOSMutex.html">OSMutex</a> *mutex)</td></tr>
+<tr class="separator:a7172aefdb664fa1dbc3fb666fae2c157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c4c1ef690ba151a41271f31e5f8039"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a37c4c1ef690ba151a41271f31e5f8039">OSSignalCond</a> (<a class="el" href="structOSCond.html">OSCond</a> *cond)</td></tr>
+<tr class="separator:a37c4c1ef690ba151a41271f31e5f8039"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7197dba26522a84db727acbabfe7a57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#ab7197dba26522a84db727acbabfe7a57">__OSf32tos16</a> (register <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> inF)</td></tr>
 <tr class="separator:ab7197dba26522a84db727acbabfe7a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a7fbffda081e6722e6dd462de07ffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OS_8h.html#a05a7fbffda081e6722e6dd462de07ffa">OSf32tos16</a> (<a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *f, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> *out)</td></tr>
@@ -486,14 +492,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a78c20d6cc41fc6609919f8220b4ac612" name="a78c20d6cc41fc6609919f8220b4ac612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78c20d6cc41fc6609919f8220b4ac612">&#9670;&nbsp;</a></span>OSAlarmHandler</h2>
+<a id="a080fc1637ee78eb6f2e7a16e5db8868d" name="a080fc1637ee78eb6f2e7a16e5db8868d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080fc1637ee78eb6f2e7a16e5db8868d">&#9670;&nbsp;</a></span>OSAlarmHandler</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* OSAlarmHandler) (<a class="el" href="structOSAlarm.html">OSAlarm</a> *, <a class="el" href="structOSContext.html">OSContext</a> *)</td>
+          <td class="memname">typedef void(* OSAlarmHandler) (<a class="el" href="structOSAlarm.html">OSAlarm</a> *alarm, <a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -744,8 +750,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ace0fb2478827598741ee767dc96d76aa" name="ace0fb2478827598741ee767dc96d76aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace0fb2478827598741ee767dc96d76aa">&#9670;&nbsp;</a></span>OSCancelAlarm()</h2>
+<a id="ad08820cab8590f7b2a3345b3ed8c3a0e" name="ad08820cab8590f7b2a3345b3ed8c3a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08820cab8590f7b2a3345b3ed8c3a0e">&#9670;&nbsp;</a></span>OSCancelAlarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -754,7 +760,7 @@ Functions</h2></td></tr>
           <td class="memname">void OSCancelAlarm </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSAlarm.html">OSAlarm</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>alarm</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -798,8 +804,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adb2b29f4f33bc852a117c64fda591f7e" name="adb2b29f4f33bc852a117c64fda591f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb2b29f4f33bc852a117c64fda591f7e">&#9670;&nbsp;</a></span>OSCreateAlarm()</h2>
+<a id="a5a664886e2a2735e954d8d82f5dfdcc8" name="a5a664886e2a2735e954d8d82f5dfdcc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a664886e2a2735e954d8d82f5dfdcc8">&#9670;&nbsp;</a></span>OSCreateAlarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,7 +814,7 @@ Functions</h2></td></tr>
           <td class="memname">void OSCreateAlarm </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSAlarm.html">OSAlarm</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>alarm</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -816,14 +822,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae8c944219293d9717eeb6cd3ccd2f4f9" name="ae8c944219293d9717eeb6cd3ccd2f4f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8c944219293d9717eeb6cd3ccd2f4f9">&#9670;&nbsp;</a></span>OSCreateThread()</h2>
+<a id="aec8a057f98996cdb78752129ff33db76" name="aec8a057f98996cdb78752129ff33db76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec8a057f98996cdb78752129ff33db76">&#9670;&nbsp;</a></span>OSCreateThread()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> OSCreateThread </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OSCreateThread </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSThread.html">OSThread</a> *&#160;</td>
           <td class="paramname"><em>thread</em>, </td>
@@ -856,13 +862,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>param_6</em>, </td>
+          <td class="paramname"><em>priority</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>param_7</em>&#160;</td>
+          <td class="paramname"><em>attr</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -892,14 +898,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9d60b5a7337f446b472ea99a94bdd998" name="a9d60b5a7337f446b472ea99a94bdd998"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d60b5a7337f446b472ea99a94bdd998">&#9670;&nbsp;</a></span>OSDisableInterrupts()</h2>
+<a id="abcd904277ca039ab62ea0425c311e807" name="abcd904277ca039ab62ea0425c311e807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd904277ca039ab62ea0425c311e807">&#9670;&nbsp;</a></span>OSDisableInterrupts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> OSDisableInterrupts </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OSDisableInterrupts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -927,14 +933,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab53ee75c05850fa026fb8e577dfa6dff" name="ab53ee75c05850fa026fb8e577dfa6dff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab53ee75c05850fa026fb8e577dfa6dff">&#9670;&nbsp;</a></span>OSEnableInterrupts()</h2>
+<a id="aebfaab32b212a6a745d50a5be04bd7b1" name="aebfaab32b212a6a745d50a5be04bd7b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfaab32b212a6a745d50a5be04bd7b1">&#9670;&nbsp;</a></span>OSEnableInterrupts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> OSEnableInterrupts </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OSEnableInterrupts </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1230,8 +1236,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5b6fe73c47281feffe1f71acc9344edb" name="a5b6fe73c47281feffe1f71acc9344edb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b6fe73c47281feffe1f71acc9344edb">&#9670;&nbsp;</a></span>OSInitAlloc()</h2>
+<a id="ac8cb3da0fcba80cbc851c61aacd91c09" name="ac8cb3da0fcba80cbc851c61aacd91c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8cb3da0fcba80cbc851c61aacd91c09">&#9670;&nbsp;</a></span>OSInitAlloc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1252,12 +1258,30 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>param_3</em>&#160;</td>
+          <td class="paramname"><em>maxHeaps</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b4f423221a0f3bff5b68efd1c8524e6" name="a2b4f423221a0f3bff5b68efd1c8524e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b4f423221a0f3bff5b68efd1c8524e6">&#9670;&nbsp;</a></span>OSInitCond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSInitCond </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOSCond.html">OSCond</a> *&#160;</td>
+          <td class="paramname"><em>cond</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1342,14 +1366,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f69a1fabb381b76c7aad7ffa4248486" name="a6f69a1fabb381b76c7aad7ffa4248486"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f69a1fabb381b76c7aad7ffa4248486">&#9670;&nbsp;</a></span>OSIsThreadSuspended()</h2>
+<a id="a0074df288baf29c18a7c823c258ba353" name="a0074df288baf29c18a7c823c258ba353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0074df288baf29c18a7c823c258ba353">&#9670;&nbsp;</a></span>OSIsThreadSuspended()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool OSIsThreadSuspended </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OSIsThreadSuspended </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSThread.html">OSThread</a> *&#160;</td>
           <td class="paramname"><em>thread</em></td><td>)</td>
@@ -1812,14 +1836,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a27a26525e7fd71c49bb73e2e2ea186f4" name="a27a26525e7fd71c49bb73e2e2ea186f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27a26525e7fd71c49bb73e2e2ea186f4">&#9670;&nbsp;</a></span>OSRestoreInterrupts()</h2>
+<a id="a92e5a43b524a923d6c17e5c0595017e2" name="a92e5a43b524a923d6c17e5c0595017e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e5a43b524a923d6c17e5c0595017e2">&#9670;&nbsp;</a></span>OSRestoreInterrupts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> OSRestoreInterrupts </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OSRestoreInterrupts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
           <td class="paramname"><em>level</em></td><td>)</td>
@@ -1882,8 +1906,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7dc8e1e81fafdf50e3111c619e51229d" name="a7dc8e1e81fafdf50e3111c619e51229d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dc8e1e81fafdf50e3111c619e51229d">&#9670;&nbsp;</a></span>OSSetAlarm()</h2>
+<a id="a619c3ff131020bfc7b5267d8a815dbf2" name="a619c3ff131020bfc7b5267d8a815dbf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619c3ff131020bfc7b5267d8a815dbf2">&#9670;&nbsp;</a></span>OSSetAlarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1892,19 +1916,19 @@ Functions</h2></td></tr>
           <td class="memname">void OSSetAlarm </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSAlarm.html">OSAlarm</a> *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>alarm</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="OS_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="OS_8h.html#a78c20d6cc41fc6609919f8220b4ac612">OSAlarmHandler</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype"><a class="el" href="OS_8h.html#a080fc1637ee78eb6f2e7a16e5db8868d">OSAlarmHandler</a>&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1916,8 +1940,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8dde1ddc5e7cdd9f10988499422d322a" name="a8dde1ddc5e7cdd9f10988499422d322a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dde1ddc5e7cdd9f10988499422d322a">&#9670;&nbsp;</a></span>OSSetArenaHi()</h2>
+<a id="ae959b874907f3ea964d9c4031059912e" name="ae959b874907f3ea964d9c4031059912e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae959b874907f3ea964d9c4031059912e">&#9670;&nbsp;</a></span>OSSetArenaHi()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1926,7 +1950,7 @@ Functions</h2></td></tr>
           <td class="memname">void OSSetArenaHi </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_1</em></td><td>)</td>
+          <td class="paramname"><em>newHi</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1934,8 +1958,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0eafb18d1fe004fdc1700374bccb5600" name="a0eafb18d1fe004fdc1700374bccb5600"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eafb18d1fe004fdc1700374bccb5600">&#9670;&nbsp;</a></span>OSSetArenaLo()</h2>
+<a id="a3ae74893216829b13c9bc76fea37a6d4" name="a3ae74893216829b13c9bc76fea37a6d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae74893216829b13c9bc76fea37a6d4">&#9670;&nbsp;</a></span>OSSetArenaLo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1944,7 +1968,7 @@ Functions</h2></td></tr>
           <td class="memname">void OSSetArenaLo </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_1</em></td><td>)</td>
+          <td class="paramname"><em>newLo</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2038,6 +2062,24 @@ Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37c4c1ef690ba151a41271f31e5f8039" name="a37c4c1ef690ba151a41271f31e5f8039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c4c1ef690ba151a41271f31e5f8039">&#9670;&nbsp;</a></span>OSSignalCond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSSignalCond </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOSCond.html">OSCond</a> *&#160;</td>
+          <td class="paramname"><em>cond</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2142,14 +2184,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aee5168fd8dc4f813f7a78381604e7a1b" name="aee5168fd8dc4f813f7a78381604e7a1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee5168fd8dc4f813f7a78381604e7a1b">&#9670;&nbsp;</a></span>OSTryLockMutex()</h2>
+<a id="a5892ff24353a07eaec68242ef44998d2" name="a5892ff24353a07eaec68242ef44998d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5892ff24353a07eaec68242ef44998d2">&#9670;&nbsp;</a></span>OSTryLockMutex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSTryLockMutex </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OSTryLockMutex </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSMutex.html">OSMutex</a> *&#160;</td>
           <td class="paramname"><em>mutex</em></td><td>)</td>
@@ -2223,6 +2265,34 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="____va__arg_8h.html#a6e6fde95f2a221e9bcd58fa102bd90ff">va_list</a>&#160;</td>
           <td class="paramname"><em>list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7172aefdb664fa1dbc3fb666fae2c157" name="a7172aefdb664fa1dbc3fb666fae2c157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7172aefdb664fa1dbc3fb666fae2c157">&#9670;&nbsp;</a></span>OSWaitCond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSWaitCond </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOSCond.html">OSCond</a> *&#160;</td>
+          <td class="paramname"><em>cond</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOSMutex.html">OSMutex</a> *&#160;</td>
+          <td class="paramname"><em>mutex</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

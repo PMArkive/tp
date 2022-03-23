@@ -3,7 +3,7 @@ var searchData=
   ['obridgeportal_0',['oBridgePortal',['../d__a__alink_8cpp.html#a279cd2ba6612a14213be44c2ec05642e',1,'d_a_alink.cpp']]],
   ['ocarcname_1',['ocArcName',['../d__a__player_8cpp.html#a39a04b7b62119de305c80c915810524b',1,'d_a_player.cpp']]],
   ['ocobject_5f_2',['ocObject_',['../structJGadget_1_1TNodeLinkList.html#a8ed8aa6a50fe54a48cb19e4ba2445f1d',1,'JGadget::TNodeLinkList::ocObject_()'],['../classJStudio_1_1stb_1_1TObject.html#a0eda011f7cf5bed270c3e80cb2cf56ac',1,'JStudio::stb::TObject::ocObject_()'],['../classJStudio_1_1fvb_1_1TControl.html#aef071a5c77d1c2ceedb55d7486693f8b',1,'JStudio::fvb::TControl::ocObject_()']]],
-  ['offset_3',['offset',['../structDVDCommandBlock.html#a9fb16bbab962ae1b929e5bc87bff587b',1,'DVDCommandBlock::offset()'],['../d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286',1,'offset():&#160;d_gameover.cpp']]],
+  ['offset_3',['offset',['../structCARDFileInfo.html#ae74727f8a50a52bcfeb37d677a415354',1,'CARDFileInfo::offset()'],['../structDVDCommandBlock.html#a9fb16bbab962ae1b929e5bc87bff587b',1,'DVDCommandBlock::offset()'],['../d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286',1,'offset():&#160;d_gameover.cpp']]],
   ['offsetangle_4',['offsetAngle',['../d__a__alink_8cpp.html#ae3290b7b63c2947ad434bbf3eb4cb1ae',1,'d_a_alink.cpp']]],
   ['offsetpos_5',['offsetPos',['../d__a__alink_8cpp.html#aed47121c81c04e00b260c58d3ec21877',1,'d_a_alink.cpp']]],
   ['old_5ftime_6',['old_time',['../JASAiCtrl_8cpp.html#a72625716aeefdcc4852269e62bd35901',1,'JASAiCtrl.cpp']]],
