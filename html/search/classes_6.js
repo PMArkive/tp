@@ -18,7 +18,10 @@ var searchData=
   ['fopacm_5frc_5fc_15',['fopAcM_rc_c',['../classfopAcM__rc__c.html',1,'']]],
   ['fopacm_5fwt_5fc_16',['fopAcM_wt_c',['../structfopAcM__wt__c.html',1,'']]],
   ['fopen_5fenemy_5fc_17',['fopEn_enemy_c',['../structfopEn__enemy__c.html',1,'']]],
-  ['fpcctit_5fjilprm_5fc_18',['fpcCtIt_jilprm_c',['../structfpcCtIt__jilprm__c.html',1,'']]],
-  ['functable_19',['FuncTable',['../structFuncTable.html',1,'']]],
-  ['fxlineconfig_5f_20',['FxlineConfig_',['../structJASDsp_1_1FxlineConfig__.html',1,'JASDsp']]]
+  ['fopkym_5fprm_5fclass_18',['fopKyM_prm_class',['../structfopKyM__prm__class.html',1,'']]],
+  ['fopmsg_5fprm_5fclass_19',['fopMsg_prm_class',['../structfopMsg__prm__class.html',1,'']]],
+  ['fopmsg_5fprm_5ftimer_20',['fopMsg_prm_timer',['../structfopMsg__prm__timer.html',1,'']]],
+  ['fpcctit_5fjilprm_5fc_21',['fpcCtIt_jilprm_c',['../structfpcCtIt__jilprm__c.html',1,'']]],
+  ['functable_22',['FuncTable',['../structFuncTable.html',1,'']]],
+  ['fxlineconfig_5f_23',['FxlineConfig_',['../structJASDsp_1_1FxlineConfig__.html',1,'JASDsp']]]
 ];

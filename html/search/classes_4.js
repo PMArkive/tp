@@ -514,7 +514,7 @@ var searchData=
   ['dmenufmapicondisp_5fc_511',['dMenuFmapIconDisp_c',['../structdMenuFmapIconDisp__c.html',1,'']]],
   ['dmenufmapiconpointer_5fc_512',['dMenuFmapIconPointer_c',['../structdMenuFmapIconPointer__c.html',1,'']]],
   ['dmenumapcommon_5fc_513',['dMenuMapCommon_c',['../structdMenuMapCommon__c.html',1,'']]],
-  ['dmeter2_5fc_514',['dMeter2_c',['../structdMeter2__c.html',1,'']]],
+  ['dmeter2_5fc_514',['dMeter2_c',['../classdMeter2__c.html',1,'']]],
   ['dmeter2draw_5fc_515',['dMeter2Draw_c',['../structdMeter2Draw__c.html',1,'']]],
   ['dmeter2info_5fc_516',['dMeter2Info_c',['../structdMeter2Info__c.html',1,'']]],
   ['dmeter_5fcursorhio_5fc_517',['dMeter_cursorHIO_c',['../classdMeter__cursorHIO__c.html',1,'']]],

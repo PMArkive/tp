@@ -81,12 +81,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="f__op__msg_8h_source.html">f_op/f_op_msg.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__msg__class_8h_source.html">d/msg/d_msg_class.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__s__play_8h_source.html">d/s/d_s_play.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_msg/fopMsg_Draw__FPv.s&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_msg/fopMsg_Execute__FPv.s&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_msg/fopMsg_IsDelete__FPv.s&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_msg/fopMsg_Delete__FPv.s&quot;</code><br />
 <code>#include &quot;asm/f_op/f_op_msg/fopMsg_Create__FPv.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_op_msg.cpp:</div>
@@ -131,23 +129,21 @@ Functions</h2></td></tr>
 <tr class="separator:a64342f520ee10fdf03490c2726c77d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ff7561552a731d31b67d43e6d22c7ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a4ff7561552a731d31b67d43e6d22c7ce">fpcMtd_Create__FP20process_method_classPv</a> ()</td></tr>
 <tr class="separator:a4ff7561552a731d31b67d43e6d22c7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac268955a2f4ff73d04f3e64812049cc8"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#ac268955a2f4ff73d04f3e64812049cc8">fopMsg_Draw</a> (void *param_0)</td></tr>
-<tr class="separator:ac268955a2f4ff73d04f3e64812049cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89e7f61881ad65daca4fe7bac4e6f87c"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a89e7f61881ad65daca4fe7bac4e6f87c">fopMsg_Execute</a> (void *param_0)</td></tr>
-<tr class="separator:a89e7f61881ad65daca4fe7bac4e6f87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa43202a6b82fc2bceaec70ae2a8431f5"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#aa43202a6b82fc2bceaec70ae2a8431f5">fopMsg_IsDelete</a> (void *param_0)</td></tr>
-<tr class="separator:aa43202a6b82fc2bceaec70ae2a8431f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8a7eabd054d4867f8734ee464a3613"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#aca8a7eabd054d4867f8734ee464a3613">fopMsg_Delete</a> (void *param_0)</td></tr>
-<tr class="separator:aca8a7eabd054d4867f8734ee464a3613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760ac565fdfc12e18e7b8d1299237d72"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a760ac565fdfc12e18e7b8d1299237d72">fopMsg_Draw</a> (void *msg)</td></tr>
+<tr class="separator:a760ac565fdfc12e18e7b8d1299237d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2d0c1fea1cfa9afec2988ec0e553db"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a9c2d0c1fea1cfa9afec2988ec0e553db">fopMsg_Execute</a> (void *msg)</td></tr>
+<tr class="separator:a9c2d0c1fea1cfa9afec2988ec0e553db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a04f1a45e650adfab364e43106b0d9b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a2a04f1a45e650adfab364e43106b0d9b">fopMsg_IsDelete</a> (void *msg)</td></tr>
+<tr class="separator:a2a04f1a45e650adfab364e43106b0d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514dbffbe2313b9c9e796a0d64b3a66d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a514dbffbe2313b9c9e796a0d64b3a66d">fopMsg_Delete</a> (void *msg)</td></tr>
+<tr class="separator:a514dbffbe2313b9c9e796a0d64b3a66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6988799b6e4267e8e50a6e15e81582b9"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a6988799b6e4267e8e50a6e15e81582b9">fopMsg_Create</a> (void *param_0)</td></tr>
 <tr class="separator:a6988799b6e4267e8e50a6e15e81582b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac44e95cc750632918bc2ff3bb78e53c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#ac44e95cc750632918bc2ff3bb78e53c4">struct_80451124</a> [4]</td></tr>
-<tr class="separator:ac44e95cc750632918bc2ff3bb78e53c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8964781ed2e11f359ec3ba4e80680edb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a8964781ed2e11f359ec3ba4e80680edb">fopMsg_MSG_TYPE</a> [4+4]</td></tr>
-<tr class="separator:a8964781ed2e11f359ec3ba4e80680edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad905c6f29b67287097389b1581d9640d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#ad905c6f29b67287097389b1581d9640d">fopMsg_MSG_TYPE</a></td></tr>
+<tr class="separator:ad905c6f29b67287097389b1581d9640d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64855cbd776aca0b8d1a090874a6eeb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="structleafdraw__method__class.html">leafdraw_method_class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__msg_8cpp.html#a64855cbd776aca0b8d1a090874a6eeb4">g_fopMsg_Method</a></td></tr>
 <tr class="separator:a64855cbd776aca0b8d1a090874a6eeb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -254,8 +250,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aca8a7eabd054d4867f8734ee464a3613" name="aca8a7eabd054d4867f8734ee464a3613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca8a7eabd054d4867f8734ee464a3613">&#9670;&nbsp;</a></span>fopMsg_Delete()</h2>
+<a id="a514dbffbe2313b9c9e796a0d64b3a66d" name="a514dbffbe2313b9c9e796a0d64b3a66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514dbffbe2313b9c9e796a0d64b3a66d">&#9670;&nbsp;</a></span>fopMsg_Delete()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,10 +260,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm int fopMsg_Delete </td>
+          <td class="memname">static int fopMsg_Delete </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -305,8 +301,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac268955a2f4ff73d04f3e64812049cc8" name="ac268955a2f4ff73d04f3e64812049cc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac268955a2f4ff73d04f3e64812049cc8">&#9670;&nbsp;</a></span>fopMsg_Draw()</h2>
+<a id="a760ac565fdfc12e18e7b8d1299237d72" name="a760ac565fdfc12e18e7b8d1299237d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760ac565fdfc12e18e7b8d1299237d72">&#9670;&nbsp;</a></span>fopMsg_Draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,10 +311,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm int fopMsg_Draw </td>
+          <td class="memname">static int fopMsg_Draw </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -356,8 +352,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a89e7f61881ad65daca4fe7bac4e6f87c" name="a89e7f61881ad65daca4fe7bac4e6f87c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89e7f61881ad65daca4fe7bac4e6f87c">&#9670;&nbsp;</a></span>fopMsg_Execute()</h2>
+<a id="a9c2d0c1fea1cfa9afec2988ec0e553db" name="a9c2d0c1fea1cfa9afec2988ec0e553db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2d0c1fea1cfa9afec2988ec0e553db">&#9670;&nbsp;</a></span>fopMsg_Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,10 +362,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm int fopMsg_Execute </td>
+          <td class="memname">static int fopMsg_Execute </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -407,8 +403,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa43202a6b82fc2bceaec70ae2a8431f5" name="aa43202a6b82fc2bceaec70ae2a8431f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa43202a6b82fc2bceaec70ae2a8431f5">&#9670;&nbsp;</a></span>fopMsg_IsDelete()</h2>
+<a id="a2a04f1a45e650adfab364e43106b0d9b" name="a2a04f1a45e650adfab364e43106b0d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a04f1a45e650adfab364e43106b0d9b">&#9670;&nbsp;</a></span>fopMsg_IsDelete()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,10 +413,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm int fopMsg_IsDelete </td>
+          <td class="memname">static int fopMsg_IsDelete </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -595,8 +591,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a8964781ed2e11f359ec3ba4e80680edb" name="a8964781ed2e11f359ec3ba4e80680edb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8964781ed2e11f359ec3ba4e80680edb">&#9670;&nbsp;</a></span>fopMsg_MSG_TYPE</h2>
+<a id="ad905c6f29b67287097389b1581d9640d" name="ad905c6f29b67287097389b1581d9640d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad905c6f29b67287097389b1581d9640d">&#9670;&nbsp;</a></span>fopMsg_MSG_TYPE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -605,7 +601,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> fopMsg_MSG_TYPE[4+4]</td>
+          <td class="memname">int fopMsg_MSG_TYPE</td>
         </tr>
       </table>
   </td>
@@ -637,36 +633,14 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a6988799b6e4267e8e50a6e15e81582b9">fopMsg_Create</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#aca8a7eabd054d4867f8734ee464a3613">fopMsg_Delete</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a89e7f61881ad65daca4fe7bac4e6f87c">fopMsg_Execute</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#aa43202a6b82fc2bceaec70ae2a8431f5">fopMsg_IsDelete</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#ac268955a2f4ff73d04f3e64812049cc8">fopMsg_Draw</a>,</div>
+<div class="line">    &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a6988799b6e4267e8e50a6e15e81582b9">fopMsg_Create</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a514dbffbe2313b9c9e796a0d64b3a66d">fopMsg_Delete</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a9c2d0c1fea1cfa9afec2988ec0e553db">fopMsg_Execute</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a2a04f1a45e650adfab364e43106b0d9b">fopMsg_IsDelete</a>, &amp;<a class="code hl_function" href="f__op__msg_8cpp.html#a760ac565fdfc12e18e7b8d1299237d72">fopMsg_Draw</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="af__op__msg_8cpp_html_a6988799b6e4267e8e50a6e15e81582b9"><div class="ttname"><a href="f__op__msg_8cpp.html#a6988799b6e4267e8e50a6e15e81582b9">fopMsg_Create</a></div><div class="ttdeci">static asm int fopMsg_Create(void *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:89</div></div>
-<div class="ttc" id="af__op__msg_8cpp_html_a89e7f61881ad65daca4fe7bac4e6f87c"><div class="ttname"><a href="f__op__msg_8cpp.html#a89e7f61881ad65daca4fe7bac4e6f87c">fopMsg_Execute</a></div><div class="ttdeci">static asm int fopMsg_Execute(void *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:55</div></div>
-<div class="ttc" id="af__op__msg_8cpp_html_aa43202a6b82fc2bceaec70ae2a8431f5"><div class="ttname"><a href="f__op__msg_8cpp.html#aa43202a6b82fc2bceaec70ae2a8431f5">fopMsg_IsDelete</a></div><div class="ttdeci">static asm int fopMsg_IsDelete(void *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:65</div></div>
-<div class="ttc" id="af__op__msg_8cpp_html_ac268955a2f4ff73d04f3e64812049cc8"><div class="ttname"><a href="f__op__msg_8cpp.html#ac268955a2f4ff73d04f3e64812049cc8">fopMsg_Draw</a></div><div class="ttdeci">static asm int fopMsg_Draw(void *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:45</div></div>
-<div class="ttc" id="af__op__msg_8cpp_html_aca8a7eabd054d4867f8734ee464a3613"><div class="ttname"><a href="f__op__msg_8cpp.html#aca8a7eabd054d4867f8734ee464a3613">fopMsg_Delete</a></div><div class="ttdeci">static asm int fopMsg_Delete(void *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:75</div></div>
+<div class="ttc" id="af__op__msg_8cpp_html_a2a04f1a45e650adfab364e43106b0d9b"><div class="ttname"><a href="f__op__msg_8cpp.html#a2a04f1a45e650adfab364e43106b0d9b">fopMsg_IsDelete</a></div><div class="ttdeci">static int fopMsg_IsDelete(void *msg)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:61</div></div>
+<div class="ttc" id="af__op__msg_8cpp_html_a514dbffbe2313b9c9e796a0d64b3a66d"><div class="ttname"><a href="f__op__msg_8cpp.html#a514dbffbe2313b9c9e796a0d64b3a66d">fopMsg_Delete</a></div><div class="ttdeci">static int fopMsg_Delete(void *msg)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:73</div></div>
+<div class="ttc" id="af__op__msg_8cpp_html_a6988799b6e4267e8e50a6e15e81582b9"><div class="ttname"><a href="f__op__msg_8cpp.html#a6988799b6e4267e8e50a6e15e81582b9">fopMsg_Create</a></div><div class="ttdeci">static asm int fopMsg_Create(void *param_0)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:90</div></div>
+<div class="ttc" id="af__op__msg_8cpp_html_a760ac565fdfc12e18e7b8d1299237d72"><div class="ttname"><a href="f__op__msg_8cpp.html#a760ac565fdfc12e18e7b8d1299237d72">fopMsg_Draw</a></div><div class="ttdeci">static int fopMsg_Draw(void *msg)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:43</div></div>
+<div class="ttc" id="af__op__msg_8cpp_html_a9c2d0c1fea1cfa9afec2988ec0e553db"><div class="ttname"><a href="f__op__msg_8cpp.html#a9c2d0c1fea1cfa9afec2988ec0e553db">fopMsg_Execute</a></div><div class="ttdeci">static int fopMsg_Execute(void *msg)</div><div class="ttdef"><b>Definition:</b> f_op_msg.cpp:49</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="ac44e95cc750632918bc2ff3bb78e53c4" name="ac44e95cc750632918bc2ff3bb78e53c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac44e95cc750632918bc2ff3bb78e53c4">&#9670;&nbsp;</a></span>struct_80451124</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> struct_80451124[4]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->

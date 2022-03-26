@@ -29,7 +29,7 @@ var searchData=
   ['kill_5f_5f12dvibration_5fcfv_26',['Kill__12dVibration_cFv',['../d__vibration_8cpp.html#a7d26492db7b443a4fb87d1f984486655',1,'d_vibration.cpp']]],
   ['killactivechannel_27',['killActiveChannel',['../structJASDSPChannel.html#ae37a21ea6116e6d5b766b7c8463565d1',1,'JASDSPChannel::killActiveChannel()'],['../structJASDSPChannel.html#a87dcbdd21e0601e4ebf0a93d3c018c4e',1,'JASDSPChannel::killActiveChannel()']]],
   ['killactivechannel_5f_5f13jasdspchannelfv_28',['killActiveChannel__13JASDSPChannelFv',['../JASAiCtrl_8cpp.html#aec6fb04a5f93b5fde9a125aba8277c19',1,'killActiveChannel__13JASDSPChannelFv():&#160;JASAiCtrl.cpp'],['../JASDSPChannel_8cpp.html#aec6fb04a5f93b5fde9a125aba8277c19',1,'killActiveChannel__13JASDSPChannelFv():&#160;JASDSPChannel.cpp']]],
-  ['killsubcontents_29',['killSubContents',['../structdMeter2__c.html#a2e26c996ab1ab5efd0bbf57ab6d366d8',1,'dMeter2_c']]],
+  ['killsubcontents_29',['killSubContents',['../classdMeter2__c.html#a2e26c996ab1ab5efd0bbf57ab6d366d8',1,'dMeter2_c']]],
   ['killsubcontents_5f_5f9dmeter2_5fcfuc_30',['killSubContents__9dMeter2_cFUc',['../d__meter2_8cpp.html#aa4b5a9a0afed63f5ef1d5b58821b9685',1,'d_meter2.cpp']]],
   ['killthreads_31',['KillThreads',['../OSReset_8cpp.html#acbb3f3365fd0d377bcd2dc186717fbf0',1,'OSReset.cpp']]]
 ];

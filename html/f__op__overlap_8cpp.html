@@ -83,17 +83,14 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="f__op__overlap_8h_source.html">f_op/f_op_overlap.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_overlap/fopOvlp_Draw__FPv.s&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_overlap/fopOvlp_Execute__FPv.s&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_overlap/fopOvlp_IsDelete__FPv.s&quot;</code><br />
-<code>#include &quot;asm/f_op/f_op_overlap/fopOvlp_Delete__FPv.s&quot;</code><br />
+<code>#include &quot;<a class="el" href="f__op__overlap__mng_8h_source.html">f_op/f_op_overlap_mng.h</a>&quot;</code><br />
 <code>#include &quot;asm/f_op/f_op_overlap/fopOvlp_Create__FPv.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_op_overlap.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="f__op__overlap_8cpp__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="f__op__overlap_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -121,14 +118,14 @@ Functions</h2></td></tr>
 <tr class="separator:a4ff7561552a731d31b67d43e6d22c7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9fb09d38355310ef56cdb0f9d4802aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#ab9fb09d38355310ef56cdb0f9d4802aa">cReq_Create__FP18request_base_classUc</a> ()</td></tr>
 <tr class="separator:ab9fb09d38355310ef56cdb0f9d4802aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3ed8dbc43339a7eb605371d2ac3b523"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#aa3ed8dbc43339a7eb605371d2ac3b523">fopOvlp_Draw</a> (void *param_0)</td></tr>
-<tr class="separator:aa3ed8dbc43339a7eb605371d2ac3b523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5678d30593128cb2a684ac82c754817"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#af5678d30593128cb2a684ac82c754817">fopOvlp_Execute</a> (void *param_0)</td></tr>
-<tr class="separator:af5678d30593128cb2a684ac82c754817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bea41b61aa915f99f3747a8cb19ebff"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#a4bea41b61aa915f99f3747a8cb19ebff">fopOvlp_IsDelete</a> (void *param_0)</td></tr>
-<tr class="separator:a4bea41b61aa915f99f3747a8cb19ebff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2638f53079802f950b05b3e8015a95df"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#a2638f53079802f950b05b3e8015a95df">fopOvlp_Delete</a> (void *param_0)</td></tr>
-<tr class="separator:a2638f53079802f950b05b3e8015a95df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23eb9438b1fe71502d4d414966bf8fb2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#a23eb9438b1fe71502d4d414966bf8fb2">fopOvlp_Draw</a> (void *ovlp)</td></tr>
+<tr class="separator:a23eb9438b1fe71502d4d414966bf8fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4d0aa8d7015d85553105519af52503"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#aff4d0aa8d7015d85553105519af52503">fopOvlp_Execute</a> (void *ovlp)</td></tr>
+<tr class="separator:aff4d0aa8d7015d85553105519af52503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0522455cfe744d0366f2f1e3e679ed50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#a0522455cfe744d0366f2f1e3e679ed50">fopOvlp_IsDelete</a> (void *ovlp)</td></tr>
+<tr class="separator:a0522455cfe744d0366f2f1e3e679ed50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e92a09127f6e2eb577c4b0a4f959982"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#a8e92a09127f6e2eb577c4b0a4f959982">fopOvlp_Delete</a> (void *ovlp)</td></tr>
+<tr class="separator:a8e92a09127f6e2eb577c4b0a4f959982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c0555faee08ae937b47c3444de33b88"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__overlap_8cpp.html#a6c0555faee08ae937b47c3444de33b88">fopOvlp_Create</a> (void *param_0)</td></tr>
 <tr class="separator:a6c0555faee08ae937b47c3444de33b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -206,8 +203,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2638f53079802f950b05b3e8015a95df" name="a2638f53079802f950b05b3e8015a95df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2638f53079802f950b05b3e8015a95df">&#9670;&nbsp;</a></span>fopOvlp_Delete()</h2>
+<a id="a8e92a09127f6e2eb577c4b0a4f959982" name="a8e92a09127f6e2eb577c4b0a4f959982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e92a09127f6e2eb577c4b0a4f959982">&#9670;&nbsp;</a></span>fopOvlp_Delete()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,10 +213,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void fopOvlp_Delete </td>
+          <td class="memname">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fopOvlp_Delete </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>ovlp</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -257,8 +254,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa3ed8dbc43339a7eb605371d2ac3b523" name="aa3ed8dbc43339a7eb605371d2ac3b523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3ed8dbc43339a7eb605371d2ac3b523">&#9670;&nbsp;</a></span>fopOvlp_Draw()</h2>
+<a id="a23eb9438b1fe71502d4d414966bf8fb2" name="a23eb9438b1fe71502d4d414966bf8fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23eb9438b1fe71502d4d414966bf8fb2">&#9670;&nbsp;</a></span>fopOvlp_Draw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,10 +264,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void fopOvlp_Draw </td>
+          <td class="memname">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fopOvlp_Draw </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>ovlp</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -308,8 +305,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af5678d30593128cb2a684ac82c754817" name="af5678d30593128cb2a684ac82c754817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5678d30593128cb2a684ac82c754817">&#9670;&nbsp;</a></span>fopOvlp_Execute()</h2>
+<a id="aff4d0aa8d7015d85553105519af52503" name="aff4d0aa8d7015d85553105519af52503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff4d0aa8d7015d85553105519af52503">&#9670;&nbsp;</a></span>fopOvlp_Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,10 +315,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void fopOvlp_Execute </td>
+          <td class="memname">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fopOvlp_Execute </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>ovlp</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -359,8 +356,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4bea41b61aa915f99f3747a8cb19ebff" name="a4bea41b61aa915f99f3747a8cb19ebff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bea41b61aa915f99f3747a8cb19ebff">&#9670;&nbsp;</a></span>fopOvlp_IsDelete()</h2>
+<a id="a0522455cfe744d0366f2f1e3e679ed50" name="a0522455cfe744d0366f2f1e3e679ed50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0522455cfe744d0366f2f1e3e679ed50">&#9670;&nbsp;</a></span>fopOvlp_IsDelete()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,10 +366,10 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void fopOvlp_IsDelete </td>
+          <td class="memname">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fopOvlp_IsDelete </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>ovlp</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['pachinko_0',['PACHINKO',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ac703ee246f97336619eb4cde0524d268',1,'d_save.h']]],
-  ['pachinko_5fmax_1',['PACHINKO_MAX',['../structdMeter2__c.html#afae652b5674c86c2f0625b75ef359670acd9a3a4cc906195856b5006e011f7f68',1,'dMeter2_c']]],
+  ['pachinko_5fmax_1',['PACHINKO_MAX',['../classdMeter2__c.html#afae652b5674c86c2f0625b75ef359670acd9a3a4cc906195856b5006e011f7f68',1,'dMeter2_c']]],
   ['pachinko_5fshot_2',['PACHINKO_SHOT',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a7d33a8596396703e81760c0b7608e3c4',1,'d_save.h']]],
   ['pad_5f0_3',['PAD_0',['../structmDoCPd__c.html#a3600a9cf56528d5403276d3f6a79671ea25b8e80c89486d04c0e483a71cdad06d',1,'mDoCPd_c']]],
   ['pad_5f1_4',['PAD_1',['../structmDoCPd__c.html#a3600a9cf56528d5403276d3f6a79671eab6e1f89d27302c9be360daff3149de8e',1,'mDoCPd_c']]],
