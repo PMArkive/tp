@@ -420,6 +420,5 @@ var searchData=
   ['dvdinitialized_417',['DVDInitialized',['../dvd_8cpp.html#aed468647f5f3e3ad20cb84cec4b9169c',1,'dvd.cpp']]],
   ['dylphase_418',['dylPhase',['../d__s__play_8cpp.html#a229e4fe1b671772c6b51c8c19be4211c',1,'d_s_play.cpp']]],
   ['dylpreloadtime1_419',['dylPreLoadTime1',['../d__s__play_8cpp.html#a3123715e781f10830b07c44995b09eb6',1,'d_s_play.cpp']]],
-  ['dynamiclink_5f_5fstringbase0_420',['DynamicLink__stringBase0',['../DynamicLink_8cpp.html#a1717ffba422b29da3cc0fc2e513f9678',1,'DynamicLink.cpp']]],
-  ['dynamicnametable_421',['DynamicNameTable',['../c__dylink_8cpp.html#a750d2a6c69c2f3693fe7fe9c8b2d7e2f',1,'c_dylink.cpp']]]
+  ['dynamicnametable_420',['DynamicNameTable',['../c__dylink_8cpp.html#a750d2a6c69c2f3693fe7fe9c8b2d7e2f',1,'c_dylink.cpp']]]
 ];

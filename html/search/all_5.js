@@ -246,7 +246,7 @@ var searchData=
   ['envcolor_5finit_243',['envcolor_init',['../d__kankyo_8cpp.html#ade586b221a1f9ad93e008b48e0b865c7',1,'d_kankyo.cpp']]],
   ['envcolor_5finit_5f_5ffv_244',['envcolor_init__Fv',['../d__kankyo_8cpp.html#a70fdcf7aadd8162bea7bf16ca20f8883',1,'d_kankyo.cpp']]],
   ['epadport_245',['EPadPort',['../structJUTGamePad.html#a3990b295576728aa2d2615d6e1eb7721',1,'JUTGamePad']]],
-  ['epilog_246',['epilog',['../structOSModuleInfo.html#a8990cdaea1d772cb108bf943a6c51fd5',1,'OSModuleInfo']]],
+  ['epilog_246',['epilog',['../structOSModuleInfo.html#a726d85e1a471e51fa4b7fd464fd8d9cc',1,'OSModuleInfo']]],
   ['equip_5fheavy_5fboots_247',['EQUIP_HEAVY_BOOTS',['../structdaPy__py__c.html#ae31e40b486e08a4375979902714bd2c0a3b1c707c02910f7044cb27f21ef8e9b5',1,'daPy_py_c']]],
   ['equip_5fsword_248',['EQUIP_SWORD',['../d__save_8h.html#a9b9c41a4d04cb862866759c2e0d17c17a1bf81c2232a2868696971030a104f9e7',1,'d_save.h']]],
   ['equipitem_249',['EquipItem',['../d__save_8h.html#a9b9c41a4d04cb862866759c2e0d17c17',1,'d_save.h']]],
