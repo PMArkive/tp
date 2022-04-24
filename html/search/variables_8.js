@@ -3,11 +3,11 @@ var searchData=
   ['haihail_5fn_0',['haihail_n',['../d__menu__option_8cpp.html#aa25b92939a90a97629da8c0820b60ba8',1,'d_menu_option.cpp']]],
   ['haihair_5fn_1',['haihair_n',['../d__menu__option_8cpp.html#a25ff6a114256f6741e34db3ef923df6f',1,'d_menu_option.cpp']]],
   ['haku_5ftag_2',['haku_tag',['../d__meter__hakusha_8cpp.html#a429b605a4543a2a4042313fc17d25164',1,'d_meter_hakusha.cpp']]],
-  ['half_3',['halF',['../e__exp_8cpp.html#a1fcb88eb9fbc544594cc8980fdcb5ede',1,'e_exp.cpp']]],
+  ['half_3',['halF',['../e__exp_8c.html#a1fcb88eb9fbc544594cc8980fdcb5ede',1,'e_exp.c']]],
   ['halftofull_4',['halftofull',['../JUTResFont_8cpp.html#a3e72dc7d5c95d90a091ca7a3b5bac48b',1,'JUTResFont.cpp']]],
   ['hamon_5fname_5',['hamon_name',['../f__op__actor__mng_8cpp.html#a80fb3ff5ea8afca8394300bb00987ab4',1,'f_op_actor_mng.cpp']]],
   ['handcenteroffsetvec_6',['handCenterOffsetVec',['../d__a__alink_8cpp.html#a35e39aaabea7876141fa45cbeec17d15',1,'d_a_alink.cpp']]],
-  ['handle_7',['handle',['../structFILE.html#aeb0bdbb1c652cee76351b454cfaff978',1,'FILE']]],
+  ['handle_7',['handle',['../struct__FILE.html#a8674d094706f774df09d4ef246602d8c',1,'_FILE']]],
   ['handle_5f_8',['handle_',['../structJAISound.html#aea7bd660ddbd9fd1eb85a40ef6733120',1,'JAISound']]],
   ['handler_9',['handler',['../structOSAlarm.html#a6840eae69d68c76d920e3387afe22e1e',1,'OSAlarm']]],
   ['hankakutocode_10',['HankakuToCode',['../OSFont_8cpp.html#a1e2a8cb112ba68f344e65b4adcdbcfdb',1,'OSFont.cpp']]],
@@ -39,5 +39,6 @@ var searchData=
   ['hostioheapcheck_36',['HostioHeapCheck',['../m__Do__main_8cpp.html#a1c72e6c6222df55953d12fd4a664b015',1,'m_Do_main.cpp']]],
   ['hours_37',['hours',['../structOSCalendarTime.html#abb5cf619140ec8c04c41630f54bb1678',1,'OSCalendarTime']]],
   ['howa_5floop_5fcnt_38',['howa_loop_cnt',['../d__kankyo__rain_8cpp.html#a088742f17d6bf5c43ef91a5e4c26ad67',1,'d_kankyo_rain.cpp']]],
-  ['hsvec_39',['hsVec',['../d__a__alink_8cpp.html#ada2a985f0ea397052b4bc6ae1c0df776',1,'d_a_alink.cpp']]]
+  ['hsvec_39',['hsVec',['../d__a__alink_8cpp.html#ada2a985f0ea397052b4bc6ae1c0df776',1,'d_a_alink.cpp']]],
+  ['huge_40',['huge',['../s__ceil_8c.html#a1a384cb027f956b5ae433ab8976a5b7a',1,'huge():&#160;s_ceil.c'],['../s__floor_8c.html#a1a384cb027f956b5ae433ab8976a5b7a',1,'huge():&#160;s_floor.c']]]
 ];
