@@ -64,5 +64,6 @@ var searchData=
   ['kj3derror_5falloc_61',['kJ3DError_Alloc',['../J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125a42330217f356068a0d66dfc3bae798fa',1,'J3DSys.h']]],
   ['kj3derror_5fsuccess_62',['kJ3DError_Success',['../J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125a0a335659e4756d79211cfd67b9b7d2e6',1,'J3DSys.h']]],
   ['kokiri_5fclothes_5fflag_63',['KOKIRI_CLOTHES_FLAG',['../d__save_8h.html#a754ce34cf5161a6dc781544dbecc6cd0aa8e82eaa10422a66792fb9c246061c4a',1,'d_save.h']]],
-  ['kytag05_5fclass_64',['kytag05_class',['../classkytag05__class.html',1,'']]]
+  ['kvcdvatdlsize_64',['kVcdVatDLSize',['../J3DShape_8cpp.html#a06fc87d81c62e9abb8790b6e5713c55ba1587d173f2bd09d94ac8cf4004fb6bc2',1,'J3DShape.cpp']]],
+  ['kytag05_5fclass_65',['kytag05_class',['../classkytag05__class.html',1,'']]]
 ];

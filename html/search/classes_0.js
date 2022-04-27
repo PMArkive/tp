@@ -41,11 +41,12 @@ var searchData=
   ['_5fgxtexgentype_38',['_GXTexGenType',['../struct__GXTexGenType.html',1,'']]],
   ['_5fgxtexmapid_39',['_GXTexMapID',['../struct__GXTexMapID.html',1,'']]],
   ['_5fgxtexobj_40',['_GXTexObj',['../struct__GXTexObj.html',1,'']]],
-  ['_5fgxtexwrapmode_41',['_GXTexWrapMode',['../struct__GXTexWrapMode.html',1,'']]],
-  ['_5fgxtlutfmt_42',['_GXTlutFmt',['../struct__GXTlutFmt.html',1,'']]],
-  ['_5fgxtlutobj_43',['_GXTlutObj',['../struct__GXTlutObj.html',1,'']]],
-  ['_5fgxtlutsize_44',['_GXTlutSize',['../struct__GXTlutSize.html',1,'']]],
-  ['_5fgxvtxattrfmtlist_45',['_GXVtxAttrFmtList',['../struct__GXVtxAttrFmtList.html',1,'']]],
-  ['_5fgxvtxdesclist_46',['_GXVtxDescList',['../struct__GXVtxDescList.html',1,'']]],
-  ['_5fgxvtxfmt_47',['_GXVtxFmt',['../struct__GXVtxFmt.html',1,'']]]
+  ['_5fgxtexregion_41',['_GXTexRegion',['../struct__GXTexRegion.html',1,'']]],
+  ['_5fgxtexwrapmode_42',['_GXTexWrapMode',['../struct__GXTexWrapMode.html',1,'']]],
+  ['_5fgxtlutfmt_43',['_GXTlutFmt',['../struct__GXTlutFmt.html',1,'']]],
+  ['_5fgxtlutobj_44',['_GXTlutObj',['../struct__GXTlutObj.html',1,'']]],
+  ['_5fgxtlutsize_45',['_GXTlutSize',['../struct__GXTlutSize.html',1,'']]],
+  ['_5fgxvtxattrfmtlist_46',['_GXVtxAttrFmtList',['../struct__GXVtxAttrFmtList.html',1,'']]],
+  ['_5fgxvtxdesclist_47',['_GXVtxDescList',['../struct__GXVtxDescList.html',1,'']]],
+  ['_5fgxvtxfmt_48',['_GXVtxFmt',['../struct__GXVtxFmt.html',1,'']]]
 ];
