@@ -4,7 +4,7 @@ var searchData=
   ['sarcheader_1',['SArcHeader',['../structSArcHeader.html',1,'']]],
   ['savesel_2',['SaveSel',['../structdMenu__save__c_1_1SaveSel.html',1,'dMenu_save_c']]],
   ['sbgpc_3',['sBgPc',['../structsBgPc.html',1,'']]],
-  ['scene_5fclass_4',['scene_class',['../structscene__class.html',1,'']]],
+  ['scene_5fclass_4',['scene_class',['../classscene__class.html',1,'']]],
   ['scene_5frequest_5fclass_5',['scene_request_class',['../classscene__request__class.html',1,'']]],
   ['sdifileentry_6',['SDIFileEntry',['../structJKRArchive_1_1SDIFileEntry.html',1,'JKRArchive']]],
   ['sdirentry_7',['SDirEntry',['../structJKRArchive_1_1SDirEntry.html',1,'JKRArchive']]],

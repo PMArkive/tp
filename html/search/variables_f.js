@@ -34,7 +34,7 @@ var searchData=
   ['osc_5frelease_5ftable_31',['OSC_RELEASE_TABLE',['../JASAramStream_8cpp.html#ac89759ba4b035c40e0ed6cdd0d8c09b0',1,'OSC_RELEASE_TABLE():&#160;JASAramStream.cpp'],['../JASBank_8cpp.html#ac89759ba4b035c40e0ed6cdd0d8c09b0',1,'OSC_RELEASE_TABLE():&#160;JASBank.cpp']]],
   ['oscp_32',['oscp',['../JASDrumSet_8cpp.html#a2d6c0b337ccaad8291f1fe59285de266',1,'JASDrumSet.cpp']]],
   ['osexceptiontable_33',['OSExceptionTable',['../OS_8cpp.html#a39e660cc3e039da3cb1a04e6bf2604f1',1,'OS.cpp']]],
-  ['other_34',['other',['../structJKRArchive_1_1SDirEntry.html#a5787f1d203b558df31bdc505084179b3',1,'JKRArchive::SDirEntry']]],
+  ['other_34',['other',['../structJKRArchive_1_1SDirEntry.html#abc143b1169ec8194d6dea13ec8d56fb2',1,'JKRArchive::SDirEntry']]],
   ['overflowcb_35',['overflowcb',['../GDBase_8cpp.html#a94584356d99950d88d9955a625aab31e',1,'GDBase.cpp']]],
   ['owned_5fmutexes_36',['owned_mutexes',['../structOSThread.html#abd8c1ed913dbe98aeff567b46acbe57a',1,'OSThread']]],
   ['owner_37',['owner',['../structARQRequest.html#a1a23909f98bb01d783e386be357f0e2c',1,'ARQRequest']]]
