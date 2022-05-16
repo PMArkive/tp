@@ -96,7 +96,7 @@ var searchData=
   ['vol_5fse_5fsystem_5ftalking_93',['VOL_SE_SYSTEM_TALKING',['../structZ2Param.html#a48a59594673c2a8fd866da4a8ba93cbb',1,'Z2Param']]],
   ['vol_5fse_5fsystem_5ftalking_5f_5f7z2param_94',['VOL_SE_SYSTEM_TALKING__7Z2Param',['../Z2Param_8cpp.html#abffe92c5820c7977b164125dc3587734',1,'VOL_SE_SYSTEM_TALKING__7Z2Param():&#160;Z2Param.cpp'],['../Z2SeMgr_8cpp.html#abffe92c5820c7977b164125dc3587734',1,'VOL_SE_SYSTEM_TALKING__7Z2Param():&#160;Z2SeMgr.cpp']]],
   ['volcbomportal_95',['volcBomPortal',['../d__a__alink_8cpp.html#ae8580e58b66501b8d012606ddb36fe56',1,'d_a_alink.cpp']]],
-  ['vtable_96',['vtable',['../structZ2AudioMgr.html#a7bde268d12ec061a178939d95cb4f507',1,'Z2AudioMgr::vtable()'],['../structJ3DVtxColorCalc.html#a20532c5bce67272945be0399d4408a74',1,'J3DVtxColorCalc::vtable()'],['../structZ2SoundMgr.html#aa345d42b83a8f9b50dc81b882d35de3b',1,'Z2SoundMgr::vtable()']]],
+  ['vtable_96',['vtable',['../classZ2AudioMgr.html#a7bde268d12ec061a178939d95cb4f507',1,'Z2AudioMgr::vtable()'],['../structJ3DVtxColorCalc.html#a20532c5bce67272945be0399d4408a74',1,'J3DVtxColorCalc::vtable()'],['../classZ2SoundMgr.html#aa345d42b83a8f9b50dc81b882d35de3b',1,'Z2SoundMgr::vtable()']]],
   ['vtx_5ftbl_5f4582_97',['vtx_tbl_4582',['../d__bg__w__kcol_8cpp.html#acd2fd2c1deb7f876422dae24ed1b4055',1,'d_bg_w_kcol.cpp']]],
   ['vtx_5ftbl_5f5950_98',['vtx_tbl_5950',['../d__bg__w__kcol_8cpp.html#a1a1efe7f481978df4e2615339baa8483',1,'d_bg_w_kcol.cpp']]]
 ];

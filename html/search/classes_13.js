@@ -12,7 +12,7 @@ var searchData=
   ['shape_9',['Shape',['../structcCcD__ShapeAttr_1_1Shape.html',1,'cCcD_ShapeAttr']]],
   ['shdwdrawpoly_5fc_10',['ShdwDrawPoly_c',['../structShdwDrawPoly__c.html',1,'']]],
   ['shop_5fitem_5fdata_11',['shop_item_data',['../structshop__item__data.html',1,'']]],
-  ['shopcam_5faction_5fc_12',['ShopCam_action_c',['../structShopCam__action__c.html',1,'']]],
+  ['shopcam_5faction_5fc_12',['ShopCam_action_c',['../classShopCam__action__c.html',1,'']]],
   ['snd_5finfluence_13',['SND_INFLUENCE',['../structSND__INFLUENCE.html',1,'']]],
   ['snow_5feff_14',['SNOW_EFF',['../structSNOW__EFF.html',1,'']]],
   ['stage_5factor_5fclass_15',['stage_actor_class',['../classstage__actor__class.html',1,'']]],
