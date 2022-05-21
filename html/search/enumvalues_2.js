@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['B',['../namespaceCButton.html#a8ae42fca6e722651647edca505f17ce0a23592f049b7da374fe07b8f127cca616',1,'CButton']]],
+  ['b_0',['B',['../namespaceCButton.html#add08f7e13a25b310100541d1ae576ba0a23592f049b7da374fe07b8f127cca616',1,'CButton']]],
   ['b_5fbutton_5fitem_1',['B_BUTTON_ITEM',['../d__save_8h.html#a6d317460fab5a02d2a7fc3e2bb396911ae9fa5ce335f49fa0671129c49d574f4c',1,'d_save.h']]],
   ['back_5fjump_2',['BACK_JUMP',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aaf11690664cf97e58b9891148e2f0e4bb',1,'daAlink_c']]],
   ['back_5fjump_5fland_3',['BACK_JUMP_LAND',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aaea39b0e2ccb92fc0c0488fccd461dc9e',1,'daAlink_c']]],

@@ -2,12 +2,12 @@ var searchData=
 [
   ['obridgeportal_0',['oBridgePortal',['../d__a__alink_8cpp.html#a279cd2ba6612a14213be44c2ec05642e',1,'d_a_alink.cpp']]],
   ['ocarcname_1',['ocArcName',['../d__a__player_8cpp.html#a39a04b7b62119de305c80c915810524b',1,'d_a_player.cpp']]],
-  ['ocobject_5f_2',['ocObject_',['../classJStudio_1_1fvb_1_1TControl.html#aef071a5c77d1c2ceedb55d7486693f8b',1,'JStudio::fvb::TControl::ocObject_()'],['../classJStudio_1_1stb_1_1TObject.html#a0eda011f7cf5bed270c3e80cb2cf56ac',1,'JStudio::stb::TObject::ocObject_()'],['../structJGadget_1_1TNodeLinkList.html#a8ed8aa6a50fe54a48cb19e4ba2445f1d',1,'JGadget::TNodeLinkList::ocObject_()']]],
-  ['offset_3',['offset',['../structCARDFileInfo.html#ae74727f8a50a52bcfeb37d677a415354',1,'CARDFileInfo::offset()'],['../structDVDCommandBlock.html#a9fb16bbab962ae1b929e5bc87bff587b',1,'DVDCommandBlock::offset()'],['../d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286',1,'offset():&#160;d_gameover.cpp']]],
+  ['ocobject_5f_2',['ocObject_',['../classJStudio_1_1fvb_1_1TControl.html#aef071a5c77d1c2ceedb55d7486693f8b',1,'JStudio::fvb::TControl::ocObject_()'],['../structJGadget_1_1TNodeLinkList.html#a8ed8aa6a50fe54a48cb19e4ba2445f1d',1,'JGadget::TNodeLinkList::ocObject_()'],['../classJStudio_1_1stb_1_1TObject.html#a0eda011f7cf5bed270c3e80cb2cf56ac',1,'JStudio::stb::TObject::ocObject_()']]],
+  ['offset_3',['offset',['../structDVDCommandBlock.html#a9fb16bbab962ae1b929e5bc87bff587b',1,'DVDCommandBlock::offset()'],['../structCARDFileInfo.html#ae74727f8a50a52bcfeb37d677a415354',1,'CARDFileInfo::offset()'],['../d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286',1,'offset():&#160;d_gameover.cpp']]],
   ['offsetangle_4',['offsetAngle',['../d__a__alink_8cpp.html#ae3290b7b63c2947ad434bbf3eb4cb1ae',1,'d_a_alink.cpp']]],
   ['offsetpos_5',['offsetPos',['../d__a__alink_8cpp.html#aed47121c81c04e00b260c58d3ec21877',1,'d_a_alink.cpp']]],
   ['old_5ftime_6',['old_time',['../JASAiCtrl_8cpp.html#a72625716aeefdcc4852269e62bd35901',1,'JASAiCtrl.cpp']]],
-  ['one_7',['one',['../s__modf_8c.html#aa4767c9b14591d5e6d3b3de6ec20b6bb',1,'one():&#160;s_modf.c'],['../e__fmod_8c.html#aa4767c9b14591d5e6d3b3de6ec20b6bb',1,'one():&#160;e_fmod.c'],['../JASAramStream_8cpp.html#a0c0102183d1ccb8532754f196123f825',1,'one():&#160;JASAramStream.cpp'],['../structJASWaveInfo.html#a25038dcd794630be575d6f12407d99ac',1,'JASWaveInfo::one()']]],
+  ['one_7',['one',['../structJASWaveInfo.html#a25038dcd794630be575d6f12407d99ac',1,'JASWaveInfo::one()'],['../s__modf_8c.html#aa4767c9b14591d5e6d3b3de6ec20b6bb',1,'one():&#160;s_modf.c'],['../e__fmod_8c.html#aa4767c9b14591d5e6d3b3de6ec20b6bb',1,'one():&#160;e_fmod.c'],['../JASAramStream_8cpp.html#a0c0102183d1ccb8532754f196123f825',1,'one():&#160;JASAramStream.cpp']]],
   ['one_5f_5f11jaswaveinfo_8',['one__11JASWaveInfo',['../JASWSParser_8cpp.html#ad39326200dd446e4969f40a736f3abb3',1,'one__11JASWaveInfo():&#160;JASWSParser.cpp'],['../JASSimpleWaveBank_8cpp.html#ad39326200dd446e4969f40a736f3abb3',1,'one__11JASWaveInfo():&#160;JASSimpleWaveBank.cpp'],['../JASDSPInterface_8cpp.html#ad39326200dd446e4969f40a736f3abb3',1,'one__11JASWaveInfo():&#160;JASDSPInterface.cpp'],['../JASChannel_8cpp.html#ad39326200dd446e4969f40a736f3abb3',1,'one__11JASWaveInfo():&#160;JASChannel.cpp'],['../JASBasicWaveBank_8cpp.html#ad39326200dd446e4969f40a736f3abb3',1,'one__11JASWaveInfo():&#160;JASBasicWaveBank.cpp']]],
   ['oneframerate_9',['oneFrameRate',['../JUTProcBar_8cpp.html#a80bd6456a3ac937be5f594c4fe94747e',1,'JUTProcBar.cpp']]],
   ['oneframerateuser_10',['oneFrameRateUser',['../JUTProcBar_8cpp.html#a0328095173842805c506a06591da1b9c',1,'JUTProcBar.cpp']]],
@@ -34,8 +34,7 @@ var searchData=
   ['osc_5frelease_5ftable_31',['OSC_RELEASE_TABLE',['../JASAramStream_8cpp.html#ac89759ba4b035c40e0ed6cdd0d8c09b0',1,'OSC_RELEASE_TABLE():&#160;JASAramStream.cpp'],['../JASBank_8cpp.html#ac89759ba4b035c40e0ed6cdd0d8c09b0',1,'OSC_RELEASE_TABLE():&#160;JASBank.cpp']]],
   ['oscp_32',['oscp',['../JASDrumSet_8cpp.html#a2d6c0b337ccaad8291f1fe59285de266',1,'JASDrumSet.cpp']]],
   ['osexceptiontable_33',['OSExceptionTable',['../OS_8cpp.html#a39e660cc3e039da3cb1a04e6bf2604f1',1,'OS.cpp']]],
-  ['other_34',['other',['../structJKRArchive_1_1SDirEntry.html#a69ddee582d745d85cea84a95480454a4',1,'JKRArchive::SDirEntry']]],
-  ['overflowcb_35',['overflowcb',['../GDBase_8cpp.html#a94584356d99950d88d9955a625aab31e',1,'GDBase.cpp']]],
-  ['owned_5fmutexes_36',['owned_mutexes',['../structOSThread.html#abd8c1ed913dbe98aeff567b46acbe57a',1,'OSThread']]],
-  ['owner_37',['owner',['../structARQRequest.html#a1a23909f98bb01d783e386be357f0e2c',1,'ARQRequest']]]
+  ['overflowcb_34',['overflowcb',['../GDBase_8cpp.html#a94584356d99950d88d9955a625aab31e',1,'GDBase.cpp']]],
+  ['owned_5fmutexes_35',['owned_mutexes',['../structOSThread.html#abd8c1ed913dbe98aeff567b46acbe57a',1,'OSThread']]],
+  ['owner_36',['owner',['../structARQRequest.html#a1a23909f98bb01d783e386be357f0e2c',1,'ARQRequest']]]
 ];

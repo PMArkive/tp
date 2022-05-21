@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['B',['../namespaceCButton.html#a8ae42fca6e722651647edca505f17ce0a23592f049b7da374fe07b8f127cca616',1,'CButton']]],
+  ['b_0',['B',['../namespaceCButton.html#add08f7e13a25b310100541d1ae576ba0a23592f049b7da374fe07b8f127cca616',1,'CButton']]],
   ['b_1',['b',['../structTColor.html#a4832015bf8d61f555576235799151bd7',1,'TColor::b()'],['../struct__GXColorS10.html#ac8258574f2bde46e91f956ce2dc06b08',1,'_GXColorS10::b()'],['../struct__GXColor.html#ab5f92d6ef6636ecc7bd3262404bcc60e',1,'_GXColor::b()']]],
   ['b1_2',['b1',['../structstd_1_1pair.html#aec44ab235f9347c4cabf40c443ac3e45',1,'std::pair']]],
   ['b_5fbutton_5fitem_3',['B_BUTTON_ITEM',['../d__save_8h.html#a6d317460fab5a02d2a7fc3e2bb396911ae9fa5ce335f49fa0671129c49d574f4c',1,'d_save.h']]],
