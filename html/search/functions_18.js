@@ -2,7 +2,7 @@ var searchData=
 [
   ['xinit_0',['Xinit',['../structSTControl.html#afcf39b924ac92fbb6e11dfecc6bf3714',1,'STControl']]],
   ['xinit_5f_5f9stcontrolfv_1',['Xinit__9STControlFv',['../d__lib_8cpp.html#a7c693c080915c6fd05c66a3b79473030',1,'d_lib.cpp']]],
-  ['xyz_2',['Xyz',['../classcSPolar.html#a2b3c217d042eecb661c83fb0b060030e',1,'cSPolar::Xyz()'],['../classcSGlobe.html#a6f1bd7c954423a8dd99d4e604bcc9c87',1,'cSGlobe::Xyz()'],['../classcSPolar.html#af7bb14e7fe72219532ab934aa8811f22',1,'cSPolar::Xyz()'],['../classcSGlobe.html#aa8cc2ec9f088b15b22a2d711500fae21',1,'cSGlobe::Xyz() const'],['../classcSGlobe.html#aa8cc2ec9f088b15b22a2d711500fae21',1,'cSGlobe::Xyz() const']]],
+  ['xyz_2',['Xyz',['../classcSPolar.html#a2b3c217d042eecb661c83fb0b060030e',1,'cSPolar::Xyz()'],['../classcSGlobe.html#a6f1bd7c954423a8dd99d4e604bcc9c87',1,'cSGlobe::Xyz(void) const'],['../classcSGlobe.html#aa8cc2ec9f088b15b22a2d711500fae21',1,'cSGlobe::Xyz() const']]],
   ['xyz_5f_5f7csglobecfv_3',['Xyz__7cSGlobeCFv',['../d__ev__camera_8cpp.html#a4ccf3ce423be441712fa566a3c2c167b',1,'Xyz__7cSGlobeCFv():&#160;d_ev_camera.cpp'],['../d__camera_8cpp.html#a4ccf3ce423be441712fa566a3c2c167b',1,'Xyz__7cSGlobeCFv():&#160;d_camera.cpp']]],
   ['xyz_5f_5f7cspolarcfv_4',['Xyz__7cSPolarCFv',['../d__camera_8cpp.html#ad974f4983262237354a7cf922347f03d',1,'d_camera.cpp']]],
   ['xyzhorizontaldistance_5',['xyzHorizontalDistance',['../structdCamMath.html#aebc08e42d118aa7e9932f8c87e5f6fd7',1,'dCamMath::xyzHorizontalDistance(cXyz &amp;, cXyz &amp;)'],['../structdCamMath.html#aebc08e42d118aa7e9932f8c87e5f6fd7',1,'dCamMath::xyzHorizontalDistance(cXyz &amp;, cXyz &amp;)'],['../structdCamMath.html#a0478c437d5d6116a4da8c896e57f59d4',1,'dCamMath::xyzHorizontalDistance(cXyz &amp;, cXyz &amp;)']]],
