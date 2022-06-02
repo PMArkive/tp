@@ -185,6 +185,12 @@ Functions</h2></td></tr>
 <tr class="separator:a0eef117c48b2601b72d1074326a04de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cab80efbebabe11faedd235b0038d16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__mng_8h.html#a7cab80efbebabe11faedd235b0038d16">fopAcM_IsActor</a> (void *actor)</td></tr>
 <tr class="separator:a7cab80efbebabe11faedd235b0038d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abacd60484d0ee5119ba1bc0f0a90ff59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__mng_8h.html#abacd60484d0ee5119ba1bc0f0a90ff59">fopAcM_SetRoomNo</a> (<a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *actor, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> roomNo)</td></tr>
+<tr class="separator:abacd60484d0ee5119ba1bc0f0a90ff59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48fad6331514edc5cb5384757d96b0d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__mng_8h.html#a48fad6331514edc5cb5384757d96b0d4">fopAcM_setHookCarryNow</a> (<a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *actor)</td></tr>
+<tr class="separator:a48fad6331514edc5cb5384757d96b0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96ead2118940c3999833a5514a5eb95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__mng_8h.html#ab96ead2118940c3999833a5514a5eb95">fopAcM_cancelHookCarryNow</a> (<a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *actor)</td></tr>
+<tr class="separator:ab96ead2118940c3999833a5514a5eb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35b8e47158f70729fd607b738421ad6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__mng_8h.html#ac35b8e47158f70729fd607b738421ad6">fopAcM_FastCreate</a> (<a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> pProcTypeID, <a class="el" href="f__pc__manager_8h.html#ac75a952da717d2bcfbfdbaa70c717fb8">FastCreateReqFunc</a> param_2, void *param_3, void *pData)</td></tr>
 <tr class="separator:ac35b8e47158f70729fd607b738421ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c730d640ee1138f5c87809a625c3b98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="f__op__actor__mng_8h.html#a2c730d640ee1138f5c87809a625c3b98">fopAcM_setStageLayer</a> (void *)</td></tr>
@@ -854,6 +860,32 @@ Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab96ead2118940c3999833a5514a5eb95" name="ab96ead2118940c3999833a5514a5eb95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96ead2118940c3999833a5514a5eb95">&#9670;&nbsp;</a></span>fopAcM_cancelHookCarryNow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fopAcM_cancelHookCarryNow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td>
+          <td class="paramname"><em>actor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -6306,6 +6338,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a48fad6331514edc5cb5384757d96b0d4" name="a48fad6331514edc5cb5384757d96b0d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48fad6331514edc5cb5384757d96b0d4">&#9670;&nbsp;</a></span>fopAcM_setHookCarryNow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fopAcM_setHookCarryNow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td>
+          <td class="paramname"><em>actor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae55e9735d34b581f0e2b59264c5d1c5f" name="ae55e9735d34b581f0e2b59264c5d1c5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae55e9735d34b581f0e2b59264c5d1c5f">&#9670;&nbsp;</a></span>fopAcM_SetMax()</h2>
 
@@ -6500,6 +6558,42 @@ Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abacd60484d0ee5119ba1bc0f0a90ff59" name="abacd60484d0ee5119ba1bc0f0a90ff59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abacd60484d0ee5119ba1bc0f0a90ff59">&#9670;&nbsp;</a></span>fopAcM_SetRoomNo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fopAcM_SetRoomNo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td>
+          <td class="paramname"><em>roomNo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

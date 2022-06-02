@@ -80,10 +80,27 @@ $(function() {
 <a href="JASDvdThread_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef JASDVDTHREAD_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define JASDVDTHREAD_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">dolphin/types.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#endif </span><span class="comment">/* JASDVDTHREAD_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="JASTaskThread_8h.html">JSystem/JAudio2/JASTaskThread.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">dolphin/types.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="classJASDvd.html">    7</a></span><span class="keyword">class </span><a class="code hl_struct" href="classJASDvd.html">JASDvd</a> {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="comment">/* 8028FEFC */</span> <span class="keyword">static</span> <a class="code hl_struct" href="classJASTaskThread.html">JASTaskThread</a>* <a class="code hl_function" href="classJASDvd.html#af49cd3ba4d77d478bc90adf05a0856b3">getThreadPointer</a>();</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="comment">/* 8028FF04 */</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classJASDvd.html#aee76753a4ed1c2561562725444ee10f6">createThread</a>(<a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>, <span class="keywordtype">int</span>, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="classJASDvd.html#ad4f1fb6698d416138263faad3b0f2342">   12</a></span>    <span class="keyword">static</span> <a class="code hl_struct" href="classJASTaskThread.html">JASTaskThread</a>* <a class="code hl_variable" href="classJASDvd.html#ad4f1fb6698d416138263faad3b0f2342">sThread</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>};</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif </span><span class="comment">/* JASDVDTHREAD_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aJASTaskThread_8h_html"><div class="ttname"><a href="JASTaskThread_8h.html">JASTaskThread.h</a></div></div>
+<div class="ttc" id="aclassJASDvd_html"><div class="ttname"><a href="classJASDvd.html">JASDvd</a></div><div class="ttdef"><b>Definition:</b> JASDvdThread.h:7</div></div>
+<div class="ttc" id="aclassJASDvd_html_ad4f1fb6698d416138263faad3b0f2342"><div class="ttname"><a href="classJASDvd.html#ad4f1fb6698d416138263faad3b0f2342">JASDvd::sThread</a></div><div class="ttdeci">static JASTaskThread * sThread</div><div class="ttdef"><b>Definition:</b> JASDvdThread.h:12</div></div>
+<div class="ttc" id="aclassJASDvd_html_aee76753a4ed1c2561562725444ee10f6"><div class="ttname"><a href="classJASDvd.html#aee76753a4ed1c2561562725444ee10f6">JASDvd::createThread</a></div><div class="ttdeci">void createThread(s32, int, u32)</div><div class="ttdef"><b>Definition:</b> JASDvdThread.cpp:47</div></div>
+<div class="ttc" id="aclassJASDvd_html_af49cd3ba4d77d478bc90adf05a0856b3"><div class="ttname"><a href="classJASDvd.html#af49cd3ba4d77d478bc90adf05a0856b3">JASDvd::getThreadPointer</a></div><div class="ttdeci">static JASTaskThread * getThreadPointer()</div><div class="ttdef"><b>Definition:</b> JASDvdThread.cpp:39</div></div>
+<div class="ttc" id="aclassJASTaskThread_html"><div class="ttname"><a href="classJASTaskThread.html">JASTaskThread</a></div><div class="ttdef"><b>Definition:</b> JASTaskThread.h:7</div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
+<div class="ttc" id="atypes_8h_html_a2caf5cd7bcdbe1eefa727f44ffb10bac"><div class="ttname"><a href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a></div><div class="ttdeci">unsigned long u32</div><div class="ttdef"><b>Definition:</b> types.h:10</div></div>
+<div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition:</b> types.h:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

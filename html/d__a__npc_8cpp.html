@@ -82,17 +82,14 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="d__a__npc_8h_source.html">d/a/d_a_npc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__procname_8h_source.html">d/d_procname.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/initialize__18daNpcT_ActorMngr_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/entry__18daNpcT_ActorMngr_cFP10fopAc_ac_c.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/remove__18daNpcT_ActorMngr_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getActorP__18daNpcT_ActorMngr_cFv.s&quot;</code><br />
+<code>#include &quot;<a class="el" href="m__Do__mtx_8h_source.html">m_Do/m_Do_mtx.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__a__npc__tk_8h_source.html">rel/d/a/npc/d_a_npc_tk/d_a_npc_tk.h</a>&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/initialize__15daNpcT_MatAnm_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/calc__15daNpcT_MatAnm_cCFP11J3DMaterial.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/initialize__22daNpcT_MotionSeqMngr_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/play__22daNpcT_MotionSeqMngr_cFUsPiPf.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/checkEndSequence__22daNpcT_MotionSeqMngr_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/daNpcT_addIdx__FiiRUsi.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/daNpcT_subIdx__FiiRUsi.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/daNpcT_incIdx__FiRUsii.s&quot;</code><br />
@@ -108,37 +105,19 @@ $(function() {
 <code>#include &quot;asm/d/a/d_a_npc/chkPassed1__13daNpcT_Path_cF4cXyzi.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/chkPassed2__13daNpcT_Path_cF4cXyzP4cXyzii.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/daNpcT_chkPassed__F4cXyzP4dPntUsUsiiP4cXyzPiPi.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/initialize__15daNpcT_JntAnm_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setParam__15daNpcT_JntAnm_cFP10fopAc_ac_cP8J3DModelP4cXyziiiffffffffffP4cXyz.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/calc__15daNpcT_JntAnm_cFf.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/calcJntRad__15daNpcT_JntAnm_cFfff.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setParam__19daNpcT_DmgStagger_cFP10fopAc_ac_cP10fopAc_ac_cs.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/calc__19daNpcT_DmgStagger_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/tgHitCallBack__8daNpcT_cFP10fopAc_ac_cP12dCcD_GObjInfP10fopAc_ac_cP12dCcD_GObjInf.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/srchActor__8daNpcT_cFPvPv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getTrnsfrmAnmP__8daNpcT_cFPCci.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getTrnsfrmKeyAnmP__8daNpcT_cFPCci.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getTexPtrnAnmP__8daNpcT_cFPCci.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getTexSRTKeyAnmP__8daNpcT_cFPCci.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getTevRegKeyAnmP__8daNpcT_cFPCci.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/getColorAnmP__8daNpcT_cFPCci.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setBckAnm__8daNpcT_cFP15J3DAnmTransformfiiib.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setMcaMorfAnm__8daNpcT_cFP18J3DAnmTransformKeyffiii.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setBtpAnm__8daNpcT_cFP16J3DAnmTexPatternP12J3DModelDatafi.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setBtkAnm__8daNpcT_cFP19J3DAnmTextureSRTKeyP12J3DModelDatafi.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setBrkAnm__8daNpcT_cFP15J3DAnmTevRegKeyP12J3DModelDatafi.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setBpkAnm__8daNpcT_cFP11J3DAnmColorP12J3DModelDatafi.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/loadRes__8daNpcT_cFPCScPPCc.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/deleteRes__8daNpcT_cFPCScPPCc.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/execute__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/draw__8daNpcT_cFiifP11_GXColorS10fiii.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setEnvTevColor__8daNpcT_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setRoomNo__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/checkEndAnm__8daNpcT_cFf.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/checkEndAnm__8daNpcT_cFP12J3DFrameCtrlf.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/playAllAnm__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/ctrlBtk__8daNpcT_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setMtx__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/ctrlFaceMotion__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/ctrlMotion__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/ctrlMsgAnm__8daNpcT_cFPiPiP10fopAc_ac_ci.s&quot;</code><br />
@@ -146,16 +125,10 @@ $(function() {
 <code>#include &quot;asm/d/a/d_a_npc/evtProc__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setFootPos__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setFootPrtcl__8daNpcT_cFP4cXyzff.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/twilight__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/evtOrder__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/evtChange__8daNpcT_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/clrParam__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setFaceMotionAnm__8daNpcT_cFib.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setMotionAnm__8daNpcT_cFifi.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setPos__8daNpcT_cF4cXyz.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setAngle__8daNpcT_cF5csXyz.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/setAngle__8daNpcT_cFs.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/hitChk__8daNpcT_cFP12dCcD_GObjInfUl.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/setDamage__8daNpcT_cFiii.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/chkActorInSight__8daNpcT_cFP10fopAc_ac_cfs.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/chkPointInArea__8daNpcT_cF4cXyz4cXyzfffs.s&quot;</code><br />
@@ -189,7 +162,6 @@ $(function() {
 <code>#include &quot;asm/d/a/d_a_npc/daNpcT_offTmpBit__FUl.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/daNpcT_chkTmpBit__FUl.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/__dt__16daNpcT_Hermite_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/a/d_a_npc/decTmr__8daNpcT_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/getFaceMotionAnm__8daNpcT_cF26daNpcT_faceMotionAnmData_c.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/getMotionAnm__8daNpcT_cF22daNpcT_motionAnmData_c.s&quot;</code><br />
 <code>#include &quot;asm/d/a/d_a_npc/__dt__8daNpcT_cFv.s&quot;</code><br />
@@ -356,19 +328,11 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmDoMtx__stack__c.html">mDoMtx_stack_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmDoExt__McaMorfSO.html">mDoExt_McaMorfSO</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcT__Hermite__c.html">daNpcT_Hermite_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcT__Path__c.html">daNpcT_Path_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcT__MatAnm__c.html">daNpcT_MatAnm_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcF__c.html">daNpcF_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcF__c_1_1daNpcF__anmPlayData.html">daNpcF_c::daNpcF_anmPlayData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdPath.html">dPath</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -381,8 +345,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcF__MatAnm__c.html">daNpcF_MatAnm_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcF__Lookat__c.html">daNpcF_Lookat_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaNpcF__ActorMngr__c.html">daNpcF_ActorMngr_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaBaseNpc__path__c.html">daBaseNpc_path_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,8 +361,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdPnt.html">dPnt</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdMsgObject__c.html">dMsgObject_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJMath.html">JMath</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -1067,10 +1027,10 @@ Functions</h2></td></tr>
 <tr class="separator:a3d7f39d99456cd9d246ba0f427fca01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7811604a3243511d4c1e1487c5a4db46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a7811604a3243511d4c1e1487c5a4db46">setExpression__8daNpcF_cFif</a> ()</td></tr>
 <tr class="separator:a7811604a3243511d4c1e1487c5a4db46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9ec0fc6b5f7c621778fc6b85db80d55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#ab9ec0fc6b5f7c621778fc6b85db80d55">__dt__8daNpcF_cFv</a> ()</td></tr>
-<tr class="separator:ab9ec0fc6b5f7c621778fc6b85db80d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c143a3a5be4894264a7fbd9f588cd7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a2c143a3a5be4894264a7fbd9f588cd7e">__dt__18daNpcF_ActorMngr_cFv</a> ()</td></tr>
-<tr class="separator:a2c143a3a5be4894264a7fbd9f588cd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87383d999cc65ea7c152b5614301a56b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a87383d999cc65ea7c152b5614301a56b">__dt__8daNpcF_cFv</a> ()</td></tr>
+<tr class="separator:a87383d999cc65ea7c152b5614301a56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d53bcd22865db8e843fb3bba26ea23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a16d53bcd22865db8e843fb3bba26ea23">__dt__18daNpcF_ActorMngr_cFv</a> ()</td></tr>
+<tr class="separator:a16d53bcd22865db8e843fb3bba26ea23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af686bada3d7763f2b247f864527d2dd9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#af686bada3d7763f2b247f864527d2dd9">CreateHeap__20daNpcF_MoveBgActor_cFv</a> ()</td></tr>
 <tr class="separator:af686bada3d7763f2b247f864527d2dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb9f7d387c077b422cfc735cd99260a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#adb9f7d387c077b422cfc735cd99260a1">Create__20daNpcF_MoveBgActor_cFv</a> ()</td></tr>
@@ -1481,6 +1441,10 @@ Functions</h2></td></tr>
 <tr class="separator:ac4823c9d92f5e7380139884250df4a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d2711483e7b204f29a10f06863d4fc"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a73d2711483e7b204f29a10f06863d4fc">daNpcT_chkPassed</a> (<a class="el" href="structcXyz.html">cXyz</a> param_0, <a class="el" href="structdPnt.html">dPnt</a> *param_1, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> param_2, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> param_3, int param_4, int param_5, <a class="el" href="structcXyz.html">cXyz</a> *param_6, int *param_7, int *param_8)</td></tr>
 <tr class="separator:a73d2711483e7b204f29a10f06863d4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfa50cb40f20f42de17910cccd29fcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdEvt__control__c.html">dEvt_control_c</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a9cfa50cb40f20f42de17910cccd29fcb">dComIfGp_getEvent</a> ()</td></tr>
+<tr class="separator:a9cfa50cb40f20f42de17910cccd29fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad800b8a4e1a0269b8e255f8c06375ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#ad800b8a4e1a0269b8e255f8c06375ad1">dComIfGp_event_runCheck</a> ()</td></tr>
+<tr class="separator:ad800b8a4e1a0269b8e255f8c06375ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179ca49f956d8426697d19e07e23f636"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a179ca49f956d8426697d19e07e23f636">daNpcT_chkActorInScreen</a> (<a class="el" href="classfopAc__ac__c.html">fopAc_ac_c</a> *param_0, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_1, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_2, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_3, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_4, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_5, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_6, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> param_7, int param_8)</td></tr>
 <tr class="separator:a179ca49f956d8426697d19e07e23f636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ebaa6089990fcebd91d7383d6dcb01"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a53ebaa6089990fcebd91d7383d6dcb01">daNpcT_chkPointInArea</a> (<a class="el" href="structcXyz.html">cXyz</a> param_0, <a class="el" href="structcXyz.html">cXyz</a> param_1, <a class="el" href="structcXyz.html">cXyz</a> param_2, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_3, int param_4)</td></tr>
@@ -1567,7 +1531,7 @@ Functions</h2></td></tr>
 <tr class="separator:a286146c0db6c4fc6481395d78878ea77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d4afae0775699eb8020c8eb7d4eb235"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a7d4afae0775699eb8020c8eb7d4eb235">COMPILER_STRIP_GATE</a> (0x803926B0, &amp;<a class="el" href="structdaBaseNpc__c.html#a3d2d925680fe3ac7ba6aec667228310e">daBaseNpc_c::mCcDObj</a>)</td></tr>
 <tr class="separator:a7d4afae0775699eb8020c8eb7d4eb235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60f6cc0499621485c5c66c4b14017ce1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a60f6cc0499621485c5c66c4b14017ce1">COMPILER_STRIP_GATE</a> (0x803926E0, &amp;<a class="el" href="structdaNpcF__c.html#a655728a4faad00e779e45e411f81f4ab">daNpcF_c::mCcDObjInfo</a>)</td></tr>
+<tr class="memitem:a60f6cc0499621485c5c66c4b14017ce1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a60f6cc0499621485c5c66c4b14017ce1">COMPILER_STRIP_GATE</a> (0x803926E0, &amp;<a class="el" href="classdaNpcF__c.html#a655728a4faad00e779e45e411f81f4ab">daNpcF_c::mCcDObjInfo</a>)</td></tr>
 <tr class="separator:a60f6cc0499621485c5c66c4b14017ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -1640,8 +1604,8 @@ Variables</h2></td></tr>
 <tr class="separator:a8e01467eed17327e0c624b22ccc7ed8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62d21ab052a31349457768e8161460d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a62d21ab052a31349457768e8161460d4">mSimpleTexObj__21dDlst_shadowControl_c</a> [32]</td></tr>
 <tr class="separator:a62d21ab052a31349457768e8161460d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bbfcbebab8b50d8b888f8aee1e4a468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a5bbfcbebab8b50d8b888f8aee1e4a468">g_env_light</a> [4880]</td></tr>
-<tr class="separator:a5bbfcbebab8b50d8b888f8aee1e4a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4a53a06d7a42e0321f8f821cf17d14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdScnKy__env__light__c.html">dScnKy_env_light_c</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a7a4a53a06d7a42e0321f8f821cf17d14">g_env_light</a></td></tr>
+<tr class="separator:a7a4a53a06d7a42e0321f8f821cf17d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78056ab3a5d817d3aceff202c22d5518"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a78056ab3a5d817d3aceff202c22d5518">mCurrentMtx__6J3DSys</a> [48]</td></tr>
 <tr class="separator:a78056ab3a5d817d3aceff202c22d5518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e862148df6adc58098613dbd1f882cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__npc_8cpp.html#a5e862148df6adc58098613dbd1f882cd">sincosTable___5JMath</a> [65536]</td></tr>
@@ -2584,14 +2548,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c143a3a5be4894264a7fbd9f588cd7e" name="a2c143a3a5be4894264a7fbd9f588cd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c143a3a5be4894264a7fbd9f588cd7e">&#9670;&nbsp;</a></span>__dt__18daNpcF_ActorMngr_cFv()</h2>
+<a id="a16d53bcd22865db8e843fb3bba26ea23" name="a16d53bcd22865db8e843fb3bba26ea23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16d53bcd22865db8e843fb3bba26ea23">&#9670;&nbsp;</a></span>__dt__18daNpcF_ActorMngr_cFv()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __dt__18daNpcF_ActorMngr_cFv </td>
+          <td class="memname">asm void __dt__18daNpcF_ActorMngr_cFv </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2720,14 +2684,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9ec0fc6b5f7c621778fc6b85db80d55" name="ab9ec0fc6b5f7c621778fc6b85db80d55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ec0fc6b5f7c621778fc6b85db80d55">&#9670;&nbsp;</a></span>__dt__8daNpcF_cFv()</h2>
+<a id="a87383d999cc65ea7c152b5614301a56b" name="a87383d999cc65ea7c152b5614301a56b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87383d999cc65ea7c152b5614301a56b">&#9670;&nbsp;</a></span>__dt__8daNpcF_cFv()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __dt__8daNpcF_cFv </td>
+          <td class="memname">asm void __dt__8daNpcF_cFv </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -4746,7 +4710,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&amp;<a class="el" href="structdaNpcF__c.html#a655728a4faad00e779e45e411f81f4ab">daNpcF_c::mCcDObjInfo</a>&#160;</td>
+          <td class="paramtype">&amp;<a class="el" href="classdaNpcF__c.html#a655728a4faad00e779e45e411f81f4ab">daNpcF_c::mCcDObjInfo</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -7701,6 +7665,56 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad800b8a4e1a0269b8e255f8c06375ad1" name="ad800b8a4e1a0269b8e255f8c06375ad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad800b8a4e1a0269b8e255f8c06375ad1">&#9670;&nbsp;</a></span>dComIfGp_event_runCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> dComIfGp_event_runCheck </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cfa50cb40f20f42de17910cccd29fcb" name="a9cfa50cb40f20f42de17910cccd29fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cfa50cb40f20f42de17910cccd29fcb">&#9670;&nbsp;</a></span>dComIfGp_getEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdEvt__control__c.html">dEvt_control_c</a> &amp; dComIfGp_getEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -13252,7 +13266,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a1f34e81945ffbad7353dc60ab0dd1cba">__dt__15daNpcT_JntAnm_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__a__npc_8cpp_html_a1f34e81945ffbad7353dc60ab0dd1cba"><div class="ttname"><a href="d__a__npc_8cpp.html#a1f34e81945ffbad7353dc60ab0dd1cba">__dt__15daNpcT_JntAnm_cFv</a></div><div class="ttdeci">void __dt__15daNpcT_JntAnm_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:2739</div></div>
+<div class="ttc" id="ad__a__npc_8cpp_html_a1f34e81945ffbad7353dc60ab0dd1cba"><div class="ttname"><a href="d__a__npc_8cpp.html#a1f34e81945ffbad7353dc60ab0dd1cba">__dt__15daNpcT_JntAnm_cFv</a></div><div class="ttdeci">void __dt__15daNpcT_JntAnm_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:2799</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13465,9 +13479,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a2c143a3a5be4894264a7fbd9f588cd7e">__dt__18daNpcF_ActorMngr_cFv</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a16d53bcd22865db8e843fb3bba26ea23">__dt__18daNpcF_ActorMngr_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__a__npc_8cpp_html_a2c143a3a5be4894264a7fbd9f588cd7e"><div class="ttname"><a href="d__a__npc_8cpp.html#a2c143a3a5be4894264a7fbd9f588cd7e">__dt__18daNpcF_ActorMngr_cFv</a></div><div class="ttdeci">void __dt__18daNpcF_ActorMngr_cFv()</div></div>
+<div class="ttc" id="ad__a__npc_8cpp_html_a16d53bcd22865db8e843fb3bba26ea23"><div class="ttname"><a href="d__a__npc_8cpp.html#a16d53bcd22865db8e843fb3bba26ea23">__dt__18daNpcF_ActorMngr_cFv</a></div><div class="ttdeci">void __dt__18daNpcF_ActorMngr_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:4696</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13495,7 +13509,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a20ea7582abf116f64f20ce99d6a86716">__dt__18daNpcT_ActorMngr_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__a__npc_8cpp_html_a20ea7582abf116f64f20ce99d6a86716"><div class="ttname"><a href="d__a__npc_8cpp.html#a20ea7582abf116f64f20ce99d6a86716">__dt__18daNpcT_ActorMngr_cFv</a></div><div class="ttdeci">void __dt__18daNpcT_ActorMngr_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:2728</div></div>
+<div class="ttc" id="ad__a__npc_8cpp_html_a20ea7582abf116f64f20ce99d6a86716"><div class="ttname"><a href="d__a__npc_8cpp.html#a20ea7582abf116f64f20ce99d6a86716">__dt__18daNpcT_ActorMngr_cFv</a></div><div class="ttdeci">void __dt__18daNpcT_ActorMngr_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:2788</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13597,7 +13611,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a91d3ca06cc7daf39d9bf890c5ea607b6">__dt__22daNpcT_MotionSeqMngr_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__a__npc_8cpp_html_a91d3ca06cc7daf39d9bf890c5ea607b6"><div class="ttname"><a href="d__a__npc_8cpp.html#a91d3ca06cc7daf39d9bf890c5ea607b6">__dt__22daNpcT_MotionSeqMngr_cFv</a></div><div class="ttdeci">void __dt__22daNpcT_MotionSeqMngr_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:2717</div></div>
+<div class="ttc" id="ad__a__npc_8cpp_html_a91d3ca06cc7daf39d9bf890c5ea607b6"><div class="ttname"><a href="d__a__npc_8cpp.html#a91d3ca06cc7daf39d9bf890c5ea607b6">__dt__22daNpcT_MotionSeqMngr_cFv</a></div><div class="ttdeci">void __dt__22daNpcT_MotionSeqMngr_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:2777</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13703,7 +13717,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#ab9ec0fc6b5f7c621778fc6b85db80d55">__dt__8daNpcF_cFv</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a87383d999cc65ea7c152b5614301a56b">__dt__8daNpcF_cFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a34248b466452635db08eac98c541b615">setParam__8daNpcF_cFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#aec35d81b37403d19fb594070c97034a9">main__8daNpcF_cFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a6745212199959afc1d93340c755e9558">ctrlBtk__8daNpcF_cFv</a>,</div>
@@ -13720,7 +13734,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a2aeb848b4815c90f708c7ec8daa2fdfa">drawDbgInfo__8daNpcF_cFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__a__npc_8cpp.html#a502621af7f333b26320d8576a52bb306">drawOtherMdls__8daNpcF_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__a__npc_8cpp_html_ab9ec0fc6b5f7c621778fc6b85db80d55"><div class="ttname"><a href="d__a__npc_8cpp.html#ab9ec0fc6b5f7c621778fc6b85db80d55">__dt__8daNpcF_cFv</a></div><div class="ttdeci">void __dt__8daNpcF_cFv()</div></div>
+<div class="ttc" id="ad__a__npc_8cpp_html_a87383d999cc65ea7c152b5614301a56b"><div class="ttname"><a href="d__a__npc_8cpp.html#a87383d999cc65ea7c152b5614301a56b">__dt__8daNpcF_cFv</a></div><div class="ttdeci">void __dt__8daNpcF_cFv()</div><div class="ttdef"><b>Definition:</b> d_a_npc.cpp:4685</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -13909,8 +13923,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5bbfcbebab8b50d8b888f8aee1e4a468" name="a5bbfcbebab8b50d8b888f8aee1e4a468"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bbfcbebab8b50d8b888f8aee1e4a468">&#9670;&nbsp;</a></span>g_env_light</h2>
+<a id="a7a4a53a06d7a42e0321f8f821cf17d14" name="a7a4a53a06d7a42e0321f8f821cf17d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4a53a06d7a42e0321f8f821cf17d14">&#9670;&nbsp;</a></span>g_env_light</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13919,7 +13933,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> g_env_light[4880]</td>
+          <td class="memname"><a class="el" href="classdScnKy__env__light__c.html">dScnKy_env_light_c</a> g_env_light</td>
         </tr>
       </table>
   </td>

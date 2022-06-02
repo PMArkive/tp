@@ -51,5 +51,6 @@ var searchData=
   ['force_5fpanic_48',['FORCE_PANIC',['../classdaMidna__c.html#af44f83d157f63375a0decd84f8de9193ad558f3d568cfafb0c45d43edac2b9e86',1,'daMidna_c']]],
   ['force_5ftired_5fcolor_49',['FORCE_TIRED_COLOR',['../classdaMidna__c.html#a6da20cf56778ea842fcbc6447120156fa5e2b5b706022d03b4c993bda9af2db6b',1,'daMidna_c']]],
   ['front_5froll_50',['FRONT_ROLL',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa075b408ac28bbe25c4b40858199bd72f',1,'daAlink_c']]],
-  ['front_5froll_5fcrash_51',['FRONT_ROLL_CRASH',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aaa4a6222f8d49a322817feac97ad2c772',1,'daAlink_c']]]
+  ['front_5froll_5fcrash_51',['FRONT_ROLL_CRASH',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aaa4a6222f8d49a322817feac97ad2c772',1,'daAlink_c']]],
+  ['full_5fgrp_52',['FULL_GRP',['../classdBgS__GrpPassChk.html#acd7653cc2a4fbf9128d7ee70ea2ffe49a085b7845b4684123a05a0d76a8ca1cf3',1,'dBgS_GrpPassChk']]]
 ];

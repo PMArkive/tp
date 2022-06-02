@@ -59,5 +59,7 @@ var searchData=
   ['world_5fview_56',['WORLD_VIEW',['../classdMeter__fmapHIO__c.html#ad2e72a4202ad2698373726b726d74089aa7cf2c4ea431bd0ede46dd3f69a8a4d1',1,'dMeter_fmapHIO_c']]],
   ['worm_57',['WORM',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a174680cf641bd8d009b17acec29dd1c6',1,'d_save.h']]],
   ['worm_5frod_58',['WORM_ROD',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a31107871c30e75752f6dcfa924531a12',1,'d_save.h']]],
-  ['write_59',['WRITE',['../classJKRAramStreamCommand.html#a584a0f0d44d10e7db7ae9487b83a3486a4a879b1fece2b140eba7b434c36370ec',1,'JKRAramStreamCommand']]]
+  ['write_59',['WRITE',['../classJKRAramStreamCommand.html#a584a0f0d44d10e7db7ae9487b83a3486a4a879b1fece2b140eba7b434c36370ec',1,'JKRAramStreamCommand']]],
+  ['ws_5fmain_5fstick_60',['WS_MAIN_STICK',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6ba51b166df5c89223c699b3db18d915360',1,'JUTGamePad']]],
+  ['ws_5fsub_5fstick_61',['WS_SUB_STICK',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6bae35d5554715310f5000d13dae308d6ac',1,'JUTGamePad']]]
 ];

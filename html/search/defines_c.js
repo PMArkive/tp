@@ -5,6 +5,5 @@ var searchData=
   ['max_5fitem_5fslots_2',['MAX_ITEM_SLOTS',['../d__save_8h.html#a729f4ffbd795db913bebb235882c1185',1,'d_save.h']]],
   ['max_5fselect_5fitem_3',['MAX_SELECT_ITEM',['../d__save_8h.html#aa81e4358e60fa5195668bfe07f7b5173',1,'d_save.h']]],
   ['maxfloat_4',['MAXFLOAT',['../fdlibm_8h.html#a5e9e29217f6ec61105a4520ec5942225',1,'fdlibm.h']]],
-  ['min_5',['MIN',['../JPABaseShape_8cpp.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'JPABaseShape.cpp']]],
-  ['mpadlisthack_6',['mPadListHack',['../JUTGamePad_8cpp.html#a598c15a638762dd36adbb430320fd270',1,'JUTGamePad.cpp']]]
+  ['min_5',['MIN',['../JPABaseShape_8cpp.html#a3acffbd305ee72dcd4593c0d8af64a4f',1,'JPABaseShape.cpp']]]
 ];

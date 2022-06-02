@@ -9,7 +9,7 @@ var searchData=
   ['sdidirentry_6',['SDIDirEntry',['../structJKRArchive_1_1SDIDirEntry.html',1,'JKRArchive']]],
   ['sdifileentry_7',['SDIFileEntry',['../structJKRArchive_1_1SDIFileEntry.html',1,'JKRArchive']]],
   ['sdirentry_8',['SDirEntry',['../structJKRArchive_1_1SDirEntry.html',1,'JKRArchive']]],
-  ['sequencestepdata_5fc_9',['sequenceStepData_c',['../structdaNpcT__MotionSeqMngr__c_1_1sequenceStepData__c.html',1,'daNpcT_MotionSeqMngr_c']]],
+  ['sequencestepdata_5fc_9',['sequenceStepData_c',['../classdaNpcT__MotionSeqMngr__c_1_1sequenceStepData__c.html',1,'daNpcT_MotionSeqMngr_c']]],
   ['shape_10',['Shape',['../structcCcD__ShapeAttr_1_1Shape.html',1,'cCcD_ShapeAttr']]],
   ['shdwdrawpoly_5fc_11',['ShdwDrawPoly_c',['../structShdwDrawPoly__c.html',1,'']]],
   ['shop_5fitem_5fdata_12',['shop_item_data',['../structshop__item__data.html',1,'']]],
