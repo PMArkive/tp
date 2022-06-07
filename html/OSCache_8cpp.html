@@ -120,8 +120,6 @@ Functions</h2></td></tr>
 <tr class="separator:a9f2e75fcba58c9a779201edd6a372f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea2691ff81fe6cba84cbd3e49ef078be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSCache_8cpp.html#aea2691ff81fe6cba84cbd3e49ef078be">DCFlushRangeNoSync</a> ()</td></tr>
 <tr class="separator:aea2691ff81fe6cba84cbd3e49ef078be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a0037d412d8c67259671d8d5e8a66e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSCache_8cpp.html#ab8a0037d412d8c67259671d8d5e8a66e">DCStoreRangeNoSync</a> ()</td></tr>
-<tr class="separator:ab8a0037d412d8c67259671d8d5e8a66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a048f6375e9632bd61fe191b408a76b7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSCache_8cpp.html#a048f6375e9632bd61fe191b408a76b7e">DCZeroRange</a> ()</td></tr>
 <tr class="separator:a048f6375e9632bd61fe191b408a76b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6aaddb8f5d421df2b57558206ee5a443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSCache_8cpp.html#a6aaddb8f5d421df2b57558206ee5a443">ICInvalidateRange</a> ()</td></tr>
@@ -178,6 +176,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac5bf83edc19e8da4aa91a31e08360368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a535cccd23cfb4f1f87b48fde5cea9daa"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSCache_8cpp.html#a535cccd23cfb4f1f87b48fde5cea9daa">DCStoreRange</a> (void *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
 <tr class="separator:a535cccd23cfb4f1f87b48fde5cea9daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac210671545747071e2c345ff0c6922e5"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSCache_8cpp.html#ac210671545747071e2c345ff0c6922e5">DCStoreRangeNoSync</a> (void *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
+<tr class="separator:ac210671545747071e2c345ff0c6922e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -377,8 +377,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8a0037d412d8c67259671d8d5e8a66e" name="ab8a0037d412d8c67259671d8d5e8a66e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8a0037d412d8c67259671d8d5e8a66e">&#9670;&nbsp;</a></span>DCStoreRangeNoSync()</h2>
+<a id="ac210671545747071e2c345ff0c6922e5" name="ac210671545747071e2c345ff0c6922e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac210671545747071e2c345ff0c6922e5">&#9670;&nbsp;</a></span>DCStoreRangeNoSync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,8 +386,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void DCStoreRangeNoSync </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

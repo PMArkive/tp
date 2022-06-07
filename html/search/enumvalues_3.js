@@ -51,7 +51,7 @@ var searchData=
   ['collect_5fwooden_5fsword_48',['COLLECT_WOODEN_SWORD',['../d__save_8h.html#a3c66d6f382ea908fcb6d2f2f82a22b4da09ed8a66c8b6e90e79b89bef22dacb00',1,'d_save.h']]],
   ['combo_5fcut_5fturn_49',['COMBO_CUT_TURN',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa21cd4a6c5f062cfd86b8b0c29703ff00',1,'daAlink_c']]],
   ['combo_5fitem_50',['COMBO_ITEM',['../classdMeter__ringHIO__c.html#af3e3d82a1cdfabcf675a3172819f266aa875f94f686d2bd957e392a1e53d1877b',1,'dMeter_ringHIO_c']]],
-  ['compass_51',['COMPASS',['../classdSv__memBit__c.html#ab3b08de6a2193ecd72b7945fa1e9214cad8f83fb4bb4d444a17d03add41df0425',1,'dSv_memBit_c']]],
+  ['compass_51',['COMPASS',['../classdSv__memBit__c.html#a93f08d9a19ed868470737a91e4dd5d36ad8f83fb4bb4d444a17d03add41df0425',1,'dSv_memBit_c']]],
   ['composite_5fadd_52',['COMPOSITE_ADD',['../namespaceJStudio_1_1fvb_1_1data.html#abd046240512aa1522b06f1f887e44483a50a90a5cdba2513555651f495125a718',1,'JStudio::fvb::data']]],
   ['composite_5fdiv_53',['COMPOSITE_DIV',['../namespaceJStudio_1_1fvb_1_1data.html#abd046240512aa1522b06f1f887e44483af349e169dd4b3999f0d20b2377e63338',1,'JStudio::fvb::data']]],
   ['composite_5fenum_5fsize_54',['COMPOSITE_ENUM_SIZE',['../namespaceJStudio_1_1fvb_1_1data.html#abd046240512aa1522b06f1f887e44483a2e1f2fd0d3322347d0c52c2e84ad63e6',1,'JStudio::fvb::data']]],

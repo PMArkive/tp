@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1763;
+var viewWidth = 1279;
 var viewHeight = 363;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,14 +54,14 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>libs/JSystem/JKernel/JKRSolidHeap.cpp</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-359 1758.5,-359 1758.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-359 1274.5,-359 1274.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="1012,-324.5 1012,-354.5 1121,-354.5 1121,-324.5 1012,-324.5"/>
-<text text-anchor="start" x="1020" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JKernel</text>
-<text text-anchor="middle" x="1066.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap.cpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="923,-324.5 923,-354.5 1032,-354.5 1032,-324.5 923,-324.5"/>
+<text text-anchor="start" x="931" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">libs/JSystem/JKernel</text>
+<text text-anchor="middle" x="977.5" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap.cpp</text>
 </a>
 </g>
 </g>
@@ -78,8 +78,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1011.85,-325.52C957.6,-312.64 874.26,-292.84 815.48,-278.88"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="816.07,-275.43 805.53,-276.52 814.45,-282.24 816.07,-275.43"/>
+<path fill="none" stroke="midnightblue" d="M934.86,-324.47C896.48,-311.85 839.96,-293.25 798.85,-279.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="799.87,-276.38 789.28,-276.57 797.69,-283.02 799.87,-276.38"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
@@ -93,8 +93,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node12 -->
 <g id="edge19" class="edge">
 <title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M1012.9,-324.45C987.71,-316.28 958.11,-304.33 934.5,-288 902.06,-265.57 873.66,-228.58 858.71,-207.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="861.49,-204.9 852.98,-198.58 855.69,-208.82 861.49,-204.9"/>
+<path fill="none" stroke="midnightblue" d="M965.04,-324.26C940.86,-296.64 887.72,-235.94 862,-206.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="864.46,-204.07 855.24,-198.85 859.2,-208.68 864.46,-204.07"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
@@ -108,8 +108,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge21" class="edge">
 <title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M1018.37,-324.44C999.74,-316.63 979.94,-304.95 967.5,-288 937.62,-247.3 937.45,-184.33 939.58,-153.02"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="943.1,-152.94 940.45,-142.68 936.13,-152.35 943.1,-152.94"/>
+<path fill="none" stroke="midnightblue" d="M974.59,-324.37C972.54,-314.26 969.76,-300.31 967.5,-288 958.56,-239.26 949.14,-181.63 944.47,-152.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="947.92,-152.02 942.88,-142.7 941.01,-153.13 947.92,-152.02"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
@@ -123,8 +123,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node15 -->
 <g id="edge25" class="edge">
 <title>Node1&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M1055.4,-324.2C1045.44,-311.37 1030.8,-292.52 1020.33,-279.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1023.04,-276.82 1014.15,-271.06 1017.52,-281.11 1023.04,-276.82"/>
+<path fill="none" stroke="midnightblue" d="M983.14,-324.2C988.02,-311.85 995.09,-293.94 1000.36,-280.6"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1003.7,-281.65 1004.12,-271.06 997.19,-279.08 1003.7,-281.65"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
@@ -138,77 +138,26 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node16 -->
 <g id="edge26" class="edge">
 <title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1065.45,-324.26C1063.45,-297.35 1059.13,-239.04 1056.9,-208.9"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1060.38,-208.56 1056.16,-198.85 1053.4,-209.08 1060.38,-208.56"/>
+<path fill="none" stroke="midnightblue" d="M1007.09,-324.43C1021.49,-315.97 1037.58,-303.76 1046.5,-288 1060.49,-263.29 1060.11,-229.35 1058.12,-208.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1061.58,-208.07 1056.93,-198.55 1054.63,-208.89 1061.58,-208.07"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
 <g id="a_node17"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="1095,-241 1095,-282 1226,-282 1226,-241 1095,-241"/>
-<text text-anchor="start" x="1103" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00">asm/JSystem/JKernel</text>
-<text text-anchor="start" x="1103" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap/adjustSize</text>
-<text text-anchor="middle" x="1160.5" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">__12JKRSolidHeapFv.s</text>
+<polygon fill="white" stroke="#bfbfbf" points="1094.5,-235.5 1094.5,-287.5 1270.5,-287.5 1270.5,-235.5 1094.5,-235.5"/>
+<text text-anchor="start" x="1102.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">asm/JSystem/JKernel</text>
+<text text-anchor="start" x="1102.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap/state</text>
+<text text-anchor="start" x="1102.5" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">_register__12JKRSolidHeapCFPQ27</text>
+<text text-anchor="middle" x="1182.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">JKRHeap6TStateUl.s</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node17 -->
 <g id="edge28" class="edge">
 <title>Node1&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M1084.18,-324.2C1096.57,-314.19 1113.47,-300.52 1128.23,-288.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1130.58,-291.19 1136.16,-282.18 1126.18,-285.75 1130.58,-291.19"/>
-</g>
-<!-- Node18 -->
-<g id="node18" class="node">
-<title>Node18</title>
-<g id="a_node18"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="1244.5,-241 1244.5,-282 1396.5,-282 1396.5,-241 1244.5,-241"/>
-<text text-anchor="start" x="1252.5" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00">asm/JSystem/JKernel</text>
-<text text-anchor="start" x="1252.5" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap/allocFromHead</text>
-<text text-anchor="middle" x="1320.5" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">__12JKRSolidHeapFUli.s</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node18 -->
-<g id="edge29" class="edge">
-<title>Node1&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M1113.49,-324.47C1147.4,-314.35 1194.28,-300.34 1235.5,-288 1238.67,-287.05 1241.91,-286.08 1245.19,-285.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1246.5,-288.36 1255.07,-282.14 1244.49,-281.66 1246.5,-288.36"/>
-</g>
-<!-- Node19 -->
-<g id="node19" class="node">
-<title>Node19</title>
-<g id="a_node19"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="1415,-241 1415,-282 1560,-282 1560,-241 1415,-241"/>
-<text text-anchor="start" x="1423" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00">asm/JSystem/JKernel</text>
-<text text-anchor="start" x="1423" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap/allocFromTail</text>
-<text text-anchor="middle" x="1487.5" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">__12JKRSolidHeapFUli.s</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node19 -->
-<g id="edge30" class="edge">
-<title>Node1&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M1121.29,-332.96C1188.72,-325.54 1306.45,-310.64 1405.5,-288 1409.79,-287.02 1414.17,-285.93 1418.58,-284.76"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1419.51,-288.14 1428.23,-282.11 1417.66,-281.39 1419.51,-288.14"/>
-</g>
-<!-- Node20 -->
-<g id="node20" class="node">
-<title>Node20</title>
-<g id="a_node20"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="1578.5,-235.5 1578.5,-287.5 1754.5,-287.5 1754.5,-235.5 1578.5,-235.5"/>
-<text text-anchor="start" x="1586.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">asm/JSystem/JKernel</text>
-<text text-anchor="start" x="1586.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00">/JKRSolidHeap/state</text>
-<text text-anchor="start" x="1586.5" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">_register__12JKRSolidHeapCFPQ27</text>
-<text text-anchor="middle" x="1666.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">JKRHeap6TStateUl.s</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node20 -->
-<g id="edge31" class="edge">
-<title>Node1&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M1121.23,-335.82C1212.23,-330.76 1400.45,-317.68 1568.34,-288.09"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1569.11,-291.51 1578.34,-286.3 1567.88,-284.62 1569.11,-291.51"/>
+<path fill="none" stroke="midnightblue" d="M1015.58,-324.38C1040.76,-315.05 1074.67,-302.47 1105.35,-291.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1106.59,-294.37 1114.75,-287.62 1104.16,-287.81 1106.59,-294.37"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">

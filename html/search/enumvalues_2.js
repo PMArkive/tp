@@ -31,7 +31,7 @@ var searchData=
   ['boomerang_28',['BOOMERANG',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a41c1c7c62e57d94a3e8bb4a76a274be7',1,'d_save.h']]],
   ['boots_5fequip_29',['BOOTS_EQUIP',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa9c5a8df15faaa5c62348fb0c4015621e',1,'daAlink_c']]],
   ['boss_5fenemy_5fhang_30',['BOSS_ENEMY_HANG',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa85482ecf2ace6f90949ceaa67b9d6819',1,'daAlink_c']]],
-  ['boss_5fkey_31',['BOSS_KEY',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ae5177c3ab4817d6c99577974c512d3cd',1,'BOSS_KEY():&#160;d_save.h'],['../classdSv__memBit__c.html#ab3b08de6a2193ecd72b7945fa1e9214caddc140ece9a60e605fcdd9344585ae22',1,'dSv_memBit_c::BOSS_KEY()']]],
+  ['boss_5fkey_31',['BOSS_KEY',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ae5177c3ab4817d6c99577974c512d3cd',1,'BOSS_KEY():&#160;d_save.h'],['../classdSv__memBit__c.html#a93f08d9a19ed868470737a91e4dd5d36addc140ece9a60e605fcdd9344585ae22',1,'dSv_memBit_c::BOSS_KEY()']]],
   ['bossrider_5fkey_32',['BOSSRIDER_KEY',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a3e139d96c259ac549389e2fabcb92895',1,'d_save.h']]],
   ['bottle_5fdrink_33',['BOTTLE_DRINK',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa37cd0e3f4fed67431165751b817ea4a7',1,'daAlink_c']]],
   ['bottle_5fswing_34',['BOTTLE_SWING',['../classdaAlink__c.html#a6b13b77c4cc04ab5a3e5c875c427d79aa6453a102aca1b6e7238df8ab2550c43b',1,'daAlink_c']]],

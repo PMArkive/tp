@@ -41,5 +41,6 @@ var searchData=
   ['stcontrol_38',['STControl',['../structSTControl.html',1,'']]],
   ['struct_5fdsp_5ftask_39',['STRUCT_DSP_TASK',['../structSTRUCT__DSP__TASK.html',1,'']]],
   ['sub_5fkankyo_5f_5fclass_40',['sub_kankyo__class',['../structsub__kankyo____class.html',1,'']]],
-  ['svec_41',['SVec',['../structSVec.html',1,'']]]
+  ['svec_41',['SVec',['../structSVec.html',1,'']]],
+  ['syaz0header_42',['SYaz0Header',['../structSYaz0Header.html',1,'']]]
 ];

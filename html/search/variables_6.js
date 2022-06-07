@@ -2103,7 +2103,7 @@ var searchData=
   ['file_5fstate_2100',['file_state',['../struct__FILE.html#a471be8f89ef7853f25d7ac39d638fc6d',1,'_FILE']]],
   ['filename_2101',['filename',['../structCARDStat.html#acd4b5fe1fe88835ed6954ed976bce3ba',1,'CARDStat']]],
   ['fileno_2102',['fileNo',['../structCARDFileInfo.html#a3e7e62a1b5aee01dd7e05fab387adfdb',1,'CARDFileInfo']]],
-  ['fileoffset_2103',['fileOffset',['../JKRAram_8cpp.html#a13732a83b3549e4da7c77f0acc21ec33',1,'fileOffset():&#160;JKRAram.cpp'],['../JKRDvdAramRipper_8cpp.html#a04e998a5c8297b0fa397174ae7f81b4e',1,'fileOffset():&#160;JKRDvdAramRipper.cpp'],['../JKRDvdRipper_8cpp.html#a13732a83b3549e4da7c77f0acc21ec33',1,'fileOffset():&#160;JKRDvdRipper.cpp']]],
+  ['fileoffset_2103',['fileOffset',['../JKRAram_8cpp.html#a04e998a5c8297b0fa397174ae7f81b4e',1,'fileOffset():&#160;JKRAram.cpp'],['../JKRDvdAramRipper_8cpp.html#a04e998a5c8297b0fa397174ae7f81b4e',1,'fileOffset():&#160;JKRDvdAramRipper.cpp'],['../JKRDvdRipper_8cpp.html#a04e998a5c8297b0fa397174ae7f81b4e',1,'fileOffset():&#160;JKRDvdRipper.cpp']]],
   ['filesize_2104',['filesize',['../structResFONT.html#af4fdaabccd57bff229ed558cdb8b237d',1,'ResFONT']]],
   ['filewarningproc_2105',['fileWarningProc',['../d__file__sel__warning_8cpp.html#a5e14dd0db484979e9d1cf988cb22590a',1,'fileWarningProc():&#160;d_file_sel_warning.cpp'],['../d__file__sel__info_8cpp.html#a5e14dd0db484979e9d1cf988cb22590a',1,'fileWarningProc():&#160;d_file_sel_info.cpp']]],
   ['filiposx_2106',['filiPosX',['../d__meter__HIO_8cpp.html#abc4679bb74380e4e0f7b8fabd87390f3',1,'d_meter_HIO.cpp']]],
