@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../struct__GXColorS10.html#a8b5e064824ec91bf2e319139108917fa',1,'_GXColorS10::r()'],['../struct__GXFogAdjTable.html#af29b27ccb5ee34d154eaa28fff5af1b1',1,'_GXFogAdjTable::r()'],['../structTColor.html#ada9bdb3ffb606ad92c0dd76bf95ddd81',1,'TColor::r()'],['../struct__GXColor.html#af4723bcb80b74798ce9b54a83b18410f',1,'_GXColor::r()']]],
+  ['r_0',['r',['../struct__GXColor.html#af4723bcb80b74798ce9b54a83b18410f',1,'_GXColor::r()'],['../struct__GXColorS10.html#a8b5e064824ec91bf2e319139108917fa',1,'_GXColorS10::r()'],['../struct__GXFogAdjTable.html#af29b27ccb5ee34d154eaa28fff5af1b1',1,'_GXFogAdjTable::r()'],['../structTColor.html#ada9bdb3ffb606ad92c0dd76bf95ddd81',1,'TColor::r()']]],
   ['r0_1',['r0',['../c__math_8cpp.html#ae89795cca8972bd8d810f1e61bc7a202',1,'c_math.cpp']]],
   ['r02_2',['r02',['../c__math_8cpp.html#ade776008eb82892e12df3c9a6ea259d1',1,'c_math.cpp']]],
   ['r09o_3',['r09o',['../d__kankyo__wether_8cpp.html#a836cd4fcf752c7dae805cbdf9271a6ad',1,'d_kankyo_wether.cpp']]],
@@ -32,9 +32,9 @@ var searchData=
   ['regs_29',['regs',['../vi_8cpp.html#adddde8f96ef6d0d766e7dc8910ae201c',1,'vi.cpp']]],
   ['releaescale_30',['releaeScale',['../d__a__alink_8cpp.html#aba0f44b586157f97cda1e85f60820547',1,'d_a_alink.cpp']]],
   ['rendermode_31',['renderMode',['../structJFWSystem_1_1CSetUpParam.html#a0638fa1ae5bbdbc9d3263284a5a93e65',1,'JFWSystem::CSetUpParam']]],
-  ['rendermode_5f_5fq29jfwsystem11csetupparam_32',['renderMode__Q29JFWSystem11CSetUpParam',['../m__Do__machine_8cpp.html#a2c86822c49b733b3cb923ec7c671886d',1,'renderMode__Q29JFWSystem11CSetUpParam():&#160;m_Do_machine.cpp'],['../JFWSystem_8cpp.html#a2c86822c49b733b3cb923ec7c671886d',1,'renderMode__Q29JFWSystem11CSetUpParam():&#160;JFWSystem.cpp']]],
+  ['rendermode_5f_5fq29jfwsystem11csetupparam_32',['renderMode__Q29JFWSystem11CSetUpParam',['../JFWSystem_8cpp.html#a2c86822c49b733b3cb923ec7c671886d',1,'renderMode__Q29JFWSystem11CSetUpParam():&#160;JFWSystem.cpp'],['../m__Do__machine_8cpp.html#a2c86822c49b733b3cb923ec7c671886d',1,'renderMode__Q29JFWSystem11CSetUpParam():&#160;m_Do_machine.cpp']]],
   ['reschedule_33',['Reschedule',['../OSThread_8cpp.html#a01ef072b96a599635c78f64ff9b36c61',1,'OSThread.cpp']]],
-  ['reserve_34',['reserve',['../classdSv__save__c.html#a38b887bd2e2a6a271cfbd516bc09e9e5',1,'dSv_save_c']]],
+  ['reserve_34',['reserve',['../structdSv__save__c.html#a38b887bd2e2a6a271cfbd516bc09e9e5',1,'dSv_save_c']]],
   ['reserved_35',['reserved',['../struct____va__list__struct.html#ab991798c453e3d78184ddb3e4f5fffeb',1,'__va_list_struct']]],
   ['resetalarm_36',['ResetAlarm',['../dvd_8cpp.html#a9434bc2e05b7fd2f32ef09b9227b81be',1,'dvd.cpp']]],
   ['resetcallback_37',['ResetCallback',['../OSResetSW_8cpp.html#a3f38bba809601712e87b01f6e2163c58',1,'OSResetSW.cpp']]],
@@ -56,7 +56,7 @@ var searchData=
   ['rightoffset_53',['rightOffset',['../d__a__alink_8cpp.html#ae40b98e208f08acdb723dab96033ec67',1,'d_a_alink.cpp']]],
   ['ringid_54',['ringID',['../d__particle_8cpp.html#ae27921f69daff821e7f555109c270bfb',1,'d_particle.cpp']]],
   ['rodtopoffset_55',['rodTopOffset',['../d__a__alink_8cpp.html#a6f66e947baf6d76ad0f532abc4914055',1,'d_a_alink.cpp']]],
-  ['roomnum_56',['roomNum',['../classZ2SceneMgr.html#a0f8148656173794e492dfa51d45c9b51',1,'Z2SceneMgr']]],
+  ['roomnum_56',['roomNum',['../structZ2SceneMgr.html#a0f8148656173794e492dfa51d45c9b51',1,'Z2SceneMgr']]],
   ['rootheap_57',['rootHeap',['../structJFWSystem.html#a49bff94726705fbd5b8dc1d3e4e70c20',1,'JFWSystem']]],
   ['rootheap_5f_5f9jfwsystem_58',['rootHeap__9JFWSystem',['../JFWSystem_8cpp.html#a713a7ef86cc9d791c7fbce414c22d8e4',1,'JFWSystem.cpp']]],
   ['rootheapcheck_59',['RootHeapCheck',['../m__Do__main_8cpp.html#af821d3c4eaf2f6219410b765e418f217',1,'m_Do_main.cpp']]],

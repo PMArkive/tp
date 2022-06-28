@@ -16,5 +16,5 @@ var searchData=
   ['osthreadqueue_13',['OSThreadQueue',['../structOSThreadQueue.html',1,'']]],
   ['overlap1_5fclass_14',['overlap1_class',['../structoverlap1__class.html',1,'']]],
   ['overlap_5frequest_5fclass_15',['overlap_request_class',['../classoverlap__request__class.html',1,'']]],
-  ['overlap_5ftask_5fclass_16',['overlap_task_class',['../classoverlap__task__class.html',1,'']]]
+  ['overlap_5ftask_5fclass_16',['overlap_task_class',['../structoverlap__task__class.html',1,'']]]
 ];
