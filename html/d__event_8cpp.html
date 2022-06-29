@@ -75,7 +75,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">d_event.cpp File Reference</div></div>
@@ -87,10 +86,10 @@ $(function() {
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="f__op__actor__iter_8h_source.html">f_op/f_op_actor_iter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="f__op__actor__mng_8h_source.html">f_op/f_op_actor_mng.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__demo_8h_source.html">d/d_demo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__camera_8h_source.html">d/d_camera.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__msg__object_8h_source.html">d/msg/d_msg_object.h</a>&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/order__14dEvt_control_cFUsUsUsUsPvPvsUc.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/setParam__14dEvt_control_cFP12dEvt_order_c.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/beforeFlagProc__14dEvt_control_cFP12dEvt_order_c.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/afterFlagProc__14dEvt_control_cFP12dEvt_order_c.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/commonCheck__14dEvt_control_cFP12dEvt_order_cUsUs.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/talkCheck__14dEvt_control_cFP12dEvt_order_c.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/talkXyCheck__14dEvt_control_cFP12dEvt_order_c.s&quot;</code><br />
@@ -101,18 +100,10 @@ $(function() {
 <code>#include &quot;asm/d/event/d_event/doorCheck__14dEvt_control_cFP12dEvt_order_c.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/endProc__14dEvt_control_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/change__14dEvt_control_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/entry__14dEvt_control_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/reset__14dEvt_control_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/reset__14dEvt_control_cFPv.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/dEv_defaultSkipZev__FPvi.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/dEv_defaultSkipStb__FPvi.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/skipper__14dEvt_control_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/Step__14dEvt_control_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/moveApproval__14dEvt_control_cFPv.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/compulsory__14dEvt_control_cFPvPCcUs.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/convPId__14dEvt_control_cFUi.s&quot;</code><br />
 <code>#include &quot;asm/d/event/d_event/getStbDemoData__14dEvt_control_cFPc.s&quot;</code><br />
-<code>#include &quot;asm/d/event/d_event/searchMapEventData__14dEvt_control_cFUcl.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for d_event.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -122,13 +113,6 @@ $(function() {
 </div>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdDemo__c.html">dDemo_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdCamera__c.html">dCamera_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a17b848183fa74ed0f4f2beb96d323fec"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a17b848183fa74ed0f4f2beb96d323fec">func_80041480</a> ()</td></tr>
@@ -351,14 +335,18 @@ Functions</h2></td></tr>
 <tr class="separator:a82ff5842cf630dcea5285b56943dbd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cfa50cb40f20f42de17910cccd29fcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdEvt__control__c.html">dEvt_control_c</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a9cfa50cb40f20f42de17910cccd29fcb">dComIfGp_getEvent</a> ()</td></tr>
 <tr class="separator:a9cfa50cb40f20f42de17910cccd29fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10618c184c491ba2b0f95d26f4b8332b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a10618c184c491ba2b0f95d26f4b8332b">dEv_defaultSkipProc</a> (void *param_0, int param_1)</td></tr>
-<tr class="separator:a10618c184c491ba2b0f95d26f4b8332b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88bc939b72e5011dd13542c414592e2b"><td class="memItemLeft" align="right" valign="top">asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a88bc939b72e5011dd13542c414592e2b">dEv_defaultSkipZev</a> (void *param_0, int param_1)</td></tr>
-<tr class="separator:a88bc939b72e5011dd13542c414592e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb2941fc0c5a652c5676f723ed1115d2"><td class="memItemLeft" align="right" valign="top">asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#adb2941fc0c5a652c5676f723ed1115d2">dEv_defaultSkipStb</a> (void *param_0, int param_1)</td></tr>
-<tr class="separator:adb2941fc0c5a652c5676f723ed1115d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a88a04f5aae8c3f6300eead0fcb1522"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a7a88a04f5aae8c3f6300eead0fcb1522">dEv_noFinishSkipProc</a> (void *param_0, int param_1)</td></tr>
-<tr class="separator:a7a88a04f5aae8c3f6300eead0fcb1522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edcd23dbadd07e86b4a713eb1d94473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a5edcd23dbadd07e86b4a713eb1d94473">dComIfGs_getLife</a> ()</td></tr>
+<tr class="separator:a5edcd23dbadd07e86b4a713eb1d94473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade17a49da1db78afdaa311e23e8474e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdStage__stageDt__c.html">dStage_stageDt_c</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#ade17a49da1db78afdaa311e23e8474e5">dComIfGp_getStage</a> ()</td></tr>
+<tr class="separator:ade17a49da1db78afdaa311e23e8474e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10fa63a96a3a2ffb92e4d9ff8ca17d86"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a10fa63a96a3a2ffb92e4d9ff8ca17d86">dEv_defaultSkipProc</a> (void *param_0, int)</td></tr>
+<tr class="separator:a10fa63a96a3a2ffb92e4d9ff8ca17d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef6d1a3a6b88ef75d0c48cc9d611a87"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a2ef6d1a3a6b88ef75d0c48cc9d611a87">dEv_defaultSkipZev</a> (void *param_0, int param_1)</td></tr>
+<tr class="separator:a2ef6d1a3a6b88ef75d0c48cc9d611a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126b8d10a874f385803f9efe8d642640"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a126b8d10a874f385803f9efe8d642640">dEv_defaultSkipStb</a> (void *param_0, int param_1)</td></tr>
+<tr class="separator:a126b8d10a874f385803f9efe8d642640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01053a51ff2aab5d3abdda25ba59752f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a01053a51ff2aab5d3abdda25ba59752f">dEv_noFinishSkipProc</a> (void *, int)</td></tr>
+<tr class="separator:a01053a51ff2aab5d3abdda25ba59752f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -378,24 +366,14 @@ Variables</h2></td></tr>
 <tr class="separator:a01a5533bab8aba762d0138bca966aeff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad67787539c06f56ed809b53a55900a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#ad67787539c06f56ed809b53a55900a46">mAudioMgrPtr__10Z2AudioMgr</a> [4+4]</td></tr>
 <tr class="separator:ad67787539c06f56ed809b53a55900a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530978f5cb8e83fd2b5d669b8436265b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a530978f5cb8e83fd2b5d669b8436265b">lit_4361</a> = 1.0f</td></tr>
-<tr class="separator:a530978f5cb8e83fd2b5d669b8436265b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f5375731fa058c62b619367a3a1ab9c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a2f5375731fa058c62b619367a3a1ab9c">stringBase_80379D80</a> = &quot;？？？&quot;</td></tr>
 <tr class="separator:a2f5375731fa058c62b619367a3a1ab9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de258a632e5078796c522aee43dee25"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a9de258a632e5078796c522aee43dee25">stringBase_80379D87</a> = &quot;ALL&quot;</td></tr>
-<tr class="separator:a9de258a632e5078796c522aee43dee25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29ae39ec4d76d1180ca67cc6050e49a1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a29ae39ec4d76d1180ca67cc6050e49a1">stringBase_80379D8B</a> = &quot;DEFAULT_TALK&quot;</td></tr>
 <tr class="separator:a29ae39ec4d76d1180ca67cc6050e49a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43adc60db66b2cff21970111ccedbfff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a43adc60db66b2cff21970111ccedbfff">stringBase_80379D98</a> = &quot;MHINT_TALK&quot;</td></tr>
 <tr class="separator:a43adc60db66b2cff21970111ccedbfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acca532c0902520a5fd0779bb0bfa0610"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#acca532c0902520a5fd0779bb0bfa0610">stringBase_80379DA3</a> = &quot;DEFAULT_TALK_XY&quot;</td></tr>
 <tr class="separator:acca532c0902520a5fd0779bb0bfa0610"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d268dc9695b1f7108095ea82538d1e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#ae5d268dc9695b1f7108095ea82538d1e">lit_4719</a> [14]</td></tr>
-<tr class="separator:ae5d268dc9695b1f7108095ea82538d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae432fd9ca86a7b336b8561667586de"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#afae432fd9ca86a7b336b8561667586de">stringBase_80379DC3</a> = &quot;$0&quot;</td></tr>
-<tr class="separator:afae432fd9ca86a7b336b8561667586de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbb4f724c8ba60c4bd0d099c1078ae7e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#acbb4f724c8ba60c4bd0d099c1078ae7e">lit_4904</a> = 1.0f / 10.0f</td></tr>
-<tr class="separator:acbb4f724c8ba60c4bd0d099c1078ae7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a975257037ff9be7c54ea77a25b1b85c6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a975257037ff9be7c54ea77a25b1b85c6">lit_5013</a> = -1.0f / 20.0f</td></tr>
 <tr class="separator:a975257037ff9be7c54ea77a25b1b85c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dfe818acd927e4eed72dae05baf8762"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__event_8cpp.html#a1dfe818acd927e4eed72dae05baf8762">stringBase_80379DC6</a> = &quot;GIVEMAN&quot;</td></tr>
@@ -981,6 +959,56 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ade17a49da1db78afdaa311e23e8474e5" name="ade17a49da1db78afdaa311e23e8474e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade17a49da1db78afdaa311e23e8474e5">&#9670;&nbsp;</a></span>dComIfGp_getStage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdStage__stageDt__c.html">dStage_stageDt_c</a> * dComIfGp_getStage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5edcd23dbadd07e86b4a713eb1d94473" name="a5edcd23dbadd07e86b4a713eb1d94473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5edcd23dbadd07e86b4a713eb1d94473">&#9670;&nbsp;</a></span>dComIfGs_getLife()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> dComIfGs_getLife </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aba51fcc8307a3f11c914d61a98c514ad" name="aba51fcc8307a3f11c914d61a98c514ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba51fcc8307a3f11c914d61a98c514ad">&#9670;&nbsp;</a></span>dComIfGs_onVisitedRoom__Fi()</h2>
 
@@ -1049,8 +1077,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a10618c184c491ba2b0f95d26f4b8332b" name="a10618c184c491ba2b0f95d26f4b8332b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10618c184c491ba2b0f95d26f4b8332b">&#9670;&nbsp;</a></span>dEv_defaultSkipProc()</h2>
+<a id="a10fa63a96a3a2ffb92e4d9ff8ca17d86" name="a10fa63a96a3a2ffb92e4d9ff8ca17d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10fa63a96a3a2ffb92e4d9ff8ca17d86">&#9670;&nbsp;</a></span>dEv_defaultSkipProc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1094,14 +1122,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adb2941fc0c5a652c5676f723ed1115d2" name="adb2941fc0c5a652c5676f723ed1115d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb2941fc0c5a652c5676f723ed1115d2">&#9670;&nbsp;</a></span>dEv_defaultSkipStb()</h2>
+<a id="a126b8d10a874f385803f9efe8d642640" name="a126b8d10a874f385803f9efe8d642640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126b8d10a874f385803f9efe8d642640">&#9670;&nbsp;</a></span>dEv_defaultSkipStb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm int dEv_defaultSkipStb </td>
+          <td class="memname">int dEv_defaultSkipStb </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -1139,14 +1167,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a88bc939b72e5011dd13542c414592e2b" name="a88bc939b72e5011dd13542c414592e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88bc939b72e5011dd13542c414592e2b">&#9670;&nbsp;</a></span>dEv_defaultSkipZev()</h2>
+<a id="a2ef6d1a3a6b88ef75d0c48cc9d611a87" name="a2ef6d1a3a6b88ef75d0c48cc9d611a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ef6d1a3a6b88ef75d0c48cc9d611a87">&#9670;&nbsp;</a></span>dEv_defaultSkipZev()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm int dEv_defaultSkipZev </td>
+          <td class="memname">int dEv_defaultSkipZev </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -1184,8 +1212,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a88a04f5aae8c3f6300eead0fcb1522" name="a7a88a04f5aae8c3f6300eead0fcb1522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a88a04f5aae8c3f6300eead0fcb1522">&#9670;&nbsp;</a></span>dEv_noFinishSkipProc()</h2>
+<a id="a01053a51ff2aab5d3abdda25ba59752f" name="a01053a51ff2aab5d3abdda25ba59752f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01053a51ff2aab5d3abdda25ba59752f">&#9670;&nbsp;</a></span>dEv_noFinishSkipProc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2510,89 +2538,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a530978f5cb8e83fd2b5d669b8436265b" name="a530978f5cb8e83fd2b5d669b8436265b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a530978f5cb8e83fd2b5d669b8436265b">&#9670;&nbsp;</a></span>lit_4361</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4361 = 1.0f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae5d268dc9695b1f7108095ea82538d1e" name="ae5d268dc9695b1f7108095ea82538d1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5d268dc9695b1f7108095ea82538d1e">&#9670;&nbsp;</a></span>lit_4719</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* lit_4719[14]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x70),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0xB8),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x94),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0xDC),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0xF4),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x118),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x13C),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x13C),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x184),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x184),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x160),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0xB8),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x184),</div>
-<div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a>) + 0x184),</div>
-<div class="line">}</div>
-<div class="ttc" id="ad__event_8cpp_html_a7021d7d4aff7a9a189573a573a234d1c"><div class="ttname"><a href="d__event_8cpp.html#a7021d7d4aff7a9a189573a573a234d1c">entry__14dEvt_control_cFv</a></div><div class="ttdeci">void entry__14dEvt_control_cFv()</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acbb4f724c8ba60c4bd0d099c1078ae7e" name="acbb4f724c8ba60c4bd0d099c1078ae7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbb4f724c8ba60c4bd0d099c1078ae7e">&#9670;&nbsp;</a></span>lit_4904</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4904 = 1.0f / 10.0f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a975257037ff9be7c54ea77a25b1b85c6" name="a975257037ff9be7c54ea77a25b1b85c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a975257037ff9be7c54ea77a25b1b85c6">&#9670;&nbsp;</a></span>lit_5013</h2>
 
@@ -2729,28 +2674,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9de258a632e5078796c522aee43dee25" name="a9de258a632e5078796c522aee43dee25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9de258a632e5078796c522aee43dee25">&#9670;&nbsp;</a></span>stringBase_80379D87</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80379D87 = &quot;ALL&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a29ae39ec4d76d1180ca67cc6050e49a1" name="a29ae39ec4d76d1180ca67cc6050e49a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29ae39ec4d76d1180ca67cc6050e49a1">&#9670;&nbsp;</a></span>stringBase_80379D8B</h2>
 
@@ -2806,28 +2729,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80379DA3 = &quot;DEFAULT_TALK_XY&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afae432fd9ca86a7b336b8561667586de" name="afae432fd9ca86a7b336b8561667586de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afae432fd9ca86a7b336b8561667586de">&#9670;&nbsp;</a></span>stringBase_80379DC3</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_80379DC3 = &quot;$0&quot;</td>
         </tr>
       </table>
   </td>

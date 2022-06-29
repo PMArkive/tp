@@ -100,7 +100,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ad7223c9ab1f27f5443a1149a7828f14c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14c">EConsoleType</a> { <a class="el" href="structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14ca5a1d3ce2dda80f2c08ceea81e2274ee3">UNK_TYPE2</a> = 2
+<tr class="memitem:ad7223c9ab1f27f5443a1149a7828f14c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14c">EConsoleType</a> { <a class="el" href="structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14ca788e695022b156b8834e93221caa7a30">CONSOLE_TYPE_0</a> = 0
+, <a class="el" href="structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14cabb004cfbeba10c1a587b3a3458bb5ad2">CONSOLE_TYPE_1</a> = 1
+, <a class="el" href="structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14ca313d247055530a5b3b0211ebccb9ba25">CONSOLE_TYPE_2</a> = 2
  }</td></tr>
 <tr class="separator:ad7223c9ab1f27f5443a1149a7828f14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6932adf6a81c4c2d4f2dd8f76dc3f0a1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1">OutputFlag</a> { <a class="el" href="structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a07e56d0ccc9f35caf69a2461052dbaab">OUTPUT_NONE</a>
@@ -165,6 +167,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a0d533e39556e69ccfcf56367b15487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e69ae391a5eb3e057d51b5211d86b6b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a0e69ae391a5eb3e057d51b5211d86b6b">diffIndex</a> (int param_0, int param_1) const</td></tr>
 <tr class="separator:a0e69ae391a5eb3e057d51b5211d86b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7367277aecf51e39f2d6298f71b38a7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a7367277aecf51e39f2d6298f71b38a7e">nextIndex</a> (int param_0) const</td></tr>
+<tr class="separator:a7367277aecf51e39f2d6298f71b38a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaafbacaeefa15bee940330d11e93de88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#aaafbacaeefa15bee940330d11e93de88">scrollToLastLine</a> ()</td></tr>
 <tr class="separator:aaafbacaeefa15bee940330d11e93de88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cf15dca3caf02227ff71636c6f01c5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a0cf15dca3caf02227ff71636c6f01c5d">scrollToFirstLine</a> ()</td></tr>
@@ -181,10 +185,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a48d63b4a1a0d296f1f9b1664d84289b8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTConsole.html">JUTConsole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a48d63b4a1a0d296f1f9b1664d84289b8">create</a> (unsigned int, void *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
-<tr class="separator:a48d63b4a1a0d296f1f9b1664d84289b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad8878cf1b2ebb2bac7e6db15d21a706"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTConsole.html">JUTConsole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#aad8878cf1b2ebb2bac7e6db15d21a706">create</a> (unsigned int, unsigned int, <a class="el" href="structJKRHeap.html">JKRHeap</a> *)</td></tr>
-<tr class="separator:aad8878cf1b2ebb2bac7e6db15d21a706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70fa8fd9cba24965291a0845bcd5458"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTConsole.html">JUTConsole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#ac70fa8fd9cba24965291a0845bcd5458">create</a> (unsigned int, void *, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)</td></tr>
+<tr class="separator:ac70fa8fd9cba24965291a0845bcd5458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6444a94214c764e1061ec67e5c95a637"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structJUTConsole.html">JUTConsole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a6444a94214c764e1061ec67e5c95a637">create</a> (unsigned int, unsigned int, <a class="el" href="structJKRHeap.html">JKRHeap</a> *)</td></tr>
+<tr class="separator:a6444a94214c764e1061ec67e5c95a637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0a65b653911fd3f7b4241e30510fa84"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#aa0a65b653911fd3f7b4241e30510fa84">getObjectSizeFromBufferSize</a> (unsigned int, unsigned int)</td></tr>
 <tr class="separator:aa0a65b653911fd3f7b4241e30510fa84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad99534c74e7daea6c582d73c38bd008"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#aad99534c74e7daea6c582d73c38bd008">getLineFromObjectSize</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, unsigned int)</td></tr>
@@ -196,8 +200,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6205d30a7245ec003de3121872499bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0b07b9199e40b45cc5e7646a53361e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a9f0b07b9199e40b45cc5e7646a53361e">field_0x20</a></td></tr>
 <tr class="separator:a9f0b07b9199e40b45cc5e7646a53361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66d6db9af617ec06846b1347ae5ece9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a66d6db9af617ec06846b1347ae5ece9f">field_0x24</a></td></tr>
-<tr class="separator:a66d6db9af617ec06846b1347ae5ece9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dc1cedae86eea26bfcf5e3cbd00b3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a31dc1cedae86eea26bfcf5e3cbd00b3d">mMaxLines</a></td></tr>
+<tr class="separator:a31dc1cedae86eea26bfcf5e3cbd00b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fb26d8d1426d958e1f29026babbfc80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a8fb26d8d1426d958e1f29026babbfc80">mBuf</a></td></tr>
 <tr class="separator:a8fb26d8d1426d958e1f29026babbfc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a709ceee87e414198c336bd1011210599"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTConsole.html#a709ceee87e414198c336bd1011210599">field_0x2c</a></td></tr>
@@ -260,7 +264,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad7223c9ab1f27f5443a1149a7828f14ca5a1d3ce2dda80f2c08ceea81e2274ee3" name="ad7223c9ab1f27f5443a1149a7828f14ca5a1d3ce2dda80f2c08ceea81e2274ee3"></a>UNK_TYPE2&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad7223c9ab1f27f5443a1149a7828f14ca788e695022b156b8834e93221caa7a30" name="ad7223c9ab1f27f5443a1149a7828f14ca788e695022b156b8834e93221caa7a30"></a>CONSOLE_TYPE_0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad7223c9ab1f27f5443a1149a7828f14cabb004cfbeba10c1a587b3a3458bb5ad2" name="ad7223c9ab1f27f5443a1149a7828f14cabb004cfbeba10c1a587b3a3458bb5ad2"></a>CONSOLE_TYPE_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad7223c9ab1f27f5443a1149a7828f14ca313d247055530a5b3b0211ebccb9ba25" name="ad7223c9ab1f27f5443a1149a7828f14ca313d247055530a5b3b0211ebccb9ba25"></a>CONSOLE_TYPE_2&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -301,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>maxLines</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -379,8 +385,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aad8878cf1b2ebb2bac7e6db15d21a706" name="aad8878cf1b2ebb2bac7e6db15d21a706"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad8878cf1b2ebb2bac7e6db15d21a706">&#9670;&nbsp;</a></span>create() <span class="overload">[1/2]</span></h2>
+<a id="a6444a94214c764e1061ec67e5c95a637" name="a6444a94214c764e1061ec67e5c95a637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6444a94214c764e1061ec67e5c95a637">&#9670;&nbsp;</a></span>create() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,7 +395,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">asm <a class="el" href="structJUTConsole.html">JUTConsole</a> * JUTConsole::create </td>
+          <td class="memname"><a class="el" href="structJUTConsole.html">JUTConsole</a> * JUTConsole::create </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -398,13 +404,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>maxLines</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structJKRHeap.html">JKRHeap</a> *&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>p_heap</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -421,8 +427,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a48d63b4a1a0d296f1f9b1664d84289b8" name="a48d63b4a1a0d296f1f9b1664d84289b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48d63b4a1a0d296f1f9b1664d84289b8">&#9670;&nbsp;</a></span>create() <span class="overload">[2/2]</span></h2>
+<a id="ac70fa8fd9cba24965291a0845bcd5458" name="ac70fa8fd9cba24965291a0845bcd5458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70fa8fd9cba24965291a0845bcd5458">&#9670;&nbsp;</a></span>create() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,7 +437,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">asm <a class="el" href="structJUTConsole.html">JUTConsole</a> * JUTConsole::create </td>
+          <td class="memname"><a class="el" href="structJUTConsole.html">JUTConsole</a> * JUTConsole::create </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -440,13 +446,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>buffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>bufferSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -573,7 +579,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="types_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> JUTConsole::getLineFromObjectSize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_0</em>, </td>
+          <td class="paramname"><em>bufferSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -658,7 +664,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>param_1</em>&#160;</td>
+          <td class="paramname"><em>maxLines</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -792,6 +798,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a7367277aecf51e39f2d6298f71b38a7e" name="a7367277aecf51e39f2d6298f71b38a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7367277aecf51e39f2d6298f71b38a7e">&#9670;&nbsp;</a></span>nextIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int JUTConsole::nextIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9d45f1147d98dbfda96e1a8b62df88dd" name="a9d45f1147d98dbfda96e1a8b62df88dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d45f1147d98dbfda96e1a8b62df88dd">&#9670;&nbsp;</a></span>print() <span class="overload">[1/2]</span></h2>
 
@@ -894,7 +926,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void JUTConsole::scroll </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td class="paramname"><em>scrollAmnt</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1176,28 +1208,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTConsole::field_0x20</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66d6db9af617ec06846b1347ae5ece9f" name="a66d6db9af617ec06846b1347ae5ece9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66d6db9af617ec06846b1347ae5ece9f">&#9670;&nbsp;</a></span>field_0x24</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTConsole::field_0x24</td>
         </tr>
       </table>
   </td>
@@ -1572,6 +1582,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structJGadget_1_1TLinkListNode.html">JGadget::TLinkListNode</a> JUTConsole::mListNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31dc1cedae86eea26bfcf5e3cbd00b3d" name="a31dc1cedae86eea26bfcf5e3cbd00b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31dc1cedae86eea26bfcf5e3cbd00b3d">&#9670;&nbsp;</a></span>mMaxLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> JUTConsole::mMaxLines</td>
         </tr>
       </table>
   </td>

@@ -82,6 +82,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="d__msg__object_8h_source.html">d/msg/d_msg_object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__msg__out__font_8h_source.html">d/msg/d_msg_out_font.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="binary_8h_source.html">JSystem/JGadget/binary.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
@@ -116,15 +117,8 @@ $(function() {
 <code>#include &quot;asm/d/msg/d_msg_object/getStatusLocal__12dMsgObject_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/delete_screen__12dMsgObject_cFb.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/isSend__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/readMessageGroupLocal__12dMsgObject_cFPP25mDoDvdThd_mountXArchive_c.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/changeFlowGroupLocal__12dMsgObject_cFl.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/demoMessageGroupLocal__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/endFlowGroupLocal__12dMsgObject_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/changeGroupLocal__12dMsgObject_cFs.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/getStringLocal__12dMsgObject_cFUlP10J2DTextBoxP10J2DTextBoxP7JUTFontP10COutFont_cPcPcPcPs.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/isGetItemMessage__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/isKanbanMessage__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/isHowlMessage__12dMsgObject_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/isMidonaMessage__12dMsgObject_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/isMidonaNormalTalkWait__12dMsgObject_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/isMidonaTalkWait__12dMsgObject_cFv.s&quot;</code><br />
@@ -218,12 +212,6 @@ $(function() {
 <code>#include &quot;asm/d/msg/d_msg_object/getSelectWord__12dMsgObject_cFi.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/setSelectWordFlag__12dMsgObject_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/getSelectWordFlag__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/isHowlHearingMode__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/getSelectBombBagID__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/getSelectBombPrice__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/setEquipBombInfo__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/getItemEquipButton__12dMsgObject_cFv.s&quot;</code><br />
-<code>#include &quot;asm/d/msg/d_msg_object/setSelectCancelPos__12dMsgObject_cFUc.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/dMsgObject_getTotalPrice__Fv.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/dMsgObject_setTotalPrice__FUs.s&quot;</code><br />
 <code>#include &quot;asm/d/msg/d_msg_object/dMsgObject_addTotalPrice__Fs.s&quot;</code><br />
@@ -242,7 +230,7 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgString__c.html">dMsgString_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgString__c.html">dMsgString_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnTree__c.html">dMsgScrnTree_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,17 +248,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnHowl__c.html">dMsgScrnHowl_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnBoss__c.html">dMsgScrnBoss_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnBoss__c.html">dMsgScrnBoss_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnBase__c.html">dMsgScrnBase_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnBase__c.html">dMsgScrnBase_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCOutFont__c.html">COutFont_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgObject__HowlHIO__c.html">dMsgObject_HowlHIO_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgObject__HIO__c.html">dMsgObject_HIO_c</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdDemo__c.html">dDemo_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdDemo__c.html">dDemo_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -591,10 +573,10 @@ Functions</h2></td></tr>
 <tr class="separator:ac2ceac917e2a4c376fe5bf038ef77b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a37ba4fb3d5f528f5e1be445ac26aa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a5a37ba4fb3d5f528f5e1be445ac26aa8">__sinit_d_msg_object_cpp</a> ()</td></tr>
 <tr class="separator:a5a37ba4fb3d5f528f5e1be445ac26aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fa5f50cd04fae8aa576bbd3ab84bb48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a8fa5f50cd04fae8aa576bbd3ab84bb48">__dt__20dMsgObject_HowlHIO_cFv</a> ()</td></tr>
-<tr class="separator:a8fa5f50cd04fae8aa576bbd3ab84bb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab8c9d15748e194743a02a1e21dff901"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#aab8c9d15748e194743a02a1e21dff901">__dt__16dMsgObject_HIO_cFv</a> ()</td></tr>
-<tr class="separator:aab8c9d15748e194743a02a1e21dff901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d604ac2165822a1f633befeb233f403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a3d604ac2165822a1f633befeb233f403">__dt__20dMsgObject_HowlHIO_cFv</a> ()</td></tr>
+<tr class="separator:a3d604ac2165822a1f633befeb233f403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065754036c8493623cd2098f9e8c3586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a065754036c8493623cd2098f9e8c3586">__dt__16dMsgObject_HIO_cFv</a> ()</td></tr>
+<tr class="separator:a065754036c8493623cd2098f9e8c3586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5645000dd9e61e3cf05c63c313e2b722"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a5645000dd9e61e3cf05c63c313e2b722">exec__14dMsgScrnBase_cFv</a> ()</td></tr>
 <tr class="separator:a5645000dd9e61e3cf05c63c313e2b722"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3986277bb3a969c8b6761330746650ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a3986277bb3a969c8b6761330746650ce">setSelectRubyString__14dMsgScrnBase_cFPcPcPc</a> ()</td></tr>
@@ -619,8 +601,8 @@ Functions</h2></td></tr>
 <tr class="separator:a02db5ea85af8a6aa104059a0292ba1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b3270fb86848f4108150a0794a6672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a95b3270fb86848f4108150a0794a6672">dotAnimeInit__14dMsgScrnBase_cFv</a> ()</td></tr>
 <tr class="separator:a95b3270fb86848f4108150a0794a6672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ffaa0b76b071e2460ce123e62e65282"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a4ffaa0b76b071e2460ce123e62e65282">setActorPos__19jmessage_tReferenceF4cXyz</a> ()</td></tr>
-<tr class="separator:a4ffaa0b76b071e2460ce123e62e65282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfea3049db33ed559d1c6b83b9f89318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#acfea3049db33ed559d1c6b83b9f89318">setActorPos__19jmessage_tReferenceF4cXyz</a> ()</td></tr>
+<tr class="separator:acfea3049db33ed559d1c6b83b9f89318"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e10906feb049f20c64bf8cd5b25d5bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a1e10906feb049f20c64bf8cd5b25d5bc">mDoExt_setCurrentHeap__FP7JKRHeap</a> ()</td></tr>
 <tr class="separator:a1e10906feb049f20c64bf8cd5b25d5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af85884d093974be3f84c88a504826f71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#af85884d093974be3f84c88a504826f71">mDoExt_getMesgFont__Fv</a> ()</td></tr>
@@ -799,6 +781,8 @@ Functions</h2></td></tr>
 <tr class="separator:a355b4ba11cd5976063b82041ba4fd547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e74e2cbb575e43d4757de5993b24a8e"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a2e74e2cbb575e43d4757de5993b24a8e">dMsgObject_searchSSItem</a> (void *param_0, void *param_1)</td></tr>
 <tr class="separator:a2e74e2cbb575e43d4757de5993b24a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade17a49da1db78afdaa311e23e8474e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdStage__stageDt__c.html">dStage_stageDt_c</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#ade17a49da1db78afdaa311e23e8474e5">dComIfGp_getStage</a> ()</td></tr>
+<tr class="separator:ade17a49da1db78afdaa311e23e8474e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f808a4293426f1204316390e3864a8e"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a2f808a4293426f1204316390e3864a8e">dMsgObject_Draw</a> (<a class="el" href="structdMsgObject__c.html">dMsgObject_c</a> *param_0)</td></tr>
 <tr class="separator:a2f808a4293426f1204316390e3864a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fb1d34f74ff56b89dfd5568df9f1b21"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a6fb1d34f74ff56b89dfd5568df9f1b21">dMsgObject_Execute</a> (<a class="el" href="structdMsgObject__c.html">dMsgObject_c</a> *param_0)</td></tr>
@@ -856,8 +840,8 @@ Variables</h2></td></tr>
 <tr class="separator:a01a5533bab8aba762d0138bca966aeff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad67787539c06f56ed809b53a55900a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#ad67787539c06f56ed809b53a55900a46">mAudioMgrPtr__10Z2AudioMgr</a> [4+4]</td></tr>
 <tr class="separator:ad67787539c06f56ed809b53a55900a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea77e33502f4561126d48288d30b825"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a7ea77e33502f4561126d48288d30b825">s_groupID</a> [2+6]</td></tr>
-<tr class="separator:a7ea77e33502f4561126d48288d30b825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bd09fb66ce32fac5fb3e04a8a339081"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a5bd09fb66ce32fac5fb3e04a8a339081">s_groupID</a></td></tr>
+<tr class="separator:a5bd09fb66ce32fac5fb3e04a8a339081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5a748619aa4085b1fba38a296eb6916"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#ad5a748619aa4085b1fba38a296eb6916">lit_4486</a> [25]</td></tr>
 <tr class="separator:ad5a748619aa4085b1fba38a296eb6916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b3eb3d23ef72d546ad1a07ba672c9ce"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a0b3eb3d23ef72d546ad1a07ba672c9ce">lit_5875</a> [20]</td></tr>
@@ -970,12 +954,6 @@ Variables</h2></td></tr>
 <tr class="separator:ab1851f28cd6b5554f7bc8fab28d57e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6fad73357c2d3fffd46cdda5dbaff69"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#af6fad73357c2d3fffd46cdda5dbaff69">lit_5950</a> [1+1]</td></tr>
 <tr class="separator:af6fad73357c2d3fffd46cdda5dbaff69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab4f4e0772b537c9904ac27e0f2767d9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#aab4f4e0772b537c9904ac27e0f2767d9">stringBase_803996CF</a> = &quot;/res/Msgus/bmgres%d.arc&quot;</td></tr>
-<tr class="separator:aab4f4e0772b537c9904ac27e0f2767d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae77ffad989a246544dc5127557dfc64b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#ae77ffad989a246544dc5127557dfc64b">pad_803996E7</a> = &quot;&quot;</td></tr>
-<tr class="separator:ae77ffad989a246544dc5127557dfc64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0853af4b1f9393f59b2789b3b301df0f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__object_8cpp.html#a0853af4b1f9393f59b2789b3b301df0f">arcName</a> [22+6]</td></tr>
-<tr class="separator:a0853af4b1f9393f59b2789b3b301df0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a58dbf4d2335fdc0e2065200543f5e4ea" name="a58dbf4d2335fdc0e2065200543f5e4ea"></a>
@@ -1352,14 +1330,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aab8c9d15748e194743a02a1e21dff901" name="aab8c9d15748e194743a02a1e21dff901"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab8c9d15748e194743a02a1e21dff901">&#9670;&nbsp;</a></span>__dt__16dMsgObject_HIO_cFv()</h2>
+<a id="a065754036c8493623cd2098f9e8c3586" name="a065754036c8493623cd2098f9e8c3586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a065754036c8493623cd2098f9e8c3586">&#9670;&nbsp;</a></span>__dt__16dMsgObject_HIO_cFv()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __dt__16dMsgObject_HIO_cFv </td>
+          <td class="memname">asm void __dt__16dMsgObject_HIO_cFv </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1369,14 +1347,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fa5f50cd04fae8aa576bbd3ab84bb48" name="a8fa5f50cd04fae8aa576bbd3ab84bb48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fa5f50cd04fae8aa576bbd3ab84bb48">&#9670;&nbsp;</a></span>__dt__20dMsgObject_HowlHIO_cFv()</h2>
+<a id="a3d604ac2165822a1f633befeb233f403" name="a3d604ac2165822a1f633befeb233f403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d604ac2165822a1f633befeb233f403">&#9670;&nbsp;</a></span>__dt__20dMsgObject_HowlHIO_cFv()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __dt__20dMsgObject_HowlHIO_cFv </td>
+          <td class="memname">asm void __dt__20dMsgObject_HowlHIO_cFv </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1909,6 +1887,31 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade17a49da1db78afdaa311e23e8474e5" name="ade17a49da1db78afdaa311e23e8474e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade17a49da1db78afdaa311e23e8474e5">&#9670;&nbsp;</a></span>dComIfGp_getStage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdStage__stageDt__c.html">dStage_stageDt_c</a> * dComIfGp_getStage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -5033,14 +5036,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ffaa0b76b071e2460ce123e62e65282" name="a4ffaa0b76b071e2460ce123e62e65282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ffaa0b76b071e2460ce123e62e65282">&#9670;&nbsp;</a></span>setActorPos__19jmessage_tReferenceF4cXyz()</h2>
+<a id="acfea3049db33ed559d1c6b83b9f89318" name="acfea3049db33ed559d1c6b83b9f89318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfea3049db33ed559d1c6b83b9f89318">&#9670;&nbsp;</a></span>setActorPos__19jmessage_tReferenceF4cXyz()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void setActorPos__19jmessage_tReferenceF4cXyz </td>
+          <td class="memname">asm void setActorPos__19jmessage_tReferenceF4cXyz </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -5906,9 +5909,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__object_8cpp.html#aab8c9d15748e194743a02a1e21dff901">__dt__16dMsgObject_HIO_cFv</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__object_8cpp.html#a065754036c8493623cd2098f9e8c3586">__dt__16dMsgObject_HIO_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__msg__object_8cpp_html_aab8c9d15748e194743a02a1e21dff901"><div class="ttname"><a href="d__msg__object_8cpp.html#aab8c9d15748e194743a02a1e21dff901">__dt__16dMsgObject_HIO_cFv</a></div><div class="ttdeci">void __dt__16dMsgObject_HIO_cFv()</div></div>
+<div class="ttc" id="ad__msg__object_8cpp_html_a065754036c8493623cd2098f9e8c3586"><div class="ttname"><a href="d__msg__object_8cpp.html#a065754036c8493623cd2098f9e8c3586">__dt__16dMsgObject_HIO_cFv</a></div><div class="ttdeci">void __dt__16dMsgObject_HIO_cFv()</div><div class="ttdef"><b>Definition:</b> d_msg_object.cpp:2177</div></div>
 <div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> types.h:34</div></div>
 </div><!-- fragment -->
 </div>
@@ -5935,32 +5938,10 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__object_8cpp.html#a8fa5f50cd04fae8aa576bbd3ab84bb48">__dt__20dMsgObject_HowlHIO_cFv</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__object_8cpp.html#a3d604ac2165822a1f633befeb233f403">__dt__20dMsgObject_HowlHIO_cFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__msg__object_8cpp_html_a8fa5f50cd04fae8aa576bbd3ab84bb48"><div class="ttname"><a href="d__msg__object_8cpp.html#a8fa5f50cd04fae8aa576bbd3ab84bb48">__dt__20dMsgObject_HowlHIO_cFv</a></div><div class="ttdeci">void __dt__20dMsgObject_HowlHIO_cFv()</div></div>
+<div class="ttc" id="ad__msg__object_8cpp_html_a3d604ac2165822a1f633befeb233f403"><div class="ttname"><a href="d__msg__object_8cpp.html#a3d604ac2165822a1f633befeb233f403">__dt__20dMsgObject_HowlHIO_cFv</a></div><div class="ttdeci">void __dt__20dMsgObject_HowlHIO_cFv()</div><div class="ttdef"><b>Definition:</b> d_msg_object.cpp:2166</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a0853af4b1f9393f59b2789b3b301df0f" name="a0853af4b1f9393f59b2789b3b301df0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0853af4b1f9393f59b2789b3b301df0f">&#9670;&nbsp;</a></span>arcName</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> arcName[22+6]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="a3e768031c6c747042d1fd16d3b026244" name="a3e768031c6c747042d1fd16d3b026244"></a>
@@ -6064,14 +6045,14 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    (<span class="keywordtype">void</span>*)0xFFFFFFFD, (<span class="keywordtype">void</span>*)0x000CFFFD,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)0x03130000, (<span class="keywordtype">void</span>*)&amp;<a class="code hl_variable" href="d__a__obj__item_8cpp.html#a3de3a374119e8432d211e29713bce0ae">g_fpcLf_Method</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)0x03130000, (<span class="keywordtype">void</span>*)&amp;<a class="code hl_variable" href="d__a__no__chg__room_8cpp.html#a3de3a374119e8432d211e29713bce0ae">g_fpcLf_Method</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)0x000004D8, (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,       (<span class="keywordtype">void</span>*)&amp;<a class="code hl_variable" href="d__msg__object_8cpp.html#a666d770305139fa2ecf12bb31f02d8e5">g_fopMsg_Method</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)0x03020000, (<span class="keywordtype">void</span>*)&amp;<a class="code hl_variable" href="d__msg__object_8cpp.html#ab3c7296a05a95d63f7d2bbf425762bf4">l_dMsgObject_Method</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__a__obj__item_8cpp_html_a3de3a374119e8432d211e29713bce0ae"><div class="ttname"><a href="d__a__obj__item_8cpp.html#a3de3a374119e8432d211e29713bce0ae">g_fpcLf_Method</a></div><div class="ttdeci">void * g_fpcLf_Method[5+1]</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:71</div></div>
+<div class="ttc" id="ad__a__no__chg__room_8cpp_html_a3de3a374119e8432d211e29713bce0ae"><div class="ttname"><a href="d__a__no__chg__room_8cpp.html#a3de3a374119e8432d211e29713bce0ae">g_fpcLf_Method</a></div><div class="ttdeci">void * g_fpcLf_Method[5+1]</div><div class="ttdef"><b>Definition:</b> f_pc_leaf.cpp:71</div></div>
 <div class="ttc" id="ad__msg__object_8cpp_html_a666d770305139fa2ecf12bb31f02d8e5"><div class="ttname"><a href="d__msg__object_8cpp.html#a666d770305139fa2ecf12bb31f02d8e5">g_fopMsg_Method</a></div><div class="ttdeci">void * g_fopMsg_Method[5+1]</div></div>
-<div class="ttc" id="ad__msg__object_8cpp_html_ab3c7296a05a95d63f7d2bbf425762bf4"><div class="ttname"><a href="d__msg__object_8cpp.html#ab3c7296a05a95d63f7d2bbf425762bf4">l_dMsgObject_Method</a></div><div class="ttdeci">static SECTION_DATA void * l_dMsgObject_Method[5]</div><div class="ttdef"><b>Definition:</b> d_msg_object.cpp:453</div></div>
+<div class="ttc" id="ad__msg__object_8cpp_html_ab3c7296a05a95d63f7d2bbf425762bf4"><div class="ttname"><a href="d__msg__object_8cpp.html#ab3c7296a05a95d63f7d2bbf425762bf4">l_dMsgObject_Method</a></div><div class="ttdeci">static SECTION_DATA void * l_dMsgObject_Method[5]</div><div class="ttdef"><b>Definition:</b> d_msg_object.cpp:440</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -7124,8 +7105,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae77ffad989a246544dc5127557dfc64b" name="ae77ffad989a246544dc5127557dfc64b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae77ffad989a246544dc5127557dfc64b">&#9670;&nbsp;</a></span>pad_803996E7</h2>
+<a id="a5bd09fb66ce32fac5fb3e04a8a339081" name="a5bd09fb66ce32fac5fb3e04a8a339081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bd09fb66ce32fac5fb3e04a8a339081">&#9670;&nbsp;</a></span>s_groupID</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7134,29 +7115,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const pad_803996E7 = &quot;&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ea77e33502f4561126d48288d30b825" name="a7ea77e33502f4561126d48288d30b825"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ea77e33502f4561126d48288d30b825">&#9670;&nbsp;</a></span>s_groupID</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> s_groupID[2+6]</td>
+          <td class="memname"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> s_groupID</td>
         </tr>
       </table>
   </td>
@@ -7413,28 +7372,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_803996CE = &quot;&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aab4f4e0772b537c9904ac27e0f2767d9" name="aab4f4e0772b537c9904ac27e0f2767d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab4f4e0772b537c9904ac27e0f2767d9">&#9670;&nbsp;</a></span>stringBase_803996CF</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> char const* const stringBase_803996CF = &quot;/res/Msgus/bmgres%d.arc&quot;</td>
         </tr>
       </table>
   </td>

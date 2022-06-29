@@ -13,9 +13,11 @@ var searchData=
   ['emitter_5fc_10',['emitter_c',['../classdPa__control__c_1_1level__c_1_1emitter__c.html',1,'dPa_control_c::level_c']]],
   ['emountdirection_11',['EMountDirection',['../structJKRArchive_1_1EMountDirection.html',1,'JKRArchive']]],
   ['emountmode_12',['EMountMode',['../structJKRArchive_1_1EMountMode.html',1,'JKRArchive']]],
-  ['entry_13',['Entry',['../structResNTAB_1_1Entry.html',1,'ResNTAB']]],
-  ['erumble_14',['ERumble',['../structJUTGamePad_1_1CRumble_1_1ERumble.html',1,'JUTGamePad::CRumble']]],
-  ['estatus_15',['EStatus',['../structJUTFader_1_1EStatus.html',1,'JUTFader']]],
-  ['event_5fbinary_5fdata_5fheader_16',['event_binary_data_header',['../structevent__binary__data__header.html',1,'']]],
-  ['exception_17',['exception',['../structexception.html',1,'']]]
+  ['enemytable_13',['EnemyTable',['../structEnemyTable.html',1,'']]],
+  ['enemytablelist_14',['EnemyTableList',['../structEnemyTableList.html',1,'']]],
+  ['entry_15',['Entry',['../structResNTAB_1_1Entry.html',1,'ResNTAB']]],
+  ['erumble_16',['ERumble',['../structJUTGamePad_1_1CRumble_1_1ERumble.html',1,'JUTGamePad::CRumble']]],
+  ['estatus_17',['EStatus',['../structJUTFader_1_1EStatus.html',1,'JUTFader']]],
+  ['event_5fbinary_5fdata_5fheader_18',['event_binary_data_header',['../structevent__binary__data__header.html',1,'']]],
+  ['exception_19',['exception',['../structexception.html',1,'']]]
 ];
