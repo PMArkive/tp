@@ -82,6 +82,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Z2AudioMgr_8h_source.html">Z2AudioLib/Z2AudioMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Z2EnvSeMgr_8h_source.html">Z2AudioLib/Z2EnvSeMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for m_Do_audio.h:</div>
@@ -137,6 +138,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5f3572137c63ee5a1dd0711f8393c1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c36b4b8a4dd6b6b1f87f59e3a1afd73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#a7c36b4b8a4dd6b6b1f87f59e3a1afd73">mDoAud_seStart</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> sfx_id, const <a class="el" href="structVec.html">Vec</a> *param_1, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_2, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> param_3)</td></tr>
 <tr class="separator:a7c36b4b8a4dd6b6b1f87f59e3a1afd73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b2d97e76400c9c8af8354172a62c0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#a84b2d97e76400c9c8af8354172a62c0d">i_mDoAud_seStartLevel</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> sfx_id, const <a class="el" href="structVec.html">Vec</a> *param_1, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_2, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> param_3)</td></tr>
+<tr class="separator:a84b2d97e76400c9c8af8354172a62c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50ecbd4b90f82c34e01d679f856e160d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#a50ecbd4b90f82c34e01d679f856e160d">mDoAud_messageSePlay</a> (<a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> param_0, <a class="el" href="structVec.html">Vec</a> *position, <a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> param_2)</td></tr>
 <tr class="separator:a50ecbd4b90f82c34e01d679f856e160d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3de169fdb50ca7d993c6a0c4f5c5dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#ac3de169fdb50ca7d993c6a0c4f5c5dc2">mDoAud_sceneBgmStart</a> ()</td></tr>
@@ -147,6 +150,10 @@ Functions</h2></td></tr>
 <tr class="separator:a05eb33bf5b696e34d3f33539e41429af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc502d03521e8982b21bdc0c304504e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#aecc502d03521e8982b21bdc0c304504e">mDoAud_bgmStop</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_0)</td></tr>
 <tr class="separator:aecc502d03521e8982b21bdc0c304504e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0964a3a0bbff0f02d8fe160163695de8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#a0964a3a0bbff0f02d8fe160163695de8">mDoAud_rainPlay</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> enable)</td></tr>
+<tr class="separator:a0964a3a0bbff0f02d8fe160163695de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ea255ed312d3896347f84a15a60ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__audio_8h.html#a61ea255ed312d3896347f84a15a60ffe">mDoAud_mEnvse_framework</a> ()</td></tr>
+<tr class="separator:a61ea255ed312d3896347f84a15a60ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -160,6 +167,54 @@ Variables</h2></td></tr>
 <tr class="separator:a5763975c9fb310957d3a4731c4413ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a84b2d97e76400c9c8af8354172a62c0d" name="a84b2d97e76400c9c8af8354172a62c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b2d97e76400c9c8af8354172a62c0d">&#9670;&nbsp;</a></span>i_mDoAud_seStartLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void i_mDoAud_seStartLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>sfx_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structVec.html">Vec</a> *&#160;</td>
+          <td class="paramname"><em>param_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>param_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td>
+          <td class="paramname"><em>param_3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa33b32f11a87a3427ad9d500165be900" name="aa33b32f11a87a3427ad9d500165be900"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa33b32f11a87a3427ad9d500165be900">&#9670;&nbsp;</a></span>mDoAud_bgmSetSwordUsing()</h2>
 
@@ -356,6 +411,31 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a61ea255ed312d3896347f84a15a60ffe" name="a61ea255ed312d3896347f84a15a60ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ea255ed312d3896347f84a15a60ffe">&#9670;&nbsp;</a></span>mDoAud_mEnvse_framework()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mDoAud_mEnvse_framework </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a50ecbd4b90f82c34e01d679f856e160d" name="a50ecbd4b90f82c34e01d679f856e160d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50ecbd4b90f82c34e01d679f856e160d">&#9670;&nbsp;</a></span>mDoAud_messageSePlay()</h2>
 
@@ -387,6 +467,32 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0964a3a0bbff0f02d8fe160163695de8" name="a0964a3a0bbff0f02d8fe160163695de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0964a3a0bbff0f02d8fe160163695de8">&#9670;&nbsp;</a></span>mDoAud_rainPlay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mDoAud_rainPlay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
