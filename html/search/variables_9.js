@@ -35,7 +35,7 @@ var searchData=
   ['immcommand_32',['ImmCommand',['../dvd_8cpp.html#aa50290155300170beedd421e55705fba',1,'dvd.cpp']]],
   ['indarkness_33',['inDarkness',['../structZ2SceneMgr.html#a4a39f61bb5cac8597fab456a7ee5f1c2',1,'Z2SceneMgr']]],
   ['indmtx_34',['IndMtx',['../J3DSys_8cpp.html#a0d76a20d00454e879942ef9c3d937c6d',1,'J3DSys.cpp']]],
-  ['info_35',['info',['../classdComIfG__inf__c.html#a93faeb7c4404fd5175e7eb412fc0dd16',1,'dComIfG_inf_c::info()'],['../structOSModuleInfo.html#a3907227b14a8fed18741bea42dfd01f7',1,'OSModuleInfo::info()']]],
+  ['info_35',['info',['../classdComIfG__inf__c.html#a93faeb7c4404fd5175e7eb412fc0dd16',1,'dComIfG_inf_c::info()'],['../structOSModuleInfo.html#a334ef4ba699fede976ab3c39e340602b',1,'OSModuleInfo::info()']]],
   ['ingame_36',['inGame',['../structZ2SceneMgr.html#a011d76b851388a986a8d072a8db6e9d5',1,'Z2SceneMgr']]],
   ['init_37',['init',['../structaction__class.html#a8f512790ee105dfbc7c11a70c970c760',1,'action_class::init()'],['../d__menu__collect_8cpp.html#aeff418655c503f7a6b8e0cf225fef294',1,'init():&#160;d_menu_collect.cpp'],['../d__menu__option_8cpp.html#ad48c3180a84e8375c10c48c91cb51f50',1,'init():&#160;d_menu_option.cpp']]],
   ['init_5fjk_38',['init_jk',['../k__rem__pio2_8c.html#a3b096e41432fbc61404fe071c2bd3bbd',1,'k_rem_pio2.c']]],

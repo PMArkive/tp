@@ -32,8 +32,8 @@ var searchData=
   ['collect_5fsword_29',['COLLECT_SWORD',['../d__save_8h.html#a6d317460fab5a02d2a7fc3e2bb396911abcafa35eab83305360f167a98a6ee4ea',1,'d_save.h']]],
   ['collect_5fwooden_5fshield_30',['COLLECT_WOODEN_SHIELD',['../d__save_8h.html#a180a6a9bca7044e6ac566db4967500d8af8219cd5dee125f54b2ccc7c1c27bca8',1,'d_save.h']]],
   ['collect_5fwooden_5fsword_31',['COLLECT_WOODEN_SWORD',['../d__save_8h.html#a3c66d6f382ea908fcb6d2f2f82a22b4da09ed8a66c8b6e90e79b89bef22dacb00',1,'d_save.h']]],
-  ['combo_5fitem_32',['COMBO_ITEM',['../classdMeter__ringHIO__c.html#ac4dbe8d8e207ffbfca903b4a45f2247ba875f94f686d2bd957e392a1e53d1877b',1,'dMeter_ringHIO_c']]],
-  ['compass_33',['COMPASS',['../structdSv__memBit__c.html#a995607644ec60e5ed7440571f76f3126ad8f83fb4bb4d444a17d03add41df0425',1,'dSv_memBit_c']]],
+  ['combo_5fitem_32',['COMBO_ITEM',['../classdMeter__ringHIO__c.html#a57c7e21f97cdee5176a0ea56a7d457a8a875f94f686d2bd957e392a1e53d1877b',1,'dMeter_ringHIO_c']]],
+  ['compass_33',['COMPASS',['../structdSv__memBit__c.html#aefc2fc8290cb32ba16d2adb0a5623276ad8f83fb4bb4d444a17d03add41df0425',1,'dSv_memBit_c']]],
   ['composite_5fadd_34',['COMPOSITE_ADD',['../namespaceJStudio_1_1fvb_1_1data.html#abd046240512aa1522b06f1f887e44483a50a90a5cdba2513555651f495125a718',1,'JStudio::fvb::data']]],
   ['composite_5fdiv_35',['COMPOSITE_DIV',['../namespaceJStudio_1_1fvb_1_1data.html#abd046240512aa1522b06f1f887e44483af349e169dd4b3999f0d20b2377e63338',1,'JStudio::fvb::data']]],
   ['composite_5fenum_5fsize_36',['COMPOSITE_ENUM_SIZE',['../namespaceJStudio_1_1fvb_1_1data.html#abd046240512aa1522b06f1f887e44483a2e1f2fd0d3322347d0c52c2e84ad63e6',1,'JStudio::fvb::data']]],
@@ -57,7 +57,9 @@ var searchData=
   ['cphs_5funk_5f1_54',['cPhs_UNK_1',['../c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340a0a8cf7708f23972e09f551dde661faea',1,'c_phase.h']]],
   ['cphs_5funk_5f2_55',['cPhs_UNK_2',['../c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340af1d40aa545d93105d9d250d6d854d240',1,'c_phase.h']]],
   ['cphs_5fzero_5fe_56',['cPhs_ZERO_e',['../c__phase_8h.html#a9f111b636d6afcaba75f303583cc8340ac9e6c40dd785d04e5d4dc20154a75a2d',1,'c_phase.h']]],
-  ['curve_5fsign_5f0_57',['CURVE_SIGN_0',['../structZ2Calc.html#a953421645f3955dbb9d6295945a3c077a97db16b7c7e38efeceb33463677c6650',1,'Z2Calc']]],
-  ['curve_5fsign_5f1_58',['CURVE_SIGN_1',['../structZ2Calc.html#a953421645f3955dbb9d6295945a3c077ac0b34685e379e7db68c72cfccc9685e5',1,'Z2Calc']]],
-  ['cut_5fturn_5fcancel_59',['CUT_TURN_CANCEL',['../structdaHorse__c.html#a7946c84caa8d207919601faf3f53ff8fa6388e3f4b941e6553182bba0cb185745',1,'daHorse_c']]]
+  ['cursor_5fno_57',['CURSOR_NO',['../structdMenu__save__c.html#a6dbf337619327722b7a09409dd694f9dae50502e9379a39dae5cbf7e556a2be63',1,'dMenu_save_c']]],
+  ['cursor_5fyes_58',['CURSOR_YES',['../structdMenu__save__c.html#a6dbf337619327722b7a09409dd694f9da984ee5e67dae2f1a77e3539c30ac17bc',1,'dMenu_save_c']]],
+  ['curve_5fsign_5f0_59',['CURVE_SIGN_0',['../structZ2Calc.html#a953421645f3955dbb9d6295945a3c077a97db16b7c7e38efeceb33463677c6650',1,'Z2Calc']]],
+  ['curve_5fsign_5f1_60',['CURVE_SIGN_1',['../structZ2Calc.html#a953421645f3955dbb9d6295945a3c077ac0b34685e379e7db68c72cfccc9685e5',1,'Z2Calc']]],
+  ['cut_5fturn_5fcancel_61',['CUT_TURN_CANCEL',['../structdaHorse__c.html#a7946c84caa8d207919601faf3f53ff8fa6388e3f4b941e6553182bba0cb185745',1,'daHorse_c']]]
 ];
