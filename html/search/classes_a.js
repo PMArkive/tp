@@ -570,7 +570,7 @@ var searchData=
   ['jutresfont_567',['JUTResFont',['../structJUTResFont.html',1,'']]],
   ['jutresreference_568',['JUTResReference',['../structJUTResReference.html',1,'']]],
   ['juttexture_569',['JUTTexture',['../classJUTTexture.html',1,'']]],
-  ['jutvideo_570',['JUTVideo',['../structJUTVideo.html',1,'']]],
+  ['jutvideo_570',['JUTVideo',['../classJUTVideo.html',1,'']]],
   ['jutwarn_571',['JUTWarn',['../structJUTWarn.html',1,'']]],
   ['jutxfb_572',['JUTXfb',['../classJUTXfb.html',1,'']]]
 ];

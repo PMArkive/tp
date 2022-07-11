@@ -51,7 +51,7 @@ var searchData=
   ['waitproc_48',['waitProc',['../structdMsgObject__c.html#ae7be39e3a2c330539f2f5e558d0bd494',1,'dMsgObject_c::waitProc()'],['../structdMsgScrn3Select__c.html#a2b6cc8fecbd31b97619ce44a27999574',1,'dMsgScrn3Select_c::waitProc()']]],
   ['waitproc_5f_5f12dmsgobject_5fcfv_49',['waitProc__12dMsgObject_cFv',['../d__msg__object_8cpp.html#a3f63e866e77ea3e02d183e253953c713',1,'d_msg_object.cpp']]],
   ['waitproc_5f_5f17dmsgscrn3select_5fcfv_50',['waitProc__17dMsgScrn3Select_cFv',['../d__msg__scrn__3select_8cpp.html#a437b66951cc99a5bb7e51d6f1e115249',1,'d_msg_scrn_3select.cpp']]],
-  ['waitretraceifneed_51',['waitRetraceIfNeed',['../structJUTVideo.html#a586ef549f0135e7638643421a17c616b',1,'JUTVideo']]],
+  ['waitretraceifneed_51',['waitRetraceIfNeed',['../classJUTVideo.html#a586ef549f0135e7638643421a17c616b',1,'JUTVideo']]],
   ['waitretraceifneed_5f_5f8jutvideofv_52',['waitRetraceIfNeed__8JUTVideoFv',['../JFWDisplay_8cpp.html#a9f34b3d49cc570c466b50ee1b7e5d8e4',1,'JFWDisplay.cpp']]],
   ['waitrollspeed_53',['WaitRollSpeed',['../structdCamSetup__c.html#ab9d642a30feb656dc70e8f5bdbb3d38f',1,'dCamSetup_c']]],
   ['waitrollspeed_5f_5f11dcamsetup_5fcfv_54',['WaitRollSpeed__11dCamSetup_cFv',['../d__camera_8cpp.html#a3b5e45cfc385cad1531a8124dd38649a',1,'d_camera.cpp']]],

@@ -75,23 +75,20 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">JUTProcBar.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="JUTProcBar_8h_source.html">JSystem/JUtility/JUTProcBar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="J2DOrthoGraph_8h_source.html">JSystem/J2DGraph/J2DOrthoGraph.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="JUTVideo_8h_source.html">JSystem/JUtility/JUTVideo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/__ct__10JUTProcBarFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTProcBar/__dt__10JUTProcBarFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTProcBar/create__10JUTProcBarFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTProcBar/destroy__10JUTProcBarFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/clear__10JUTProcBarFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/bar_subroutine__10JUTProcBarFiiiiiiiQ28JUtility6TColorQ28JUtility6TColor.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/adjustMeterLength__10JUTProcBarFUlPfffPi.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JUtility/JUTProcBar/draw__10JUTProcBarFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/drawProcessBar__10JUTProcBarFv.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/addrToXPos__FPvi.s&quot;</code><br />
 <code>#include &quot;asm/JSystem/JUtility/JUTProcBar/byteToXLen__Fii.s&quot;</code><br />
@@ -107,11 +104,6 @@ $(function() {
 </div>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUTVideo.html">JUTVideo</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a251139d964fa02d5c7051f8fe66b4f46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a251139d964fa02d5c7051f8fe66b4f46">__ct__10JUTProcBarFv</a> ()</td></tr>
@@ -172,10 +164,10 @@ Functions</h2></td></tr>
 <tr class="separator:a144e235fa24971081cf050d9a260248c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdca0eb87578e0952b66387b093d81f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#afdca0eb87578e0952b66387b093d81f3">_restgpr_27</a> ()</td></tr>
 <tr class="separator:afdca0eb87578e0952b66387b093d81f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58bc6aab923df4ed7f93858ce552b780"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a58bc6aab923df4ed7f93858ce552b780">addrToXPos</a> (void *param_0, int param_1)</td></tr>
-<tr class="separator:a58bc6aab923df4ed7f93858ce552b780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aa5f0a3267eeb73850ecc53a371e4b2"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a5aa5f0a3267eeb73850ecc53a371e4b2">byteToXLen</a> (int param_0, int param_1)</td></tr>
-<tr class="separator:a5aa5f0a3267eeb73850ecc53a371e4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ef2b20dc3a7a9362addb127daec1e1"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#ab6ef2b20dc3a7a9362addb127daec1e1">addrToXPos</a> (void *param_0, int param_1)</td></tr>
+<tr class="separator:ab6ef2b20dc3a7a9362addb127daec1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e8257aed8a7ec40011178ae4c2456e"><td class="memItemLeft" align="right" valign="top">static asm int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a79e8257aed8a7ec40011178ae4c2456e">byteToXLen</a> (int param_0, int param_1)</td></tr>
+<tr class="separator:a79e8257aed8a7ec40011178ae4c2456e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d715b45510bc38357b55a6d1833c106"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a5d715b45510bc38357b55a6d1833c106">heapBar</a> (<a class="el" href="structJKRHeap.html">JKRHeap</a> *param_0, int param_1, int param_2, int param_3, int param_4, int param_5)</td></tr>
 <tr class="separator:a5d715b45510bc38357b55a6d1833c106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -227,12 +219,12 @@ Variables</h2></td></tr>
 <tr class="separator:aab8c819114fdbc82bb9d4219a5a92080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8397462bd4ec181aa18793a311cba885"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a8397462bd4ec181aa18793a311cba885">lit_2315</a> = 4503599627370496.0</td></tr>
 <tr class="separator:a8397462bd4ec181aa18793a311cba885"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abef086c1cf9a97d4c7c57586c8720e63"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#abef086c1cf9a97d4c7c57586c8720e63">cnt</a> [4]</td></tr>
-<tr class="separator:abef086c1cf9a97d4c7c57586c8720e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfbb269728dc4185236d28be58d9eab"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></td></tr>
+<tr class="separator:a9cfbb269728dc4185236d28be58d9eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac395e97b601f0c4f87b828e8c6b6144e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#ac395e97b601f0c4f87b828e8c6b6144e">data_80451560</a> [4]</td></tr>
 <tr class="separator:ac395e97b601f0c4f87b828e8c6b6144e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d862688167cc8bfefca7cc71ecd2f73"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a7d862688167cc8bfefca7cc71ecd2f73">cntUser</a> [4]</td></tr>
-<tr class="separator:a7d862688167cc8bfefca7cc71ecd2f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b328abe29c0679730871f5920038c2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#aa1b328abe29c0679730871f5920038c2">cntUser</a></td></tr>
+<tr class="separator:aa1b328abe29c0679730871f5920038c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac36e9292476baf06af6006f876725960"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#ac36e9292476baf06af6006f876725960">data_80451568</a> [8]</td></tr>
 <tr class="separator:ac36e9292476baf06af6006f876725960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a388e4df278cf4d8283a3824656730168"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTProcBar_8cpp.html#a388e4df278cf4d8283a3824656730168">lit_2580</a> = 1.0f</td></tr>
@@ -479,8 +471,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a58bc6aab923df4ed7f93858ce552b780" name="a58bc6aab923df4ed7f93858ce552b780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58bc6aab923df4ed7f93858ce552b780">&#9670;&nbsp;</a></span>addrToXPos()</h2>
+<a id="ab6ef2b20dc3a7a9362addb127daec1e1" name="ab6ef2b20dc3a7a9362addb127daec1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ef2b20dc3a7a9362addb127daec1e1">&#9670;&nbsp;</a></span>addrToXPos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,7 +481,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void addrToXPos </td>
+          <td class="memname">static asm int addrToXPos </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -574,8 +566,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5aa5f0a3267eeb73850ecc53a371e4b2" name="a5aa5f0a3267eeb73850ecc53a371e4b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5aa5f0a3267eeb73850ecc53a371e4b2">&#9670;&nbsp;</a></span>byteToXLen()</h2>
+<a id="a79e8257aed8a7ec40011178ae4c2456e" name="a79e8257aed8a7ec40011178ae4c2456e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e8257aed8a7ec40011178ae4c2456e">&#9670;&nbsp;</a></span>byteToXLen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -584,7 +576,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static asm void byteToXLen </td>
+          <td class="memname">static asm int byteToXLen </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>param_0</em>, </td>
@@ -891,8 +883,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="abef086c1cf9a97d4c7c57586c8720e63" name="abef086c1cf9a97d4c7c57586c8720e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abef086c1cf9a97d4c7c57586c8720e63">&#9670;&nbsp;</a></span>cnt</h2>
+<a id="a9cfbb269728dc4185236d28be58d9eab" name="a9cfbb269728dc4185236d28be58d9eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cfbb269728dc4185236d28be58d9eab">&#9670;&nbsp;</a></span>cnt</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -901,7 +893,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> cnt[4]</td>
+          <td class="memname">int cnt</td>
         </tr>
       </table>
   </td>
@@ -913,8 +905,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d862688167cc8bfefca7cc71ecd2f73" name="a7d862688167cc8bfefca7cc71ecd2f73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d862688167cc8bfefca7cc71ecd2f73">&#9670;&nbsp;</a></span>cntUser</h2>
+<a id="aa1b328abe29c0679730871f5920038c2" name="aa1b328abe29c0679730871f5920038c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b328abe29c0679730871f5920038c2">&#9670;&nbsp;</a></span>cntUser</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -923,7 +915,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> cntUser[4]</td>
+          <td class="memname">int cntUser</td>
         </tr>
       </table>
   </td>
