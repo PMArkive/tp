@@ -97,12 +97,6 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae40549320d856707805db33a966044fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#ae40549320d856707805db33a966044fd">__OSReboot</a> ()</td></tr>
-<tr class="separator:ae40549320d856707805db33a966044fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adced3c3f688d6166b3f080e9f5c22b27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#adced3c3f688d6166b3f080e9f5c22b27">OSSetSaveRegion</a> ()</td></tr>
-<tr class="separator:adced3c3f688d6166b3f080e9f5c22b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada2686cf0fd0c9d642ca1fd040824e21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#ada2686cf0fd0c9d642ca1fd040824e21">OSGetSaveRegion</a> ()</td></tr>
-<tr class="separator:ada2686cf0fd0c9d642ca1fd040824e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a085831d18023b8ff1ec12431b3fca37f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#a085831d18023b8ff1ec12431b3fca37f">OSSetArenaHi</a> ()</td></tr>
 <tr class="separator:a085831d18023b8ff1ec12431b3fca37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8429a6c21c6b670bacd9eda4a5a6774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#aa8429a6c21c6b670bacd9eda4a5a6774">OSSetArenaLo</a> ()</td></tr>
@@ -115,6 +109,12 @@ Functions</h2></td></tr>
 <tr class="separator:a7f168e4fa7ac76796d5c5f03d7e82497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#a65b7dd4c9756f26d16dcf8f0dedb07bf">OSDisableInterrupts</a> ()</td></tr>
 <tr class="separator:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ff4bfd793e65e065c6376de7ae568a"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#a84ff4bfd793e65e065c6376de7ae568a">__OSReboot</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_0, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_1)</td></tr>
+<tr class="separator:a84ff4bfd793e65e065c6376de7ae568a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084885344862b94ef02d3b3a70528588"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#a084885344862b94ef02d3b3a70528588">OSSetSaveRegion</a> (void *start, void *end)</td></tr>
+<tr class="separator:a084885344862b94ef02d3b3a70528588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fa2f233b07b58da19e18b839a5150ad"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSReboot_8cpp.html#a3fa2f233b07b58da19e18b839a5150ad">OSGetSaveRegion</a> (void *start, void *end)</td></tr>
+<tr class="separator:a3fa2f233b07b58da19e18b839a5150ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -141,8 +141,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae40549320d856707805db33a966044fd" name="ae40549320d856707805db33a966044fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae40549320d856707805db33a966044fd">&#9670;&nbsp;</a></span>__OSReboot()</h2>
+<a id="a84ff4bfd793e65e065c6376de7ae568a" name="a84ff4bfd793e65e065c6376de7ae568a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84ff4bfd793e65e065c6376de7ae568a">&#9670;&nbsp;</a></span>__OSReboot()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,8 +150,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void __OSReboot </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>param_0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>param_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -192,17 +203,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ada2686cf0fd0c9d642ca1fd040824e21" name="ada2686cf0fd0c9d642ca1fd040824e21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada2686cf0fd0c9d642ca1fd040824e21">&#9670;&nbsp;</a></span>OSGetSaveRegion()</h2>
+<a id="a3fa2f233b07b58da19e18b839a5150ad" name="a3fa2f233b07b58da19e18b839a5150ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa2f233b07b58da19e18b839a5150ad">&#9670;&nbsp;</a></span>OSGetSaveRegion()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSGetSaveRegion </td>
+          <td class="memname">asm void OSGetSaveRegion </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -260,8 +282,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adced3c3f688d6166b3f080e9f5c22b27" name="adced3c3f688d6166b3f080e9f5c22b27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adced3c3f688d6166b3f080e9f5c22b27">&#9670;&nbsp;</a></span>OSSetSaveRegion()</h2>
+<a id="a084885344862b94ef02d3b3a70528588" name="a084885344862b94ef02d3b3a70528588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a084885344862b94ef02d3b3a70528588">&#9670;&nbsp;</a></span>OSSetSaveRegion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,8 +291,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void OSSetSaveRegion </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

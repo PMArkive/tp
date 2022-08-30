@@ -81,6 +81,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="OSContext_8h_source.html">dolphin/os/OSContext.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="OSInterrupt_8h_source.html">dolphin/os/OSInterrupt.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="OS_8h_source.html">dolphin/os/OS.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;asm/dolphin/os/OSContext/__OSLoadFPUContext.s&quot;</code><br />
@@ -102,54 +104,46 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="OSContext_8cpp__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="OSContext_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acdcd843bd0081c5b434adf2ec2b045da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#acdcd843bd0081c5b434adf2ec2b045da">__OSLoadFPUContext</a> ()</td></tr>
-<tr class="separator:acdcd843bd0081c5b434adf2ec2b045da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbd08a403b76e6605736f0832c3e84e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#afbd08a403b76e6605736f0832c3e84e3">__OSSaveFPUContext</a> ()</td></tr>
-<tr class="separator:afbd08a403b76e6605736f0832c3e84e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936735f385b2418ee0db7db6d3a283ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a936735f385b2418ee0db7db6d3a283ff">OSSaveFPUContext</a> ()</td></tr>
-<tr class="separator:a936735f385b2418ee0db7db6d3a283ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a184beaa362f37ba6f41541041df12976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a184beaa362f37ba6f41541041df12976">OSSetCurrentContext</a> ()</td></tr>
-<tr class="separator:a184beaa362f37ba6f41541041df12976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6591b41ce2360c69a97b76e38432c95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#ad6591b41ce2360c69a97b76e38432c95">OSGetCurrentContext</a> ()</td></tr>
-<tr class="separator:ad6591b41ce2360c69a97b76e38432c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade0657a1eb1a94c8b57fd657d1adef48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#ade0657a1eb1a94c8b57fd657d1adef48">OSSaveContext</a> ()</td></tr>
-<tr class="separator:ade0657a1eb1a94c8b57fd657d1adef48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f3080e14ff508a63cc9a075164484c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#ab8f3080e14ff508a63cc9a075164484c">OSLoadContext</a> ()</td></tr>
-<tr class="separator:ab8f3080e14ff508a63cc9a075164484c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af267f0e6c5d2d259f230d9657b4dd736"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#af267f0e6c5d2d259f230d9657b4dd736">OSGetStackPointer</a> ()</td></tr>
-<tr class="separator:af267f0e6c5d2d259f230d9657b4dd736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b34b2f4e5276b3852fc3b025a023d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a3b34b2f4e5276b3852fc3b025a023d14">OSClearContext</a> ()</td></tr>
-<tr class="separator:a3b34b2f4e5276b3852fc3b025a023d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c77d81f3c85c7d6481a5659fb4af3e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a6c77d81f3c85c7d6481a5659fb4af3e2">OSInitContext</a> ()</td></tr>
-<tr class="separator:a6c77d81f3c85c7d6481a5659fb4af3e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a310dbe1438ed769a46914dca79a43c2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a310dbe1438ed769a46914dca79a43c2b">OSDumpContext</a> ()</td></tr>
-<tr class="separator:a310dbe1438ed769a46914dca79a43c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82c76b6b54cf966a714119e8e392cc5e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a82c76b6b54cf966a714119e8e392cc5e">OSSwitchFPUContext</a> ()</td></tr>
-<tr class="separator:a82c76b6b54cf966a714119e8e392cc5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a06626fa37383335b55ac6752674aa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a4a06626fa37383335b55ac6752674aa2">__OSContextInit</a> ()</td></tr>
-<tr class="separator:a4a06626fa37383335b55ac6752674aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7459804bc95307c3dcf77ab4d9e078b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#aa7459804bc95307c3dcf77ab4d9e078b">OSFillFPUContext</a> ()</td></tr>
-<tr class="separator:aa7459804bc95307c3dcf77ab4d9e078b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade4b47b8fab54c8f6a71bf594943c828"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#ade4b47b8fab54c8f6a71bf594943c828">OSReport</a> ()</td></tr>
-<tr class="separator:ade4b47b8fab54c8f6a71bf594943c828"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f302fd1c9473e4f4190032939b958da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a4f302fd1c9473e4f4190032939b958da">__OSSetExceptionHandler</a> ()</td></tr>
-<tr class="separator:a4f302fd1c9473e4f4190032939b958da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a65b7dd4c9756f26d16dcf8f0dedb07bf">OSDisableInterrupts</a> ()</td></tr>
-<tr class="separator:a65b7dd4c9756f26d16dcf8f0dedb07bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c3823c0c5bc7516787513cdc6c8194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#ad1c3823c0c5bc7516787513cdc6c8194">__RAS_OSDisableInterrupts_end</a> ()</td></tr>
-<tr class="separator:ad1c3823c0c5bc7516787513cdc6c8194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14b5cc2befa83d8710fba14f4de14fd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a14b5cc2befa83d8710fba14f4de14fd9">OSRestoreInterrupts</a> ()</td></tr>
-<tr class="separator:a14b5cc2befa83d8710fba14f4de14fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df58bb299033c067dc22f6b5ef5174e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a4df58bb299033c067dc22f6b5ef5174e">__RAS_OSDisableInterrupts_end</a> ()</td></tr>
+<tr class="separator:a4df58bb299033c067dc22f6b5ef5174e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a369192899c00f00928ed748b73fb0c48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a369192899c00f00928ed748b73fb0c48">DBPrintf</a> ()</td></tr>
 <tr class="separator:a369192899c00f00928ed748b73fb0c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab132a97d6c068a9d01cba513d3066c21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#ab132a97d6c068a9d01cba513d3066c21">__cvt_fp2unsigned</a> ()</td></tr>
 <tr class="separator:ab132a97d6c068a9d01cba513d3066c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972968f12d54e7ae56855298b0ebcb88"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a972968f12d54e7ae56855298b0ebcb88">__OSLoadFPUContext</a> (void)</td></tr>
+<tr class="separator:a972968f12d54e7ae56855298b0ebcb88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51f53b7d7bfe0269089bebd08d9b6b1"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#aa51f53b7d7bfe0269089bebd08d9b6b1">__OSSaveFPUContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:aa51f53b7d7bfe0269089bebd08d9b6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c16a498bcb1b75c1cc6499824d718d"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a39c16a498bcb1b75c1cc6499824d718d">OSSaveFPUContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a39c16a498bcb1b75c1cc6499824d718d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7df4265af683818649a038e6a2aaa2"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a5c7df4265af683818649a038e6a2aaa2">OSSetCurrentContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a5c7df4265af683818649a038e6a2aaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c384f06e35b2fc5f7f731f28ffe8e9f"><td class="memItemLeft" align="right" valign="top">asm <a class="el" href="structOSContext.html">OSContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a7c384f06e35b2fc5f7f731f28ffe8e9f">OSGetCurrentContext</a> (void)</td></tr>
+<tr class="separator:a7c384f06e35b2fc5f7f731f28ffe8e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5087590741eb3081d5d919bafdb35abe"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a5087590741eb3081d5d919bafdb35abe">OSSaveContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a5087590741eb3081d5d919bafdb35abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16bcff5426d58732663c137e080b9659"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a16bcff5426d58732663c137e080b9659">OSLoadContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a16bcff5426d58732663c137e080b9659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75c1060b567fd30d34dff50c82a3cf5"><td class="memItemLeft" align="right" valign="top">asm <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#aa75c1060b567fd30d34dff50c82a3cf5">OSGetStackPointer</a> (void)</td></tr>
+<tr class="separator:aa75c1060b567fd30d34dff50c82a3cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789abf10884da068f6be1635bfdccfcb"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a789abf10884da068f6be1635bfdccfcb">OSClearContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a789abf10884da068f6be1635bfdccfcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e245b33450a4a804264502cecb09d46"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a5e245b33450a4a804264502cecb09d46">OSInitContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> pc, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> lr)</td></tr>
+<tr class="separator:a5e245b33450a4a804264502cecb09d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a520418d7f745447299c4a04b9267d07f"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a520418d7f745447299c4a04b9267d07f">OSDumpContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a520418d7f745447299c4a04b9267d07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48da14d7428157146c40e5a09c9dcee7"><td class="memItemLeft" align="right" valign="top">static asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a48da14d7428157146c40e5a09c9dcee7">OSSwitchFPUContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:a48da14d7428157146c40e5a09c9dcee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4544600b9fce8ed0dcb1eda417435fcc"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#a4544600b9fce8ed0dcb1eda417435fcc">__OSContextInit</a> (void)</td></tr>
+<tr class="separator:a4544600b9fce8ed0dcb1eda417435fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa99da4c311adf031f8eee5a1bca294"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSContext_8cpp.html#acaa99da4c311adf031f8eee5a1bca294">OSFillFPUContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *<a class="el" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>)</td></tr>
+<tr class="separator:acaa99da4c311adf031f8eee5a1bca294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -198,15 +192,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4a06626fa37383335b55ac6752674aa2" name="a4a06626fa37383335b55ac6752674aa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a06626fa37383335b55ac6752674aa2">&#9670;&nbsp;</a></span>__OSContextInit()</h2>
+<a id="a4544600b9fce8ed0dcb1eda417435fcc" name="a4544600b9fce8ed0dcb1eda417435fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4544600b9fce8ed0dcb1eda417435fcc">&#9670;&nbsp;</a></span>__OSContextInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __OSContextInit </td>
+          <td class="memname">asm void __OSContextInit </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -215,8 +210,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acdcd843bd0081c5b434adf2ec2b045da" name="acdcd843bd0081c5b434adf2ec2b045da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdcd843bd0081c5b434adf2ec2b045da">&#9670;&nbsp;</a></span>__OSLoadFPUContext()</h2>
+<a id="a972968f12d54e7ae56855298b0ebcb88" name="a972968f12d54e7ae56855298b0ebcb88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972968f12d54e7ae56855298b0ebcb88">&#9670;&nbsp;</a></span>__OSLoadFPUContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,6 +219,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void __OSLoadFPUContext </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -232,8 +228,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="afbd08a403b76e6605736f0832c3e84e3" name="afbd08a403b76e6605736f0832c3e84e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbd08a403b76e6605736f0832c3e84e3">&#9670;&nbsp;</a></span>__OSSaveFPUContext()</h2>
+<a id="aa51f53b7d7bfe0269089bebd08d9b6b1" name="aa51f53b7d7bfe0269089bebd08d9b6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa51f53b7d7bfe0269089bebd08d9b6b1">&#9670;&nbsp;</a></span>__OSSaveFPUContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +237,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void __OSSaveFPUContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -249,31 +246,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4f302fd1c9473e4f4190032939b958da" name="a4f302fd1c9473e4f4190032939b958da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f302fd1c9473e4f4190032939b958da">&#9670;&nbsp;</a></span>__OSSetExceptionHandler()</h2>
+<a id="a4df58bb299033c067dc22f6b5ef5174e" name="a4df58bb299033c067dc22f6b5ef5174e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df58bb299033c067dc22f6b5ef5174e">&#9670;&nbsp;</a></span>__RAS_OSDisableInterrupts_end()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __OSSetExceptionHandler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad1c3823c0c5bc7516787513cdc6c8194" name="ad1c3823c0c5bc7516787513cdc6c8194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1c3823c0c5bc7516787513cdc6c8194">&#9670;&nbsp;</a></span>__RAS_OSDisableInterrupts_end()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void __RAS_OSDisableInterrupts_end </td>
+          <td class="memname">void __RAS_OSDisableInterrupts_end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -300,16 +280,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b34b2f4e5276b3852fc3b025a023d14" name="a3b34b2f4e5276b3852fc3b025a023d14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b34b2f4e5276b3852fc3b025a023d14">&#9670;&nbsp;</a></span>OSClearContext()</h2>
+<a id="a789abf10884da068f6be1635bfdccfcb" name="a789abf10884da068f6be1635bfdccfcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a789abf10884da068f6be1635bfdccfcb">&#9670;&nbsp;</a></span>OSClearContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSClearContext </td>
+          <td class="memname">asm void OSClearContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -317,16 +298,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a65b7dd4c9756f26d16dcf8f0dedb07bf" name="a65b7dd4c9756f26d16dcf8f0dedb07bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65b7dd4c9756f26d16dcf8f0dedb07bf">&#9670;&nbsp;</a></span>OSDisableInterrupts()</h2>
+<a id="a520418d7f745447299c4a04b9267d07f" name="a520418d7f745447299c4a04b9267d07f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a520418d7f745447299c4a04b9267d07f">&#9670;&nbsp;</a></span>OSDumpContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSDisableInterrupts </td>
+          <td class="memname">asm void OSDumpContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -334,25 +316,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a310dbe1438ed769a46914dca79a43c2b" name="a310dbe1438ed769a46914dca79a43c2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a310dbe1438ed769a46914dca79a43c2b">&#9670;&nbsp;</a></span>OSDumpContext()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OSDumpContext </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7459804bc95307c3dcf77ab4d9e078b" name="aa7459804bc95307c3dcf77ab4d9e078b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7459804bc95307c3dcf77ab4d9e078b">&#9670;&nbsp;</a></span>OSFillFPUContext()</h2>
+<a id="acaa99da4c311adf031f8eee5a1bca294" name="acaa99da4c311adf031f8eee5a1bca294"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa99da4c311adf031f8eee5a1bca294">&#9670;&nbsp;</a></span>OSFillFPUContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,7 +325,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void OSFillFPUContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,31 +334,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6591b41ce2360c69a97b76e38432c95" name="ad6591b41ce2360c69a97b76e38432c95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6591b41ce2360c69a97b76e38432c95">&#9670;&nbsp;</a></span>OSGetCurrentContext()</h2>
+<a id="a7c384f06e35b2fc5f7f731f28ffe8e9f" name="a7c384f06e35b2fc5f7f731f28ffe8e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c384f06e35b2fc5f7f731f28ffe8e9f">&#9670;&nbsp;</a></span>OSGetCurrentContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void OSGetCurrentContext </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af267f0e6c5d2d259f230d9657b4dd736" name="af267f0e6c5d2d259f230d9657b4dd736"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af267f0e6c5d2d259f230d9657b4dd736">&#9670;&nbsp;</a></span>OSGetStackPointer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void OSGetStackPointer </td>
+          <td class="memname">asm <a class="el" href="structOSContext.html">OSContext</a> * OSGetCurrentContext </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -403,8 +352,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6c77d81f3c85c7d6481a5659fb4af3e2" name="a6c77d81f3c85c7d6481a5659fb4af3e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c77d81f3c85c7d6481a5659fb4af3e2">&#9670;&nbsp;</a></span>OSInitContext()</h2>
+<a id="aa75c1060b567fd30d34dff50c82a3cf5" name="aa75c1060b567fd30d34dff50c82a3cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa75c1060b567fd30d34dff50c82a3cf5">&#9670;&nbsp;</a></span>OSGetStackPointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> * OSGetStackPointer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e245b33450a4a804264502cecb09d46" name="a5e245b33450a4a804264502cecb09d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e245b33450a4a804264502cecb09d46">&#9670;&nbsp;</a></span>OSInitContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,24 +379,42 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void OSInitContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>pc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>lr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab8f3080e14ff508a63cc9a075164484c" name="ab8f3080e14ff508a63cc9a075164484c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8f3080e14ff508a63cc9a075164484c">&#9670;&nbsp;</a></span>OSLoadContext()</h2>
+<a id="a16bcff5426d58732663c137e080b9659" name="a16bcff5426d58732663c137e080b9659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16bcff5426d58732663c137e080b9659">&#9670;&nbsp;</a></span>OSLoadContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSLoadContext </td>
+          <td class="memname">asm void OSLoadContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -437,42 +422,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ade4b47b8fab54c8f6a71bf594943c828" name="ade4b47b8fab54c8f6a71bf594943c828"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade4b47b8fab54c8f6a71bf594943c828">&#9670;&nbsp;</a></span>OSReport()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OSReport </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14b5cc2befa83d8710fba14f4de14fd9" name="a14b5cc2befa83d8710fba14f4de14fd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14b5cc2befa83d8710fba14f4de14fd9">&#9670;&nbsp;</a></span>OSRestoreInterrupts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OSRestoreInterrupts </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ade0657a1eb1a94c8b57fd657d1adef48" name="ade0657a1eb1a94c8b57fd657d1adef48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade0657a1eb1a94c8b57fd657d1adef48">&#9670;&nbsp;</a></span>OSSaveContext()</h2>
+<a id="a5087590741eb3081d5d919bafdb35abe" name="a5087590741eb3081d5d919bafdb35abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5087590741eb3081d5d919bafdb35abe">&#9670;&nbsp;</a></span>OSSaveContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,7 +431,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void OSSaveContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -488,8 +440,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a936735f385b2418ee0db7db6d3a283ff" name="a936735f385b2418ee0db7db6d3a283ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a936735f385b2418ee0db7db6d3a283ff">&#9670;&nbsp;</a></span>OSSaveFPUContext()</h2>
+<a id="a39c16a498bcb1b75c1cc6499824d718d" name="a39c16a498bcb1b75c1cc6499824d718d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c16a498bcb1b75c1cc6499824d718d">&#9670;&nbsp;</a></span>OSSaveFPUContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +449,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm void OSSaveFPUContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -505,16 +458,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a184beaa362f37ba6f41541041df12976" name="a184beaa362f37ba6f41541041df12976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a184beaa362f37ba6f41541041df12976">&#9670;&nbsp;</a></span>OSSetCurrentContext()</h2>
+<a id="a5c7df4265af683818649a038e6a2aaa2" name="a5c7df4265af683818649a038e6a2aaa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7df4265af683818649a038e6a2aaa2">&#9670;&nbsp;</a></span>OSSetCurrentContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OSSetCurrentContext </td>
+          <td class="memname">asm void OSSetCurrentContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -522,8 +476,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a82c76b6b54cf966a714119e8e392cc5e" name="a82c76b6b54cf966a714119e8e392cc5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82c76b6b54cf966a714119e8e392cc5e">&#9670;&nbsp;</a></span>OSSwitchFPUContext()</h2>
+<a id="a48da14d7428157146c40e5a09c9dcee7" name="a48da14d7428157146c40e5a09c9dcee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48da14d7428157146c40e5a09c9dcee7">&#9670;&nbsp;</a></span>OSSwitchFPUContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +488,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static asm void OSSwitchFPUContext </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

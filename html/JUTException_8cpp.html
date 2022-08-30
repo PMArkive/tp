@@ -139,8 +139,6 @@ Functions</h2></td></tr>
 <tr class="separator:a3f61243ebf5cbb2ff90548d397b16772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabc089f75f232061a8ba1c2f4d3a9169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#aabc089f75f232061a8ba1c2f4d3a9169">OSYieldThread</a> ()</td></tr>
 <tr class="separator:aabc089f75f232061a8ba1c2f4d3a9169"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0dc8e91c0a93458c0c68c6561886339"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#aa0dc8e91c0a93458c0c68c6561886339">OSProtectRange</a> (int, void *, int, int)</td></tr>
-<tr class="separator:aa0dc8e91c0a93458c0c68c6561886339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8386c3ab8e9402d1f10bb7999d10ff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#ad8386c3ab8e9402d1f10bb7999d10ff1">OSFillFPUContext</a> (<a class="el" href="structOSContext.html">OSContext</a> *)</td></tr>
 <tr class="separator:ad8386c3ab8e9402d1f10bb7999d10ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf47bd9fe36dafeb056683de924d618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#a8cf47bd9fe36dafeb056683de924d618">print_f__10JUTConsoleFPCce</a> ()</td></tr>
@@ -200,7 +198,7 @@ Variables</h2></td></tr>
 <tr class="separator:acbbe0b6bff8132d65940accde1d84644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ec22ac15ec5a42a8a1020b24ef3dae9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct__GXRenderModeObj.html">_GXRenderModeObj</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#a4ec22ac15ec5a42a8a1020b24ef3dae9">GXNtsc480Int</a></td></tr>
 <tr class="separator:a4ec22ac15ec5a42a8a1020b24ef3dae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65dfeeb0b9f792de87467fd23daad221"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="OS_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#a65dfeeb0b9f792de87467fd23daad221">c3bcnt</a> [4] = {0, 0, 0, 0}</td></tr>
+<tr class="memitem:a65dfeeb0b9f792de87467fd23daad221"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#a65dfeeb0b9f792de87467fd23daad221">c3bcnt</a> [4] = {0, 0, 0, 0}</td></tr>
 <tr class="separator:a65dfeeb0b9f792de87467fd23daad221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83b58f5a5906d39f6912b07d6c0812ee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structCallbackObject.html">CallbackObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JUTException_8cpp.html#a83b58f5a5906d39f6912b07d6c0812ee">exCallbackObject</a></td></tr>
 <tr class="separator:a83b58f5a5906d39f6912b07d6c0812ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,7 +466,7 @@ Variables</h2></td></tr>
           <td class="memname">void OSFillFPUContext </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structOSContext.html">OSContext</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -487,46 +485,6 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa0dc8e91c0a93458c0c68c6561886339" name="aa0dc8e91c0a93458c0c68c6561886339"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0dc8e91c0a93458c0c68c6561886339">&#9670;&nbsp;</a></span>OSProtectRange()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OSProtectRange </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -915,7 +873,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="OS_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a> c3bcnt[4] = {0, 0, 0, 0}</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a> c3bcnt[4] = {0, 0, 0, 0}</td>
         </tr>
       </table>
   </td>

@@ -82,12 +82,13 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="J3DUClipper_8h_source.html">JSystem/J3DU/J3DUClipper.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="JUTTexture_8h_source.html">JSystem/JUtility/JUTTexture.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for m_Do_lib.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__Do__lib_8h__incl.svg" width="263" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__Do__lib_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -95,7 +96,7 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__Do__lib_8h__dep__incl.svg" width="558" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__Do__lib_8h__dep__incl.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -110,6 +111,8 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ab0c3016ebd1704bc8ca16f30b0ce3dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__lib_8h.html#ab0c3016ebd1704bc8ca16f30b0ce3dd7">mDoLib_project</a> (<a class="el" href="structVec.html">Vec</a> *param_0, <a class="el" href="structVec.html">Vec</a> *param_1)</td></tr>
 <tr class="separator:ab0c3016ebd1704bc8ca16f30b0ce3dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba68557d70825a1464156121c8c85e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__lib_8h.html#a9ba68557d70825a1464156121c8c85e1">mDoLib_setResTimgObj</a> (<a class="el" href="structResTIMG.html">ResTIMG</a> const *res, <a class="el" href="GXStruct_8h.html#a300d2e5e09d00f766ea22f9969237c98">GXTexObj</a> *o_texObj, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_2, <a class="el" href="GXStruct_8h.html#a096bbb02f2adb6fa8a6ad6d294ea9fcf">GXTlutObj</a> *o_tlutObj)</td></tr>
+<tr class="separator:a9ba68557d70825a1464156121c8c85e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab0c3016ebd1704bc8ca16f30b0ce3dd7" name="ab0c3016ebd1704bc8ca16f30b0ce3dd7"></a>
@@ -129,6 +132,46 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="structVec.html">Vec</a> *&#160;</td>
           <td class="paramname"><em>param_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ba68557d70825a1464156121c8c85e1" name="a9ba68557d70825a1464156121c8c85e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba68557d70825a1464156121c8c85e1">&#9670;&nbsp;</a></span>mDoLib_setResTimgObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mDoLib_setResTimgObj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structResTIMG.html">ResTIMG</a> const *&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="GXStruct_8h.html#a300d2e5e09d00f766ea22f9969237c98">GXTexObj</a> *&#160;</td>
+          <td class="paramname"><em>o_texObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>param_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="GXStruct_8h.html#a096bbb02f2adb6fa8a6ad6d294ea9fcf">GXTlutObj</a> *&#160;</td>
+          <td class="paramname"><em>o_tlutObj</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

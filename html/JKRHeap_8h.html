@@ -90,7 +90,7 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="JKRHeap_8h__incl.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="JKRHeap_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -146,8 +146,8 @@ Functions</h2></td></tr>
 <tr class="separator:a02e36526cc53cfa5f0f4a3ae1e41861a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab274eb9c630290468a7db359f4dd018b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JKRHeap_8h.html#ab274eb9c630290468a7db359f4dd018b">JKRFreeToSysHeap</a> (void *ptr)</td></tr>
 <tr class="separator:ab274eb9c630290468a7db359f4dd018b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac462f7ad88ddc8bfbbeac6a5d0d84881"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JKRHeap_8h.html#ac462f7ad88ddc8bfbbeac6a5d0d84881">JKRFree</a> (void *ptr)</td></tr>
-<tr class="separator:ac462f7ad88ddc8bfbbeac6a5d0d84881"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e02493ba97dc0c398bb7ba4a8af951"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JKRHeap_8h.html#ab2e02493ba97dc0c398bb7ba4a8af951">i_JKRFree</a> (void *ptr)</td></tr>
+<tr class="separator:ab2e02493ba97dc0c398bb7ba4a8af951"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b4b592217e47fead91d427838db866c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRHeap.html">JKRHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JKRHeap_8h.html#a1b4b592217e47fead91d427838db866c">JKRGetSystemHeap</a> ()</td></tr>
 <tr class="separator:a1b4b592217e47fead91d427838db866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1254338d1241842233f26d984efc5e58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJKRHeap.html">JKRHeap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="JKRHeap_8h.html#a1254338d1241842233f26d984efc5e58">JKRGetCurrentHeap</a> ()</td></tr>
@@ -180,6 +180,32 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ab2e02493ba97dc0c398bb7ba4a8af951" name="ab2e02493ba97dc0c398bb7ba4a8af951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e02493ba97dc0c398bb7ba4a8af951">&#9670;&nbsp;</a></span>i_JKRFree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void i_JKRFree </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9b99aa6964e7e599f61c5692733cc26c" name="a9b99aa6964e7e599f61c5692733cc26c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b99aa6964e7e599f61c5692733cc26c">&#9670;&nbsp;</a></span>JKRAlloc()</h2>
 
@@ -324,32 +350,6 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac462f7ad88ddc8bfbbeac6a5d0d84881" name="ac462f7ad88ddc8bfbbeac6a5d0d84881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac462f7ad88ddc8bfbbeac6a5d0d84881">&#9670;&nbsp;</a></span>JKRFree()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void JKRFree </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

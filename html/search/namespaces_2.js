@@ -9,9 +9,14 @@ var searchData=
   ['jgeometry_6',['JGeometry',['../namespaceJGeometry.html',1,'']]],
   ['jmath_7',['JMath',['../namespaceJMath.html',1,'']]],
   ['jmessage_8',['JMessage',['../namespaceJMessage.html',1,'']]],
-  ['jstudio_9',['JStudio',['../namespaceJStudio.html',1,'']]],
-  ['jutility_10',['JUtility',['../namespaceJUtility.html',1,'']]],
-  ['object_11',['object',['../namespaceJStudio_1_1object.html',1,'JStudio']]],
-  ['stb_12',['stb',['../namespaceJStudio_1_1stb.html',1,'JStudio']]],
-  ['vector_13',['vector',['../namespaceJGadget_1_1vector.html',1,'JGadget']]]
+  ['jstage_9',['JStage',['../namespaceJStage.html',1,'']]],
+  ['jstudio_10',['JStudio',['../namespaceJStudio.html',1,'']]],
+  ['jstudio_5fjaudio2_11',['JStudio_JAudio2',['../namespaceJStudio__JAudio2.html',1,'']]],
+  ['jstudio_5fjparticle_12',['JStudio_JParticle',['../namespaceJStudio__JParticle.html',1,'']]],
+  ['jstudio_5fjstage_13',['JStudio_JStage',['../namespaceJStudio__JStage.html',1,'']]],
+  ['jutility_14',['JUtility',['../namespaceJUtility.html',1,'']]],
+  ['math_15',['math',['../namespaceJStudio_1_1math.html',1,'JStudio']]],
+  ['object_16',['object',['../namespaceJStudio_1_1object.html',1,'JStudio']]],
+  ['stb_17',['stb',['../namespaceJStudio_1_1stb.html',1,'JStudio']]],
+  ['vector_18',['vector',['../namespaceJGadget_1_1vector.html',1,'JGadget']]]
 ];

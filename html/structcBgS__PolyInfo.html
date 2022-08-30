@@ -121,8 +121,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abc2792577bcccd18321c3ff90df5e5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea3b121183c675ae053c7b4e0be62c57"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcBgS__PolyInfo.html#aea3b121183c675ae053c7b4e0be62c57">unk_0x04</a></td></tr>
 <tr class="separator:aea3b121183c675ae053c7b4e0be62c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa435ad5f13c2bf88942ef71071e2325"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcBgS__PolyInfo.html#aaa435ad5f13c2bf88942ef71071e2325">unk_0x08</a></td></tr>
-<tr class="separator:aaa435ad5f13c2bf88942ef71071e2325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2ccee82a9dc28ec003fda4cb8e4c30"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcBgS__PolyInfo.html#ade2ccee82a9dc28ec003fda4cb8e4c30">mActorId</a></td></tr>
+<tr class="separator:ade2ccee82a9dc28ec003fda4cb8e4c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2b352ef3a89f83d507b7b99f2f930cbf" name="a2b352ef3a89f83d507b7b99f2f930cbf"></a>
@@ -201,7 +201,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>actor_id</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -307,19 +307,19 @@ Private Attributes</h2></td></tr>
           <td class="memname">void cBgS_PolyInfo::SetActorInfo </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>bg_index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>p_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>param_3</em>&#160;</td>
+          <td class="paramname"><em>actor_id</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -341,7 +341,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void cBgS_PolyInfo::SetPolyIndex </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>pPolyIndex</em></td><td>)</td>
+          <td class="paramname"><em>poly_index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -359,7 +359,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void cBgS_PolyInfo::SetPolyInfo </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structcBgS__PolyInfo.html">cBgS_PolyInfo</a> &amp;&#160;</td>
-          <td class="paramname"><em>pOther</em></td><td>)</td>
+          <td class="paramname"><em>poly</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,6 +368,28 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ade2ccee82a9dc28ec003fda4cb8e4c30" name="ade2ccee82a9dc28ec003fda4cb8e4c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade2ccee82a9dc28ec003fda4cb8e4c30">&#9670;&nbsp;</a></span>mActorId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int cBgS_PolyInfo::mActorId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abc2792577bcccd18321c3ff90df5e5b6" name="abc2792577bcccd18321c3ff90df5e5b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc2792577bcccd18321c3ff90df5e5b6">&#9670;&nbsp;</a></span>mBgIndex</h2>
 
@@ -423,28 +445,6 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void* cBgS_PolyInfo::unk_0x04</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaa435ad5f13c2bf88942ef71071e2325" name="aaa435ad5f13c2bf88942ef71071e2325"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa435ad5f13c2bf88942ef71071e2325">&#9670;&nbsp;</a></span>unk_0x08</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> cBgS_PolyInfo::unk_0x08</td>
         </tr>
       </table>
   </td>

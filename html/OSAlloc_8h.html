@@ -74,6 +74,9 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">OSAlloc.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -91,11 +94,190 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="OSAlloc_8h__dep__incl.svg" width="192" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="OSAlloc_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
 <p><a href="OSAlloc_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a72fa4cf9276fca47aca5f8eb5a5df2f7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a></td></tr>
+<tr class="separator:a72fa4cf9276fca47aca5f8eb5a5df2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a922eadbcf50ae8da89b2bfd8518ea728"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSAlloc_8h.html#a922eadbcf50ae8da89b2bfd8518ea728">DLInsert</a> (void *param_0, void *param_1)</td></tr>
+<tr class="separator:a922eadbcf50ae8da89b2bfd8518ea728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b2ab4be29d00cb75c0ac7da79cc3f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSAlloc_8h.html#ad6b2ab4be29d00cb75c0ac7da79cc3f1">OSFreeToHeap</a> (<a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a> heap, void *ptr)</td></tr>
+<tr class="separator:ad6b2ab4be29d00cb75c0ac7da79cc3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6bb31b766a061767775f1506acdffd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSAlloc_8h.html#a7b6bb31b766a061767775f1506acdffd">OSSetCurrentHeap</a> (<a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a> heap)</td></tr>
+<tr class="separator:a7b6bb31b766a061767775f1506acdffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef15af9695fe38b8f8283adbb32d61c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSAlloc_8h.html#aeef15af9695fe38b8f8283adbb32d61c">OSInitAlloc</a> (void *lo, void *hi, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> maxHeaps)</td></tr>
+<tr class="separator:aeef15af9695fe38b8f8283adbb32d61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891f31376d3b89859b81d997b74195d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSAlloc_8h.html#a891f31376d3b89859b81d997b74195d3">OSCreateHeap</a> (void *start, void *end)</td></tr>
+<tr class="separator:a891f31376d3b89859b81d997b74195d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a72fa4cf9276fca47aca5f8eb5a5df2f7" name="a72fa4cf9276fca47aca5f8eb5a5df2f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72fa4cf9276fca47aca5f8eb5a5df2f7">&#9670;&nbsp;</a></span>OSHeapHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a922eadbcf50ae8da89b2bfd8518ea728" name="a922eadbcf50ae8da89b2bfd8518ea728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a922eadbcf50ae8da89b2bfd8518ea728">&#9670;&nbsp;</a></span>DLInsert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void * DLInsert </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param_0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a891f31376d3b89859b81d997b74195d3" name="a891f31376d3b89859b81d997b74195d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891f31376d3b89859b81d997b74195d3">&#9670;&nbsp;</a></span>OSCreateHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a> OSCreateHeap </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6b2ab4be29d00cb75c0ac7da79cc3f1" name="ad6b2ab4be29d00cb75c0ac7da79cc3f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b2ab4be29d00cb75c0ac7da79cc3f1">&#9670;&nbsp;</a></span>OSFreeToHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSFreeToHeap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a>&#160;</td>
+          <td class="paramname"><em>heap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeef15af9695fe38b8f8283adbb32d61c" name="aeef15af9695fe38b8f8283adbb32d61c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef15af9695fe38b8f8283adbb32d61c">&#9670;&nbsp;</a></span>OSInitAlloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * OSInitAlloc </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>lo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>hi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
+          <td class="paramname"><em>maxHeaps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b6bb31b766a061767775f1506acdffd" name="a7b6bb31b766a061767775f1506acdffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6bb31b766a061767775f1506acdffd">&#9670;&nbsp;</a></span>OSSetCurrentHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OSSetCurrentHeap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="OSAlloc_8h.html#a72fa4cf9276fca47aca5f8eb5a5df2f7">OSHeapHandle</a>&#160;</td>
+          <td class="paramname"><em>heap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

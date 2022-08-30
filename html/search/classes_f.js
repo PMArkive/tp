@@ -10,11 +10,12 @@ var searchData=
   ['osmutex_7',['OSMutex',['../structOSMutex.html',1,'']]],
   ['osmutexlink_8',['OSMutexLink',['../structOSMutexLink.html',1,'']]],
   ['osmutexqueue_9',['OSMutexQueue',['../structOSMutexQueue.html',1,'']]],
-  ['ossectioninfo_10',['OSSectionInfo',['../structOSSectionInfo.html',1,'']]],
-  ['osthread_11',['OSThread',['../structOSThread.html',1,'']]],
-  ['osthreadlink_12',['OSThreadLink',['../structOSThreadLink.html',1,'']]],
-  ['osthreadqueue_13',['OSThreadQueue',['../structOSThreadQueue.html',1,'']]],
-  ['overlap1_5fclass_14',['overlap1_class',['../structoverlap1__class.html',1,'']]],
-  ['overlap_5frequest_5fclass_15',['overlap_request_class',['../classoverlap__request__class.html',1,'']]],
-  ['overlap_5ftask_5fclass_16',['overlap_task_class',['../structoverlap__task__class.html',1,'']]]
+  ['osresetfunctioninfo_10',['OSResetFunctionInfo',['../structOSResetFunctionInfo.html',1,'']]],
+  ['ossectioninfo_11',['OSSectionInfo',['../structOSSectionInfo.html',1,'']]],
+  ['osthread_12',['OSThread',['../structOSThread.html',1,'']]],
+  ['osthreadlink_13',['OSThreadLink',['../structOSThreadLink.html',1,'']]],
+  ['osthreadqueue_14',['OSThreadQueue',['../structOSThreadQueue.html',1,'']]],
+  ['overlap1_5fclass_15',['overlap1_class',['../structoverlap1__class.html',1,'']]],
+  ['overlap_5frequest_5fclass_16',['overlap_request_class',['../classoverlap__request__class.html',1,'']]],
+  ['overlap_5ftask_5fclass_17',['overlap_task_class',['../structoverlap__task__class.html',1,'']]]
 ];
