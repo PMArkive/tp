@@ -25,12 +25,12 @@ var searchData=
   ['_5fgxlogicop_22',['_GXLogicOp',['../struct__GXLogicOp.html',1,'']]],
   ['_5fgxrendermodeobj_23',['_GXRenderModeObj',['../struct__GXRenderModeObj.html',1,'']]],
   ['_5fgxtevregid_24',['_GXTevRegID',['../struct__GXTevRegID.html',1,'']]],
-  ['_5fgxtexmapid_25',['_GXTexMapID',['../struct__GXTexMapID.html',1,'']]],
-  ['_5fgxtexobj_26',['_GXTexObj',['../struct__GXTexObj.html',1,'']]],
-  ['_5fgxtexregion_27',['_GXTexRegion',['../struct__GXTexRegion.html',1,'']]],
-  ['_5fgxtlutobj_28',['_GXTlutObj',['../struct__GXTlutObj.html',1,'']]],
-  ['_5fgxtlutregion_29',['_GXTlutRegion',['../struct__GXTlutRegion.html',1,'']]],
-  ['_5fgxtlutsize_30',['_GXTlutSize',['../struct__GXTlutSize.html',1,'']]],
-  ['_5fgxvtxattrfmtlist_31',['_GXVtxAttrFmtList',['../struct__GXVtxAttrFmtList.html',1,'']]],
-  ['_5fgxvtxdesclist_32',['_GXVtxDescList',['../struct__GXVtxDescList.html',1,'']]]
+  ['_5fgxtexobj_25',['_GXTexObj',['../struct__GXTexObj.html',1,'']]],
+  ['_5fgxtexregion_26',['_GXTexRegion',['../struct__GXTexRegion.html',1,'']]],
+  ['_5fgxtlutobj_27',['_GXTlutObj',['../struct__GXTlutObj.html',1,'']]],
+  ['_5fgxtlutregion_28',['_GXTlutRegion',['../struct__GXTlutRegion.html',1,'']]],
+  ['_5fgxtlutsize_29',['_GXTlutSize',['../struct__GXTlutSize.html',1,'']]],
+  ['_5fgxvtxattrfmtlist_30',['_GXVtxAttrFmtList',['../struct__GXVtxAttrFmtList.html',1,'']]],
+  ['_5fgxvtxdesclist_31',['_GXVtxDescList',['../struct__GXVtxDescList.html',1,'']]],
+  ['_5fstick_32',['_stick',['../structdCamera__c_1_1dCamera__pad__info_1_1__stick.html',1,'dCamera_c::dCamera_pad_info']]]
 ];

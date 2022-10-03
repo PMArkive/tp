@@ -1,7 +1,7 @@
 var searchData=
 [
   ['eallocdirection_0',['EAllocDirection',['../structJKRDvdRipper.html#add5351d092f559b4c2bef0b3e2199161',1,'JKRDvdRipper']]],
-  ['eallocmode_1',['EAllocMode',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5',1,'JKRAramHeap']]],
+  ['eallocmode_1',['EAllocMode',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5',1,'JKRAramHeap::EAllocMode()'],['../structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0d',1,'JKRExpHeap::EAllocMode()']]],
   ['econsoletype_2',['EConsoleType',['../structJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14c',1,'JUTConsole']]],
   ['edrawdone_3',['EDrawDone',['../structJFWDisplay.html#af84166a3fe71eef3b55b7de7c8f219c2',1,'JFWDisplay']]],
   ['einfopage_4',['EInfoPage',['../structJUTException.html#a816c521deb969255e2de0aadc6ccecee',1,'JUTException']]],

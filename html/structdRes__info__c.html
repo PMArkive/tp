@@ -97,10 +97,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6fb96cb3cdd53ae6c8ab5e542c763236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6fad05647dae34a61ccddaf685848f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#aad6fad05647dae34a61ccddaf685848f">set</a> (char const *, char const *, <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>, <a class="el" href="structJKRHeap.html">JKRHeap</a> *)</td></tr>
 <tr class="separator:aad6fad05647dae34a61ccddaf685848f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a8494e61a3cadb03f9d8ab4f45a24f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#a83a8494e61a3cadb03f9d8ab4f45a24f">onWarpMaterial</a> (<a class="el" href="structJ3DModelData.html">J3DModelData</a> *)</td></tr>
-<tr class="separator:a83a8494e61a3cadb03f9d8ab4f45a24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32cfe359ca39b5ded0bd5b11ba0994a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#ad32cfe359ca39b5ded0bd5b11ba0994a">offWarpMaterial</a> (<a class="el" href="structJ3DModelData.html">J3DModelData</a> *)</td></tr>
-<tr class="separator:ad32cfe359ca39b5ded0bd5b11ba0994a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeae51fbbfcd09e64db65e0dbbd4e0861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#aeae51fbbfcd09e64db65e0dbbd4e0861">setWarpSRT</a> (<a class="el" href="structJ3DModelData.html">J3DModelData</a> *, <a class="el" href="structcXyz.html">cXyz</a> const &amp;, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
 <tr class="separator:aeae51fbbfcd09e64db65e0dbbd4e0861"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9554f7f09413a3dcfa05646acaf4d70d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#a9554f7f09413a3dcfa05646acaf4d70d">loaderBasicBmd</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, void *)</td></tr>
@@ -130,6 +126,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a83a8494e61a3cadb03f9d8ab4f45a24f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#a83a8494e61a3cadb03f9d8ab4f45a24f">onWarpMaterial</a> (<a class="el" href="structJ3DModelData.html">J3DModelData</a> *)</td></tr>
+<tr class="separator:a83a8494e61a3cadb03f9d8ab4f45a24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32cfe359ca39b5ded0bd5b11ba0994a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#ad32cfe359ca39b5ded0bd5b11ba0994a">offWarpMaterial</a> (<a class="el" href="structJ3DModelData.html">J3DModelData</a> *)</td></tr>
+<tr class="separator:ad32cfe359ca39b5ded0bd5b11ba0994a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3aaca50a93d1c7e801d92b33a3bc9dd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#ac3aaca50a93d1c7e801d92b33a3bc9dd">dump_long</a> (<a class="el" href="structdRes__info__c.html">dRes_info_c</a> *, int)</td></tr>
 <tr class="separator:ac3aaca50a93d1c7e801d92b33a3bc9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a770757cf871ff625731b8a6e2e91e51b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdRes__info__c.html#a770757cf871ff625731b8a6e2e91e51b">dump</a> (<a class="el" href="structdRes__info__c.html">dRes_info_c</a> *, int)</td></tr>
@@ -503,6 +503,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">asm void dRes_info_c::offWarpMaterial </td>
@@ -512,6 +515,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -521,6 +529,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">asm void dRes_info_c::onWarpMaterial </td>
@@ -530,6 +541,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

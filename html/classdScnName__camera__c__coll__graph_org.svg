@@ -21,17 +21,17 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="structcamera__class.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1541,-772.5 1541,-791.5 1618,-791.5 1618,-772.5 1541,-772.5"/>
-<text text-anchor="middle" x="1579.5" y="-779.5" font-family="Helvetica,sans-Serif" font-size="10.00">camera_class</text>
+<g id="a_node2"><a xlink:href="classcamera__process__class.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1521,-772.5 1521,-791.5 1638,-791.5 1638,-772.5 1521,-772.5"/>
+<text text-anchor="middle" x="1579.5" y="-779.5" font-family="Helvetica,sans-Serif" font-size="10.00">camera_process_class</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M1628.73,-782C1643.41,-782 1659.67,-782 1674.8,-782"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1628.35,-778.5 1618.35,-782 1628.35,-785.5 1628.35,-778.5"/>
+<path fill="none" stroke="midnightblue" d="M1648.08,-782C1657.02,-782 1666.11,-782 1674.82,-782"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1648.06,-778.5 1638.06,-782 1648.06,-785.5 1648.06,-778.5"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -45,7 +45,7 @@
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1413.45,-754.09C1450.82,-760.41 1505,-769.57 1540.96,-775.65"/>
+<path fill="none" stroke="midnightblue" d="M1413.5,-754.1C1444.74,-759.38 1487.71,-766.65 1521.96,-772.44"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1413.83,-750.61 1403.39,-752.39 1412.67,-757.51 1413.83,-750.61"/>
 </g>
 <!-- Node4 -->
@@ -187,7 +187,7 @@
 <title>Node8&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M428.67,-649.74C457.36,-712.29 559.94,-910 710.5,-910 710.5,-910 710.5,-910 1371.5,-910 1461.5,-910 1545.04,-821.39 1570.56,-791.62"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="431.86,-648.29 424.57,-640.6 425.47,-651.16 431.86,-648.29"/>
-<text text-anchor="middle" x="1036" y="-913" font-family="Helvetica,sans-Serif" font-size="10.00"> pMthd</text>
+<text text-anchor="middle" x="1036" y="-913" font-family="Helvetica,sans-Serif" font-size="10.00"> mpMtd</text>
 </g>
 <!-- Node8&#45;&gt;Node3 -->
 <g id="edge45" class="edge">
@@ -248,7 +248,7 @@
 <title>Node11&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M214.52,-265.77C252.58,-316.06 369.58,-459.23 506,-514 623.82,-561.3 952.92,-521.84 1076,-553 1279.54,-604.53 1502.58,-735.48 1562.8,-772.26"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="217.32,-263.67 208.53,-257.76 211.72,-267.86 217.32,-263.67"/>
-<text text-anchor="middle" x="925" y="-545" font-family="Helvetica,sans-Serif" font-size="10.00"> pCreateTag</text>
+<text text-anchor="middle" x="925" y="-545" font-family="Helvetica,sans-Serif" font-size="10.00"> mCreateTag</text>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
 <g id="edge11" class="edge">
@@ -581,7 +581,7 @@
 <title>Node26&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1195.26,-744.61C1237.68,-745.19 1300.32,-746.05 1337.81,-746.57"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1195.25,-741.11 1185.2,-744.48 1195.15,-748.11 1195.25,-741.11"/>
-<text text-anchor="middle" x="1258" y="-749" font-family="Helvetica,sans-Serif" font-size="10.00"> field_0xd8</text>
+<text text-anchor="middle" x="1258" y="-749" font-family="Helvetica,sans-Serif" font-size="10.00"> mLookat</text>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node">
@@ -642,7 +642,7 @@
 <!-- Node29&#45;&gt;Node2 -->
 <g id="edge52" class="edge">
 <title>Node29&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1402.27,-805.84C1439.22,-800.84 1501.17,-792.46 1540.91,-787.08"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1402.35,-805.83C1433.56,-801.61 1482.53,-794.98 1520.93,-789.79"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="1401.55,-802.4 1392.1,-807.21 1402.48,-809.34 1401.55,-802.4"/>
 <text text-anchor="middle" x="1475.5" y="-803" font-family="Helvetica,sans-Serif" font-size="10.00"> mAngle</text>
 </g>

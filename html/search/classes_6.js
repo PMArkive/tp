@@ -17,7 +17,7 @@ var searchData=
   ['fopacm_5frc_5fc_14',['fopAcM_rc_c',['../classfopAcM__rc__c.html',1,'']]],
   ['fopacm_5fsearch4ev_5fprm_15',['fopAcM_search4ev_prm',['../structfopAcM__search4ev__prm.html',1,'']]],
   ['fopacm_5fsearch_5fprm_16',['fopAcM_search_prm',['../structfopAcM__search__prm.html',1,'']]],
-  ['fopacm_5fwt_5fc_17',['fopAcM_wt_c',['../structfopAcM__wt__c.html',1,'']]],
+  ['fopacm_5fwt_5fc_17',['fopAcM_wt_c',['../classfopAcM__wt__c.html',1,'']]],
   ['fopen_5fenemy_5fc_18',['fopEn_enemy_c',['../structfopEn__enemy__c.html',1,'']]],
   ['fopkym_5fprm_5fclass_19',['fopKyM_prm_class',['../structfopKyM__prm__class.html',1,'']]],
   ['fopmsg_5fprm_5fclass_20',['fopMsg_prm_class',['../structfopMsg__prm__class.html',1,'']]],

@@ -72,6 +72,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -106,6 +107,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJKRExpHeap_1_1CMemBlock.html">CMemBlock</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a9a114aea69c03b0590e1615a86fedf0d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0d">EAllocMode</a> { <a class="el" href="structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0dac9fd2b746c040bb83fcfffc1146fea78">ALLOC_MODE_1</a> = 1
+ }</td></tr>
+<tr class="separator:a9a114aea69c03b0590e1615a86fedf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afb9a8b22baf16de6c4c127840476cae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#afb9a8b22baf16de6c4c127840476cae6">create</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, <a class="el" href="structJKRHeap.html">JKRHeap</a> *, bool)</td></tr>
@@ -116,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afeb5f9cc9789602d9b533ad805600b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307bdf9d77fad97cccead87baa41521d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJKRExpHeap_1_1CMemBlock.html">CMemBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a307bdf9d77fad97cccead87baa41521d">getHeadUsedList</a> () const</td></tr>
 <tr class="separator:a307bdf9d77fad97cccead87baa41521d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52192a6351dac98e3ad71c9f1cfc0044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a52192a6351dac98e3ad71c9f1cfc0044">setAllocationMode</a> (<a class="el" href="structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0d">EAllocMode</a> mode)</td></tr>
+<tr class="separator:a52192a6351dac98e3ad71c9f1cfc0044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7709dd228c3e30d13b3db85113bb97a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a7709dd228c3e30d13b3db85113bb97a1">getHeapType</a> ()</td></tr>
 <tr class="separator:a7709dd228c3e30d13b3db85113bb97a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfccda9d534f7188a78b92700ce67e75"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#adfccda9d534f7188a78b92700ce67e75">check</a> ()</td></tr>
@@ -399,8 +408,8 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac1be217f96893743ee11d7d9582ad9cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#ac1be217f96893743ee11d7d9582ad9cd">field_0x6c</a></td></tr>
-<tr class="separator:ac1be217f96893743ee11d7d9582ad9cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa35f045478c4a983646742f9e23741"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a1fa35f045478c4a983646742f9e23741">mAllocMode</a></td></tr>
+<tr class="separator:a1fa35f045478c4a983646742f9e23741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ba256f1b857b0302d6c363e22d633cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a7ba256f1b857b0302d6c363e22d633cf">mCurrentGroupId</a></td></tr>
 <tr class="separator:a7ba256f1b857b0302d6c363e22d633cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a207903faf34ccb1352a49e4a6f616304"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html#a207903faf34ccb1352a49e4a6f616304">field_0x6e</a></td></tr>
@@ -511,6 +520,24 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a629e2ef5ce00928653080a731e7c24dc inherit pro_attribs_structJKRHeap"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRHeap.html#a629e2ef5ce00928653080a731e7c24dc">padding_0x6a</a> [2]</td></tr>
 <tr class="separator:a629e2ef5ce00928653080a731e7c24dc inherit pro_attribs_structJKRHeap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a9a114aea69c03b0590e1615a86fedf0d" name="a9a114aea69c03b0590e1615a86fedf0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a114aea69c03b0590e1615a86fedf0d">&#9670;&nbsp;</a></span>EAllocMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0d">JKRExpHeap::EAllocMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9a114aea69c03b0590e1615a86fedf0dac9fd2b746c040bb83fcfffc1146fea78" name="a9a114aea69c03b0590e1615a86fedf0dac9fd2b746c040bb83fcfffc1146fea78"></a>ALLOC_MODE_1&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af6fc23ec50c17ffb832e38db6f243103" name="af6fc23ec50c17ffb832e38db6f243103"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6fc23ec50c17ffb832e38db6f243103">&#9670;&nbsp;</a></span>JKRExpHeap()</h2>
@@ -1557,6 +1584,32 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a52192a6351dac98e3ad71c9f1cfc0044" name="a52192a6351dac98e3ad71c9f1cfc0044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52192a6351dac98e3ad71c9f1cfc0044">&#9670;&nbsp;</a></span>setAllocationMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JKRExpHeap::setAllocationMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0d">EAllocMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac1f3f7bc2caf3b6975f9c08512af750f" name="ac1f3f7bc2caf3b6975f9c08512af750f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1f3f7bc2caf3b6975f9c08512af750f">&#9670;&nbsp;</a></span>setFreeBlock()</h2>
 
@@ -1699,20 +1752,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac1be217f96893743ee11d7d9582ad9cd" name="ac1be217f96893743ee11d7d9582ad9cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1be217f96893743ee11d7d9582ad9cd">&#9670;&nbsp;</a></span>field_0x6c</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> JKRExpHeap::field_0x6c</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a207903faf34ccb1352a49e4a6f616304" name="a207903faf34ccb1352a49e4a6f616304"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a207903faf34ccb1352a49e4a6f616304">&#9670;&nbsp;</a></span>field_0x6e</h2>
 
@@ -1767,6 +1806,20 @@ Additional Inherited Members</h2></td></tr>
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fa35f045478c4a983646742f9e23741" name="a1fa35f045478c4a983646742f9e23741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa35f045478c4a983646742f9e23741">&#9670;&nbsp;</a></span>mAllocMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> JKRExpHeap::mAllocMode</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

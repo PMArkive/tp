@@ -278,7 +278,7 @@ var sectionId = 'dynsection-1';
 <title>Node9&#45;&gt;Node52</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M665.54,-359.81C681.46,-371.83 704.22,-388.55 725,-402 756.42,-422.35 766.56,-423.68 798,-444 806.29,-449.36 807.26,-452.43 816,-457 822.87,-460.59 830.57,-463.76 837.95,-466.43"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="667.54,-356.93 657.46,-353.66 663.3,-362.5 667.54,-356.93"/>
-<text text-anchor="middle" x="761.5" y="-447" font-family="Helvetica,sans-Serif" font-size="10.00"> mPosition</text>
+<text text-anchor="middle" x="761.5" y="-447" font-family="Helvetica,sans-Serif" font-size="10.00"> pos</text>
 </g>
 <!-- Node120 -->
 <g id="node47" class="node">
@@ -721,9 +721,9 @@ var sectionId = 'dynsection-1';
 <title>Node52&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M914.57,-471.25C947.05,-468.7 992.74,-467.44 1032,-475 1045.51,-477.6 1059.89,-483.35 1070.89,-488.45"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="914.18,-467.77 904.52,-472.11 914.78,-474.74 914.18,-467.77"/>
-<text text-anchor="middle" x="988" y="-500" font-family="Helvetica,sans-Serif" font-size="10.00"> mCurrent</text>
-<text text-anchor="middle" x="988" y="-489" font-family="Helvetica,sans-Serif" font-size="10.00">mNext</text>
-<text text-anchor="middle" x="988" y="-478" font-family="Helvetica,sans-Serif" font-size="10.00">mOrig</text>
+<text text-anchor="middle" x="988" y="-500" font-family="Helvetica,sans-Serif" font-size="10.00"> current</text>
+<text text-anchor="middle" x="988" y="-489" font-family="Helvetica,sans-Serif" font-size="10.00">next</text>
+<text text-anchor="middle" x="988" y="-478" font-family="Helvetica,sans-Serif" font-size="10.00">orig</text>
 </g>
 <!-- Node53 -->
 <g id="node32" class="node">
@@ -746,7 +746,7 @@ var sectionId = 'dynsection-1';
 <title>Node53&#45;&gt;Node52</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M675.32,-478.87C685.41,-475.79 696.71,-472.29 707,-469 715.03,-466.43 716.68,-464.35 725,-463 757.03,-457.8 765.68,-460.11 798,-463 810.9,-464.16 824.96,-466.45 837.19,-468.8"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="674.26,-475.54 665.71,-481.79 676.29,-482.23 674.26,-475.54"/>
-<text text-anchor="middle" x="761.5" y="-466" font-family="Helvetica,sans-Serif" font-size="10.00"> mAngle</text>
+<text text-anchor="middle" x="761.5" y="-466" font-family="Helvetica,sans-Serif" font-size="10.00"> angle</text>
 </g>
 <!-- Node53&#45;&gt;Node53 -->
 <g id="edge48" class="edge">
@@ -803,7 +803,7 @@ var sectionId = 'dynsection-1';
 <!-- Node118 -->
 <g id="node45" class="node">
 <title>Node118</title>
-<g id="a_node45"><a xlink:href="structdJntCol__c.html" target="_top" xlink:title=" ">
+<g id="a_node45"><a xlink:href="classdJntCol__c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="841,-165.5 841,-184.5 901,-184.5 901,-165.5 841,-165.5"/>
 <text text-anchor="middle" x="871" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">dJntCol_c</text>
 </a>

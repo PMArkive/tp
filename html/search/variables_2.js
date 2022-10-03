@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['b',['../struct__GXColorS10.html#ac8258574f2bde46e91f956ce2dc06b08',1,'_GXColorS10::b()'],['../struct__GXColor.html#ab5f92d6ef6636ecc7bd3262404bcc60e',1,'_GXColor::b()']]],
+  ['b_0',['b',['../struct__GXColor.html#ab5f92d6ef6636ecc7bd3262404bcc60e',1,'_GXColor::b()'],['../struct__GXColorS10.html#ac8258574f2bde46e91f956ce2dc06b08',1,'_GXColorS10::b()'],['../structcolor__RGB__class.html#aef0cd38f188a780cd3a7d8265da70a80',1,'color_RGB_class::b()']]],
   ['b1_1',['b1',['../structstd_1_1pair.html#aec44ab235f9347c4cabf40c443ac3e45',1,'std::pair']]],
   ['b_5ftag_2',['b_tag',['../d__meter2__draw_8cpp.html#af14b097e461d945c1e07736266102b5f',1,'d_meter2_draw.cpp']]],
   ['backcolor_3',['backColor',['../d__map_8cpp.html#ac76c9a1453e91b0dfca54ad9378f3abd',1,'d_map.cpp']]],
@@ -19,7 +19,7 @@ var searchData=
   ['basexyz_16',['BaseXYZ',['../structcXyz.html#a846595fff0bf84d6fdf96815db763631',1,'cXyz']]],
   ['basexz_17',['BaseXZ',['../structcXyz.html#a4ebbe9779bb3a405f4c3a37e3bdf6f11',1,'cXyz']]],
   ['basey_18',['BaseY',['../structcXyz.html#a563595669d1daedfe2ff7daf9a6b249c',1,'cXyz::BaseY()'],['../structcXyz.html#a4257cdca6ef1e5136e0f3fd0c883e672',1,'cXyz::BaseY()']]],
-  ['basey_5f_5f4cxyz_19',['BaseY__4cXyz',['../d__a__obj_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;d_a_obj.cpp'],['../d__camera_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;d_camera.cpp'],['../d__a__alink_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;d_a_alink.cpp'],['../f__op__actor__mng_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;f_op_actor_mng.cpp']]],
+  ['basey_5f_5f4cxyz_19',['BaseY__4cXyz',['../d__a__obj_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;d_a_obj.cpp'],['../d__camera_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;d_camera.cpp'],['../f__op__actor__mng_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;f_op_actor_mng.cpp'],['../d__a__alink_8cpp.html#a4bee5aa55bce1f03263be5add9f31de0',1,'BaseY__4cXyz():&#160;d_a_alink.cpp']]],
   ['baseyz_20',['BaseYZ',['../structcXyz.html#a3a6cd3309bd30f66cce1598d6f7c82ce',1,'cXyz']]],
   ['basez_21',['BaseZ',['../structcXyz.html#a8217e2363bd7edf650ae7fe877555571',1,'cXyz']]],
   ['basez_5f_5f4cxyz_22',['BaseZ__4cXyz',['../d__jnt__col_8cpp.html#a7845b0520e657fecee62f8f96f88f3a3',1,'BaseZ__4cXyz():&#160;d_jnt_col.cpp'],['../d__cc__s_8cpp.html#a7845b0520e657fecee62f8f96f88f3a3',1,'BaseZ__4cXyz():&#160;d_cc_s.cpp'],['../d__a__alink_8cpp.html#a7845b0520e657fecee62f8f96f88f3a3',1,'BaseZ__4cXyz():&#160;d_a_alink.cpp']]],

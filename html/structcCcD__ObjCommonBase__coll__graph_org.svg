@@ -213,7 +213,7 @@
 <title>Node8&#45;&gt;Node51</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M715.36,-425.27C731.27,-438.4 754.59,-457.06 776,-472 814.94,-499.18 824.58,-506.66 867,-528 877.62,-533.34 889.74,-538.38 900.28,-542.44"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="717.27,-422.31 707.34,-418.61 712.79,-427.69 717.27,-422.31"/>
-<text text-anchor="middle" x="812.5" y="-522" font-family="Helvetica,sans-Serif" font-size="10.00"> mPosition</text>
+<text text-anchor="middle" x="812.5" y="-522" font-family="Helvetica,sans-Serif" font-size="10.00"> pos</text>
 </g>
 <!-- Node119 -->
 <g id="node49" class="node">
@@ -707,9 +707,9 @@
 <title>Node51&#45;&gt;Node10</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M971.79,-547.19C1005.56,-544.49 1053.71,-543.05 1095,-551 1108.51,-553.6 1122.89,-559.35 1133.89,-564.45"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="971.45,-543.71 961.79,-548.06 972.06,-550.68 971.45,-543.71"/>
-<text text-anchor="middle" x="1051" y="-576" font-family="Helvetica,sans-Serif" font-size="10.00"> mCurrent</text>
-<text text-anchor="middle" x="1051" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">mNext</text>
-<text text-anchor="middle" x="1051" y="-554" font-family="Helvetica,sans-Serif" font-size="10.00">mOrig</text>
+<text text-anchor="middle" x="1051" y="-576" font-family="Helvetica,sans-Serif" font-size="10.00"> current</text>
+<text text-anchor="middle" x="1051" y="-565" font-family="Helvetica,sans-Serif" font-size="10.00">next</text>
+<text text-anchor="middle" x="1051" y="-554" font-family="Helvetica,sans-Serif" font-size="10.00">orig</text>
 </g>
 <!-- Node52 -->
 <g id="node34" class="node">
@@ -732,7 +732,7 @@
 <title>Node52&#45;&gt;Node51</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M726.92,-552.87C770.51,-552.68 849.65,-552.33 894.22,-552.14"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="726.89,-549.37 716.91,-552.91 726.92,-556.37 726.89,-549.37"/>
-<text text-anchor="middle" x="812.5" y="-556" font-family="Helvetica,sans-Serif" font-size="10.00"> mAngle</text>
+<text text-anchor="middle" x="812.5" y="-556" font-family="Helvetica,sans-Serif" font-size="10.00"> angle</text>
 </g>
 <!-- Node52&#45;&gt;Node52 -->
 <g id="edge53" class="edge">
@@ -789,7 +789,7 @@
 <!-- Node117 -->
 <g id="node47" class="node">
 <title>Node117</title>
-<g id="a_node47"><a xlink:href="structdJntCol__c.html" target="_top" xlink:title=" ">
+<g id="a_node47"><a xlink:href="classdJntCol__c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="898,-326.5 898,-345.5 958,-345.5 958,-326.5 898,-326.5"/>
 <text text-anchor="middle" x="928" y="-333.5" font-family="Helvetica,sans-Serif" font-size="10.00">dJntCol_c</text>
 </a>
