@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['quat_5frotbasey_0',['quat_rotBaseY',['../structdaObj.html#a9046cfa1d3f0256c0220e915201288de',1,'daObj']]],
+  ['quat_5frotbasey_0',['quat_rotBaseY',['../namespacedaObj.html#a13a0da3c3c3649693e825fbcca93dc1b',1,'daObj']]],
   ['quat_5frotbasey_5f_5f5daobjfp10quaternionrc4cxyz_1',['quat_rotBaseY__5daObjFP10QuaternionRC4cXyz',['../d__a__obj_8cpp.html#a9d4d49310b3c8df0ab4d397749b17666',1,'d_a_obj.cpp']]],
   ['quatm_2',['quatM',['../structmDoMtx__stack__c.html#ae4c6d18946631cc67232f4e601beaec4',1,'mDoMtx_stack_c']]],
   ['quatm_5f_5f14mdomtx_5fstack_5fcfpc10quaternion_3',['quatM__14mDoMtx_stack_cFPC10Quaternion',['../m__Do__mtx_8cpp.html#ab47ecd4ae4139e111047e68f5fac414c',1,'quatM__14mDoMtx_stack_cFPC10Quaternion():&#160;m_Do_mtx.cpp'],['../d__a__alink_8cpp.html#ab47ecd4ae4139e111047e68f5fac414c',1,'quatM__14mDoMtx_stack_cFPC10Quaternion():&#160;d_a_alink.cpp']]],

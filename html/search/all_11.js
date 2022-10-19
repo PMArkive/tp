@@ -8,7 +8,7 @@ var searchData=
   ['qmtx_5f1063_5',['qMtx_1063',['../J3DTevs_8cpp.html#abc32bcbcb3cd9856d458276ca1df2a02',1,'J3DTevs.cpp']]],
   ['quat_2ecpp_6',['quat.cpp',['../quat_8cpp.html',1,'']]],
   ['quat_2eh_7',['quat.h',['../quat_8h.html',1,'']]],
-  ['quat_5frotbasey_8',['quat_rotBaseY',['../structdaObj.html#a9046cfa1d3f0256c0220e915201288de',1,'daObj']]],
+  ['quat_5frotbasey_8',['quat_rotBaseY',['../namespacedaObj.html#a13a0da3c3c3649693e825fbcca93dc1b',1,'daObj']]],
   ['quat_5frotbasey_5f_5f5daobjfp10quaternionrc4cxyz_9',['quat_rotBaseY__5daObjFP10QuaternionRC4cXyz',['../d__a__obj_8cpp.html#a9d4d49310b3c8df0ab4d397749b17666',1,'d_a_obj.cpp']]],
   ['quaternion_10',['Quaternion',['../structQuaternion.html',1,'']]],
   ['quatm_11',['quatM',['../structmDoMtx__stack__c.html#ae4c6d18946631cc67232f4e601beaec4',1,'mDoMtx_stack_c']]],
@@ -122,7 +122,7 @@ var searchData=
   ['queryfunc_119',['queryFunc',['../d__msg__flow_8h.html#a71fc214636b2632f9cbb91fc7f0c0a45',1,'d_msg_flow.h']]],
   ['querymapaddress_120',['queryMapAddress',['../structJUTException.html#ac2fa3cd26fb516d971a240d6103c9e86',1,'JUTException']]],
   ['querymapaddress_5fsingle_121',['queryMapAddress_single',['../structJUTException.html#aeb50fb73800ba5238413322e6ed3604c',1,'JUTException']]],
-  ['queue_122',['queue',['../structOSThread.html#a7a38bb731dfa078d12eb27f430fd135d',1,'OSThread::queue()'],['../structOSCond.html#a986524709ca06b35e274c15ee0fd129b',1,'OSCond::queue()'],['../f__pc__manager_8cpp.html#a73b5e8250c6bfb2e8fb034569229b3ca',1,'queue():&#160;f_pc_manager.cpp']]],
+  ['queue_122',['queue',['../structOSCond.html#a986524709ca06b35e274c15ee0fd129b',1,'OSCond::queue()'],['../structOSThread.html#a7a38bb731dfa078d12eb27f430fd135d',1,'OSThread::queue()'],['../f__pc__manager_8cpp.html#a73b5e8250c6bfb2e8fb034569229b3ca',1,'queue():&#160;f_pc_manager.cpp']]],
   ['quickstart_123',['QuickStart',['../structdCamera__c.html#a37ec7594e5517125c0766779b1370cb4',1,'dCamera_c']]],
   ['quickstart_5f_5f9dcamera_5fcfv_124',['QuickStart__9dCamera_cFv',['../d__camera_8cpp.html#a308e108dfec8345eaa1b2676abaef6ab',1,'QuickStart__9dCamera_cFv():&#160;d_camera.cpp'],['../d__event_8cpp.html#a308e108dfec8345eaa1b2676abaef6ab',1,'QuickStart__9dCamera_cFv():&#160;d_event.cpp']]],
   ['quitimmortalemitter_125',['quitImmortalEmitter',['../structJPABaseEmitter.html#a52875bae713308a57fddbb4f4d63844c',1,'JPABaseEmitter']]]

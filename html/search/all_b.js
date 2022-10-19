@@ -49,7 +49,7 @@ var searchData=
   ['kick_46',['kick',['../classmDoDvdThd__param__c.html#a4e938f288f2404f9109aa35e799160b2',1,'mDoDvdThd_param_c']]],
   ['kill_47',['Kill',['../structdVibration__c.html#ac8b08f55f18bc47c95c9323d590a0b57',1,'dVibration_c']]],
   ['kill_5f_5f12dvibration_5fcfv_48',['Kill__12dVibration_cFv',['../d__vibration_8cpp.html#a7d26492db7b443a4fb87d1f984486655',1,'d_vibration.cpp']]],
-  ['killactivechannel_49',['killActiveChannel',['../structJASDSPChannel.html#ae37a21ea6116e6d5b766b7c8463565d1',1,'JASDSPChannel::killActiveChannel()'],['../structJASDSPChannel.html#a87dcbdd21e0601e4ebf0a93d3c018c4e',1,'JASDSPChannel::killActiveChannel()']]],
+  ['killactivechannel_49',['killActiveChannel',['../structJASDSPChannel.html#a87dcbdd21e0601e4ebf0a93d3c018c4e',1,'JASDSPChannel::killActiveChannel()'],['../structJASDSPChannel.html#ae37a21ea6116e6d5b766b7c8463565d1',1,'JASDSPChannel::killActiveChannel()']]],
   ['killactivechannel_5f_5f13jasdspchannelfv_50',['killActiveChannel__13JASDSPChannelFv',['../JASAiCtrl_8cpp.html#aec6fb04a5f93b5fde9a125aba8277c19',1,'killActiveChannel__13JASDSPChannelFv():&#160;JASAiCtrl.cpp'],['../JASDSPChannel_8cpp.html#aec6fb04a5f93b5fde9a125aba8277c19',1,'killActiveChannel__13JASDSPChannelFv():&#160;JASDSPChannel.cpp']]],
   ['killsubcontents_51',['killSubContents',['../classdMeter2__c.html#a2e26c996ab1ab5efd0bbf57ab6d366d8',1,'dMeter2_c']]],
   ['killsubcontents_5f_5f9dmeter2_5fcfuc_52',['killSubContents__9dMeter2_cFUc',['../d__meter2_8cpp.html#aa4b5a9a0afed63f5ef1d5b58821b9685',1,'d_meter2.cpp']]],
@@ -64,6 +64,6 @@ var searchData=
   ['kj3derror_5falloc_61',['kJ3DError_Alloc',['../J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125a42330217f356068a0d66dfc3bae798fa',1,'J3DSys.h']]],
   ['kj3derror_5fsuccess_62',['kJ3DError_Success',['../J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125a0a335659e4756d79211cfd67b9b7d2e6',1,'J3DSys.h']]],
   ['kokiri_5fclothes_5fflag_63',['KOKIRI_CLOTHES_FLAG',['../d__save_8h.html#a754ce34cf5161a6dc781544dbecc6cd0aa8e82eaa10422a66792fb9c246061c4a',1,'d_save.h']]],
-  ['kvcdvatdlsize_64',['kVcdVatDLSize',['../J3DShape_8cpp.html#a06fc87d81c62e9abb8790b6e5713c55ba1587d173f2bd09d94ac8cf4004fb6bc2',1,'J3DShape.cpp']]],
+  ['kvcdvatdlsize_64',['kVcdVatDLSize',['../classJ3DShape.html#a348a411d6cb23cc1c09d01c32f602de1a78df67ba3112e67a6e32f56478e5f788',1,'J3DShape::kVcdVatDLSize()'],['../J3DShape_8cpp.html#a06fc87d81c62e9abb8790b6e5713c55ba1587d173f2bd09d94ac8cf4004fb6bc2',1,'kVcdVatDLSize():&#160;J3DShape.cpp']]],
   ['kytag05_5fclass_65',['kytag05_class',['../classkytag05__class.html',1,'']]]
 ];

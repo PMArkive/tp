@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af46cf8e8c8053f62ba9df1ba87fe74df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96758f3de5c0c818dc5f716081fefefe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#a96758f3de5c0c818dc5f716081fefefe">onWindCatch</a> ()</td></tr>
 <tr class="separator:a96758f3de5c0c818dc5f716081fefefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbcfd3b160dd9f7f9a16dfa038c24b8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#abbcfd3b160dd9f7f9a16dfa038c24b8a">checkForceDelete</a> () const</td></tr>
+<tr class="separator:abbcfd3b160dd9f7f9a16dfa038c24b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa6efdaa2caa565cbd7eb4d58e179f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#a5aa6efdaa2caa565cbd7eb4d58e179f5">checkCharge</a> () const</td></tr>
+<tr class="separator:a5aa6efdaa2caa565cbd7eb4d58e179f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structfopAc__ac__c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structfopAc__ac__c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a></td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,8 +223,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abc228776491c3713fc6f6f16d5076e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6bb54d5c37503f5ccd110430b8f7aa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#ae6bb54d5c37503f5ccd110430b8f7aa9">field_0x955</a></td></tr>
 <tr class="separator:ae6bb54d5c37503f5ccd110430b8f7aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f332488aefc75d7a7be17b0463e30bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#a1f332488aefc75d7a7be17b0463e30bb">field_0x956</a></td></tr>
-<tr class="separator:a1f332488aefc75d7a7be17b0463e30bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7979887cd527a5077f0e997efb4a12e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#ae7979887cd527a5077f0e997efb4a12e">mForceDelete</a></td></tr>
+<tr class="separator:ae7979887cd527a5077f0e997efb4a12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e3298862d33c0dc5e91cecb486706b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#a45e3298862d33c0dc5e91cecb486706b">field_0x957</a></td></tr>
 <tr class="separator:a45e3298862d33c0dc5e91cecb486706b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03bd8a4a2dfe5c1a80d36fa088d18133"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaBoomerang__c.html#a03bd8a4a2dfe5c1a80d36fa088d18133">field_0x958</a></td></tr>
@@ -285,23 +289,23 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a0e20d16c43ea9f9c08ebd156e6bbf9fd inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4432ca483b42ad43ce395dc0a2ede5e4 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="mtx_8h.html#a486ec93ad57f76408600fa51e755e290">MtxP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a4432ca483b42ad43ce395dc0a2ede5e4">mCullMtx</a></td></tr>
 <tr class="separator:a4432ca483b42ad43ce395dc0a2ede5e4 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c9797a91db8ccea71fefee6c37f559 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >union {</td></tr>
-<tr class="memitem:a7e550802d396feddaf414949507bef51 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a2da79c6ebab7e32b06edde4dad4e388c inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structcXyz.html">cXyz</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a1e6679b0014bdf956ae59d644753819f">mMin</a></td></tr>
-<tr class="separator:a2da79c6ebab7e32b06edde4dad4e388c inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a968353615f4b0797c2cb253b6528b798 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structcXyz.html">cXyz</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a8043ef3644b50c7e4350e119045b215a">mMax</a></td></tr>
-<tr class="separator:a968353615f4b0797c2cb253b6528b798 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e550802d396feddaf414949507bef51 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#ae966470df13bd79843ecf40e5cb018aa">mBox</a></td></tr>
-<tr class="separator:a7e550802d396feddaf414949507bef51 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1917c9dccfa0c28b41f5026b018b93 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a2f90b3da4dea8760f15cb5f93c252c76 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structcXyz.html">cXyz</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a352fd3cf138f66f6213574d99d584b29">mCenter</a></td></tr>
-<tr class="separator:a2f90b3da4dea8760f15cb5f93c252c76 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2500bc1a4ce11aef3089a389614f3a09 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a17ee0dd01a71637c7ab401de5db16fbd">mRadius</a></td></tr>
-<tr class="separator:a2500bc1a4ce11aef3089a389614f3a09 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1917c9dccfa0c28b41f5026b018b93 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a37666be6473ac0b822cdec238bbac4bf">mSphere</a></td></tr>
-<tr class="separator:a8f1917c9dccfa0c28b41f5026b018b93 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c9797a91db8ccea71fefee6c37f559 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#ad8c9797a91db8ccea71fefee6c37f559">mCull</a></td></tr>
-<tr class="separator:ad8c9797a91db8ccea71fefee6c37f559 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebd3847b17a5e02874700e315cacfa8 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:ad42e3ca711d489fad57945f5868d8ca8 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a0b57d89b1ae645197b6c59be3da20b1d inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structcXyz.html">cXyz</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a1e6679b0014bdf956ae59d644753819f">mMin</a></td></tr>
+<tr class="separator:a0b57d89b1ae645197b6c59be3da20b1d inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78c93bdfcb4a06bf8695ec1549af3e3e inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structcXyz.html">cXyz</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a8043ef3644b50c7e4350e119045b215a">mMax</a></td></tr>
+<tr class="separator:a78c93bdfcb4a06bf8695ec1549af3e3e inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42e3ca711d489fad57945f5868d8ca8 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a46689824b836c6b21ca160ad9fc814b5">mBox</a></td></tr>
+<tr class="separator:ad42e3ca711d489fad57945f5868d8ca8 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9264fb9dcc241183815bccff5994f8f inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a7e9d67f59214e3b71ad3724860611113 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="structcXyz.html">cXyz</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a352fd3cf138f66f6213574d99d584b29">mCenter</a></td></tr>
+<tr class="separator:a7e9d67f59214e3b71ad3724860611113 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa6af6e01e28bd54de74c8154b43aa3 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;<a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#a17ee0dd01a71637c7ab401de5db16fbd">mRadius</a></td></tr>
+<tr class="separator:aafa6af6e01e28bd54de74c8154b43aa3 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9264fb9dcc241183815bccff5994f8f inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;&#160;&#160;<a class="el" href="structfopAc__ac__c.html#ac526a3766aab0032ea266519b924dbdb">mSphere</a></td></tr>
+<tr class="separator:af9264fb9dcc241183815bccff5994f8f inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebd3847b17a5e02874700e315cacfa8 inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a0ebd3847b17a5e02874700e315cacfa8">mCull</a></td></tr>
+<tr class="separator:a0ebd3847b17a5e02874700e315cacfa8 inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b3b0e7b2a479b393c0a833d2ba08faa inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a7b3b0e7b2a479b393c0a833d2ba08faa">mCullSizeFar</a></td></tr>
 <tr class="separator:a7b3b0e7b2a479b393c0a833d2ba08faa inherit pub_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a776206167389ce96e09566ecb0304bba inherit pub_attribs_structfopAc__ac__c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structJ3DModel.html">J3DModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a776206167389ce96e09566ecb0304bba">field_0x524</a></td></tr>
@@ -435,6 +439,56 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5aa6efdaa2caa565cbd7eb4d58e179f5" name="a5aa6efdaa2caa565cbd7eb4d58e179f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa6efdaa2caa565cbd7eb4d58e179f5">&#9670;&nbsp;</a></span>checkCharge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool daBoomerang_c::checkCharge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbcfd3b160dd9f7f9a16dfa038c24b8a" name="abbcfd3b160dd9f7f9a16dfa038c24b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbcfd3b160dd9f7f9a16dfa038c24b8a">&#9670;&nbsp;</a></span>checkForceDelete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool daBoomerang_c::checkForceDelete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1319,28 +1373,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f332488aefc75d7a7be17b0463e30bb" name="a1f332488aefc75d7a7be17b0463e30bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f332488aefc75d7a7be17b0463e30bb">&#9670;&nbsp;</a></span>field_0x956</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> daBoomerang_c::field_0x956</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a45e3298862d33c0dc5e91cecb486706b" name="a45e3298862d33c0dc5e91cecb486706b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45e3298862d33c0dc5e91cecb486706b">&#9670;&nbsp;</a></span>field_0x957</h2>
 
@@ -1484,6 +1516,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> daBoomerang_c::field_0x962</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7979887cd527a5077f0e997efb4a12e" name="ae7979887cd527a5077f0e997efb4a12e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7979887cd527a5077f0e997efb4a12e">&#9670;&nbsp;</a></span>mForceDelete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool daBoomerang_c::mForceDelete</td>
         </tr>
       </table>
   </td>
