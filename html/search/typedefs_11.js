@@ -11,5 +11,6 @@ var searchData=
   ['sortfunc_8',['sortFunc',['../J3DDrawBuffer_8h.html#ab1dec7104bf79e4c034a4a38749afa57',1,'J3DDrawBuffer.h']]],
   ['sphchk_5fcallback_9',['SphChk_Callback',['../d__bg__s__sph__chk_8h.html#a2a033697ba43c0b952679ea4e5887671',1,'d_bg_s_sph_chk.h']]],
   ['standard_5fcreate_5frequest_5fclass_10',['standard_create_request_class',['../f__pc__stdcreate__req_8h.html#a18e2b569db0e7bd678256c92d3f86f21',1,'f_pc_stdcreate_req.h']]],
-  ['stdcreatefunc_11',['stdCreateFunc',['../f__pc__stdcreate__req_8h.html#a0cd23abb99e1ab7ecb184e0eac28de12',1,'f_pc_stdcreate_req.h']]]
+  ['stdcreatefunc_11',['stdCreateFunc',['../f__pc__stdcreate__req_8h.html#a0cd23abb99e1ab7ecb184e0eac28de12',1,'f_pc_stdcreate_req.h']]],
+  ['svec_12',['SVec',['../vec_8h.html#aa5fc597f675512222eb9769b878b86ba',1,'vec.h']]]
 ];

@@ -76,18 +76,18 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">quat.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="vec_8h_source.html">dolphin/mtx/vec.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for quat.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="quat_8h__incl.svg" width="188" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="quat_8h__incl.svg" width="144" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -106,15 +106,35 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structQuaternion.html">Quaternion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a8b8ae6480df2117ee6e3edd97c4309a0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structQuaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a8b8ae6480df2117ee6e3edd97c4309a0">Quaternion</a></td></tr>
+<tr class="separator:a8b8ae6480df2117ee6e3edd97c4309a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1a5bfd1d44eea9738d2ab238892c1c37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a1a5bfd1d44eea9738d2ab238892c1c37">PSQUATMultiply</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> *src_a, const <a class="el" href="structQuaternion.html">Quaternion</a> *src_b, <a class="el" href="structQuaternion.html">Quaternion</a> *dst)</td></tr>
-<tr class="separator:a1a5bfd1d44eea9738d2ab238892c1c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed37ac75d799ca081e7052e61b3fc32c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#aed37ac75d799ca081e7052e61b3fc32c">PSQUATMultiply</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> *a, const <a class="el" href="structQuaternion.html">Quaternion</a> *b, <a class="el" href="structQuaternion.html">Quaternion</a> *ab)</td></tr>
+<tr class="separator:aed37ac75d799ca081e7052e61b3fc32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac811a4c6438793b6e24e3ba8d1888d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a4ac811a4c6438793b6e24e3ba8d1888d">C_QUATRotAxisRad</a> (<a class="el" href="structQuaternion.html">Quaternion</a> *q, const <a class="el" href="structVec.html">Vec</a> *axis, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> rad)</td></tr>
 <tr class="separator:a4ac811a4c6438793b6e24e3ba8d1888d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6358d20e8c30f0138ce3032c0d20649f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="quat_8h.html#a6358d20e8c30f0138ce3032c0d20649f">C_QUATSlerp</a> (const <a class="el" href="structQuaternion.html">Quaternion</a> *p, const <a class="el" href="structQuaternion.html">Quaternion</a> *q, <a class="el" href="structQuaternion.html">Quaternion</a> *r, <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> t)</td></tr>
 <tr class="separator:a6358d20e8c30f0138ce3032c0d20649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a8b8ae6480df2117ee6e3edd97c4309a0" name="a8b8ae6480df2117ee6e3edd97c4309a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8ae6480df2117ee6e3edd97c4309a0">&#9670;&nbsp;</a></span>Quaternion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structQuaternion.html">Quaternion</a> <a class="el" href="structQuaternion.html">Quaternion</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a4ac811a4c6438793b6e24e3ba8d1888d" name="a4ac811a4c6438793b6e24e3ba8d1888d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ac811a4c6438793b6e24e3ba8d1888d">&#9670;&nbsp;</a></span>C_QUATRotAxisRad()</h2>
@@ -190,8 +210,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a5bfd1d44eea9738d2ab238892c1c37" name="a1a5bfd1d44eea9738d2ab238892c1c37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a5bfd1d44eea9738d2ab238892c1c37">&#9670;&nbsp;</a></span>PSQUATMultiply()</h2>
+<a id="aed37ac75d799ca081e7052e61b3fc32c" name="aed37ac75d799ca081e7052e61b3fc32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed37ac75d799ca081e7052e61b3fc32c">&#9670;&nbsp;</a></span>PSQUATMultiply()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,19 +220,19 @@ Functions</h2></td></tr>
           <td class="memname">void PSQUATMultiply </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structQuaternion.html">Quaternion</a> *&#160;</td>
-          <td class="paramname"><em>src_a</em>, </td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structQuaternion.html">Quaternion</a> *&#160;</td>
-          <td class="paramname"><em>src_b</em>, </td>
+          <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structQuaternion.html">Quaternion</a> *&#160;</td>
-          <td class="paramname"><em>dst</em>&#160;</td>
+          <td class="paramname"><em>ab</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

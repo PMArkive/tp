@@ -2,9 +2,9 @@ var searchData=
 [
   ['handbgcheck_0',['handBgCheck',['../structdaAlink__c.html#ae3f243be86585aeb7e0ef05d71fa7593',1,'daAlink_c']]],
   ['handbgcheck_5f_5f9daalink_5fcfv_1',['handBgCheck__9daAlink_cFv',['../d__a__alink_8cpp.html#a6e6337c648d56f1c593676ab6e310daf',1,'d_a_alink.cpp']]],
-  ['handleclosefilesupportrequest_2',['HandleCloseFileSupportRequest',['../targimpl_8cpp.html#ad29dc4a86387cb8c6f3e7ec505588452',1,'HandleCloseFileSupportRequest():&#160;support.cpp'],['../support_8cpp.html#ae2b75dddb9aaac67b7bc7e1d89af30e1',1,'HandleCloseFileSupportRequest():&#160;support.cpp']]],
-  ['handleopenfilesupportrequest_3',['HandleOpenFileSupportRequest',['../targimpl_8cpp.html#aa4f044bfd4ece64079717d431893d6ce',1,'HandleOpenFileSupportRequest():&#160;support.cpp'],['../support_8cpp.html#a35bfecd59ff31a4eeb694751674f9440',1,'HandleOpenFileSupportRequest():&#160;support.cpp']]],
-  ['handlepositionfilesupportrequest_4',['HandlePositionFileSupportRequest',['../targimpl_8cpp.html#af22439d55aaadf3e9086e04386ed717c',1,'HandlePositionFileSupportRequest():&#160;support.cpp'],['../support_8cpp.html#a1b7f3ca5af73fdcc5ca1ab1f9a38f658',1,'HandlePositionFileSupportRequest():&#160;support.cpp']]],
+  ['handleclosefilesupportrequest_2',['HandleCloseFileSupportRequest',['../targimpl_8c.html#ad29dc4a86387cb8c6f3e7ec505588452',1,'HandleCloseFileSupportRequest():&#160;support.c'],['../support_8c.html#ae2b75dddb9aaac67b7bc7e1d89af30e1',1,'HandleCloseFileSupportRequest():&#160;support.c']]],
+  ['handleopenfilesupportrequest_3',['HandleOpenFileSupportRequest',['../targimpl_8c.html#aa4f044bfd4ece64079717d431893d6ce',1,'HandleOpenFileSupportRequest():&#160;support.c'],['../support_8c.html#a35bfecd59ff31a4eeb694751674f9440',1,'HandleOpenFileSupportRequest():&#160;support.c']]],
+  ['handlepositionfilesupportrequest_4',['HandlePositionFileSupportRequest',['../targimpl_8c.html#af22439d55aaadf3e9086e04386ed717c',1,'HandlePositionFileSupportRequest():&#160;support.c'],['../support_8c.html#a1b7f3ca5af73fdcc5ca1ab1f9a38f658',1,'HandlePositionFileSupportRequest():&#160;support.c']]],
   ['hangmovebgcheck_5',['hangMoveBgCheck',['../structdaAlink__c.html#a5d9925a66fa29ef03c46785b91f37c22',1,'daAlink_c']]],
   ['hangmovebgcheck_5f_5f9daalink_5fcfsp4cxyz_6',['hangMoveBgCheck__9daAlink_cFsP4cXyz',['../d__a__alink_8cpp.html#ac55e1aac4e04f152dd45ad05985d912f',1,'d_a_alink.cpp']]],
   ['hasfailedblock_7',['hasFailedBlock',['../structJAUSeqDataBlocks.html#a1b77410fef2b8df1ad9109d9a75c04f2',1,'JAUSeqDataBlocks']]],
@@ -77,5 +77,5 @@ var searchData=
   ['howlarrowposinit_74',['howlArrowPosInit',['../classdMenu__Fmap__c.html#a0d4de83824ea6040b343c7f08e8b7648',1,'dMenu_Fmap_c']]],
   ['howlarrowposinit_5f_5f12dmenu_5ffmap_5fcfv_75',['howlArrowPosInit__12dMenu_Fmap_cFv',['../d__menu__fmap_8cpp.html#ac4fd77a4996de363f36cd8aeabc06efe',1,'d_menu_fmap.cpp']]],
   ['hschainshape_5fc_76',['hsChainShape_c',['../classdaAlink__c_1_1hsChainShape__c.html#ae1c46cbbaffe14819f2a8e9113b6ced5',1,'daAlink_c::hsChainShape_c']]],
-  ['hu_5fisstub_77',['Hu_IsStub',['../odenotstub_8cpp.html#ab818e690b7d72358efa38969eeb4af36',1,'Hu_IsStub():&#160;odenotstub.cpp'],['../dolphin__trk__glue_8cpp.html#ab818e690b7d72358efa38969eeb4af36',1,'Hu_IsStub():&#160;odenotstub.cpp']]]
+  ['hu_5fisstub_77',['Hu_IsStub',['../odenotstub_8cpp.html#ab818e690b7d72358efa38969eeb4af36',1,'Hu_IsStub():&#160;odenotstub.cpp'],['../dolphin__trk__glue_8c.html#a56de01b8b0b24d6168db7f36d06a409a',1,'Hu_IsStub():&#160;odenotstub.cpp']]]
 ];

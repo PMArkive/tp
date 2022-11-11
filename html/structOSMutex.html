@@ -77,22 +77,78 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="OSThread_8h_source.html">OSThread.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="OSMutex_8h_source.html">OSMutex.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Collaboration diagram for OSMutex:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structOSMutex__coll__graph.svg" width="616" height="335"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9fe5074fd0283c794ea7b40e1ee01718"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOSMutex.html#a9fe5074fd0283c794ea7b40e1ee01718">unk</a> [24]</td></tr>
-<tr class="separator:a9fe5074fd0283c794ea7b40e1ee01718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e38e16ab262180416736b11921867b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOSThreadQueue.html">OSThreadQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOSMutex.html#a94e38e16ab262180416736b11921867b">queue</a></td></tr>
+<tr class="separator:a94e38e16ab262180416736b11921867b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308a9aac123f914abd84ea15a72169f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOSThread.html">OSThread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOSMutex.html#a308a9aac123f914abd84ea15a72169f4">thread</a></td></tr>
+<tr class="separator:a308a9aac123f914abd84ea15a72169f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc77eff74479893289968af3511e1e65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOSMutex.html#afc77eff74479893289968af3511e1e65">count</a></td></tr>
+<tr class="separator:afc77eff74479893289968af3511e1e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81716a34bc8d9003ebb5ada22bb975ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOSMutexLink.html">OSMutexLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOSMutex.html#a81716a34bc8d9003ebb5ada22bb975ea">link</a></td></tr>
+<tr class="separator:a81716a34bc8d9003ebb5ada22bb975ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9fe5074fd0283c794ea7b40e1ee01718" name="a9fe5074fd0283c794ea7b40e1ee01718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fe5074fd0283c794ea7b40e1ee01718">&#9670;&nbsp;</a></span>unk</h2>
+<a id="afc77eff74479893289968af3511e1e65" name="afc77eff74479893289968af3511e1e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc77eff74479893289968af3511e1e65">&#9670;&nbsp;</a></span>count</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> OSMutex::unk[24]</td>
+          <td class="memname"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> OSMutex::count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81716a34bc8d9003ebb5ada22bb975ea" name="a81716a34bc8d9003ebb5ada22bb975ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81716a34bc8d9003ebb5ada22bb975ea">&#9670;&nbsp;</a></span>link</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structOSMutexLink.html">OSMutexLink</a> OSMutex::link</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94e38e16ab262180416736b11921867b" name="a94e38e16ab262180416736b11921867b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e38e16ab262180416736b11921867b">&#9670;&nbsp;</a></span>queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structOSThreadQueue.html">OSThreadQueue</a> OSMutex::queue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a308a9aac123f914abd84ea15a72169f4" name="a308a9aac123f914abd84ea15a72169f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308a9aac123f914abd84ea15a72169f4">&#9670;&nbsp;</a></span>thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structOSThread.html">OSThread</a>* OSMutex::thread</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -100,7 +156,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/dolphin/os/<a class="el" href="OSThread_8h_source.html">OSThread.h</a></li>
+<li>include/dolphin/os/<a class="el" href="OSMutex_8h_source.html">OSMutex.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

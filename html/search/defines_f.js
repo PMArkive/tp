@@ -29,5 +29,9 @@ var searchData=
   ['os_5fthread_5fstate_5funinitialized_26',['OS_THREAD_STATE_UNINITIALIZED',['../OSThread_8h.html#a14b73f409a743f908793e892c001edb3',1,'OSThread.h']]],
   ['os_5fthread_5fstate_5fwaiting_27',['OS_THREAD_STATE_WAITING',['../OSThread_8h.html#aef58f65cd16d052b435577ccc378478f',1,'OSThread.h']]],
   ['os_5ftimer_5fclock_28',['OS_TIMER_CLOCK',['../OS_8h.html#ab825b9df03eb172646dc925c08b74ba6',1,'OS.h']]],
-  ['overflow_29',['OVERFLOW',['../fdlibm_8h.html#a1bde9ac0e4c1c736578ab9941eef76c0',1,'fdlibm.h']]]
+  ['osrounddown_29',['OSRoundDown',['../OSAlloc_8h.html#af6dc1580885f2056860e6bee90ccd57c',1,'OSAlloc.h']]],
+  ['osrounddownptr_30',['OSRoundDownPtr',['../OSAlloc_8h.html#ae1ed34030feb7a61c47351f534eea5bc',1,'OSAlloc.h']]],
+  ['osroundup_31',['OSRoundUp',['../OSAlloc_8h.html#ac39aed620ea2b6b8370770ec665bf6e4',1,'OSAlloc.h']]],
+  ['osroundupptr_32',['OSRoundUpPtr',['../OSAlloc_8h.html#adf6daf31f8a052edce7b8fd2977b87df',1,'OSAlloc.h']]],
+  ['overflow_33',['OVERFLOW',['../fdlibm_8h.html#a1bde9ac0e4c1c736578ab9941eef76c0',1,'fdlibm.h']]]
 ];

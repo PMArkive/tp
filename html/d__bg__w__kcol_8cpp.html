@@ -84,63 +84,27 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="d__bg__w__kcol_8h_source.html">d/bg/d_bg_w_kcol.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/__ct__8dBgWKColFv.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/__dt__8dBgWKColFv.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/initKCollision__8dBgWKColFPv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/create__8dBgWKColFPvPv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/getTriNrm__8dBgWKColCFP12KC_PrismDataPP3Vec.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/ChkNotReady__8dBgWKColCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetTriPla__8dBgWKColCFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetTriPla__8dBgWKColCFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetTriPnt__8dBgWKColCFRC13cBgS_PolyInfoP4cXyzP4cXyzP4cXyz.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetTriPnt__8dBgWKColCFiP3VecP3VecP3Vec.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/GetTriPnt__8dBgWKColCFPC12KC_PrismDataP3VecP3VecP3Vec.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetBnd__8dBgWKColCFv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetGrpInf__8dBgWKColCFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/getPolyCode__8dBgWKColCFiP5dBgPc.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/chkPolyThrough__8dBgWKColCFP5dBgPcP16cBgS_PolyPassChkP15cBgS_GrpPassChkR4cXyz.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/LineCheck__8dBgWKColFP11cBgS_LinChk.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/GroundCross__8dBgWKColFP11cBgS_GndChk.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/ShdwDraw__8dBgWKColFP13cBgS_ShdwDraw.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/ChkShdwDrawThrough__8dBgWKColFP5dBgPc.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/CaptPoly__8dBgWKColFR13dBgS_CaptPoly.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/WallCorrectSort__8dBgWKColFP9dBgS_Acch.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/WallCorrect__8dBgWKColFP9dBgS_Acch.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/RoofChk__8dBgWKColFP12dBgS_RoofChk.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/SplGrpChk__8dBgWKColFP14dBgS_SplGrpChk.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w_kcol/SphChk__8dBgWKColFP11dBgS_SphChkPv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetTopUnder__8dBgWKColCFPfPf.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetGrpRoomIndex__8dBgWKColCFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetExitId__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyColor__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetHorseNoEntry__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetSpecialCode__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetSpecialCode__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetMagnetCode__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetMonkeyBarsCode__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyObjThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyCamThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyLinkThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyArrowThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyHSStick__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyBoomerangThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyRopeThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyBombThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetUnderwaterRoofCode__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetShdwThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetLinkNo__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetWallCode__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyAtt0__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyAtt1__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetGroundCode__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetIronBallThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetAttackThrough__8dBgWKColFi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetCamMoveBG__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetRoomCamId__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetRoomPathId__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetRoomPathPntNo__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetPolyGrpRoomInfId__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w_kcol/GetGrpSoundId__8dBgWKColFRC13cBgS_PolyInfo.s&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for d_bg_w_kcol.cpp:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__bg__w__kcol_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -388,8 +352,8 @@ Variables</h2></td></tr>
 <tr class="separator:a5bab94785ce25bae8d79b6d72dcd5dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf423a97ff0695d5beef7b75149fa89d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#abf423a97ff0695d5beef7b75149fa89d">lit_4293</a> = 0.014000000432133675f</td></tr>
 <tr class="separator:abf423a97ff0695d5beef7b75149fa89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2fd2c1deb7f876422dae24ed1b4055"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#acd2fd2c1deb7f876422dae24ed1b4055">vtx_tbl_4582</a> [36]</td></tr>
-<tr class="separator:acd2fd2c1deb7f876422dae24ed1b4055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b549559f00e4f565c3760cc52d74ceb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structVec.html">Vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#a6b549559f00e4f565c3760cc52d74ceb">vtx_tbl_4582</a> [3]</td></tr>
+<tr class="separator:a6b549559f00e4f565c3760cc52d74ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6db159e6a99a29380ed99fa2cc2753cb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#a6db159e6a99a29380ed99fa2cc2753cb">l_wcsbuf</a> [1008]</td></tr>
 <tr class="separator:a6db159e6a99a29380ed99fa2cc2753cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb24c0614eab64a2258df063dfd90d0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#afb24c0614eab64a2258df063dfd90d0e">lit_5298</a> = 0.5</td></tr>
@@ -400,10 +364,8 @@ Variables</h2></td></tr>
 <tr class="separator:a020b7397149e1ca5139ced2be2f3a9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7079f68f135ff9564a070ff16273ba49"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#a7079f68f135ff9564a070ff16273ba49">lit_5301</a> [1+1]</td></tr>
 <tr class="separator:a7079f68f135ff9564a070ff16273ba49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a1efe7f481978df4e2615339baa8483"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#a1a1efe7f481978df4e2615339baa8483">vtx_tbl_5950</a> [36]</td></tr>
-<tr class="separator:a1a1efe7f481978df4e2615339baa8483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a147ac604c22561c565234a47a5ce3d05"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#a147ac604c22561c565234a47a5ce3d05">lit_6099</a> = 4503599627370496.0</td></tr>
-<tr class="separator:a147ac604c22561c565234a47a5ce3d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3486a4a398cefb0f59c4b9a8174ffed2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structVec.html">Vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w__kcol_8cpp.html#a3486a4a398cefb0f59c4b9a8174ffed2">vtx_tbl_5950</a> [3]</td></tr>
+<tr class="separator:a3486a4a398cefb0f59c4b9a8174ffed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a79ccc3cd159b812661fa7723cbc5a4f5" name="a79ccc3cd159b812661fa7723cbc5a4f5"></a>
@@ -2575,28 +2537,6 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a147ac604c22561c565234a47a5ce3d05" name="a147ac604c22561c565234a47a5ce3d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a147ac604c22561c565234a47a5ce3d05">&#9670;&nbsp;</a></span>lit_6099</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_6099 = 4503599627370496.0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a5e862148df6adc58098613dbd1f882cd" name="a5e862148df6adc58098613dbd1f882cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e862148df6adc58098613dbd1f882cd">&#9670;&nbsp;</a></span>sincosTable___5JMath</h2>
 
@@ -2611,8 +2551,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acd2fd2c1deb7f876422dae24ed1b4055" name="acd2fd2c1deb7f876422dae24ed1b4055"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd2fd2c1deb7f876422dae24ed1b4055">&#9670;&nbsp;</a></span>vtx_tbl_4582</h2>
+<a id="a6b549559f00e4f565c3760cc52d74ceb" name="a6b549559f00e4f565c3760cc52d74ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b549559f00e4f565c3760cc52d74ceb">&#9670;&nbsp;</a></span>vtx_tbl_4582</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2621,7 +2561,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> vtx_tbl_4582[36]</td>
+          <td class="memname"><a class="el" href="structVec.html">Vec</a> vtx_tbl_4582[3]</td>
         </tr>
       </table>
   </td>
@@ -2633,8 +2573,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a1efe7f481978df4e2615339baa8483" name="a1a1efe7f481978df4e2615339baa8483"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a1efe7f481978df4e2615339baa8483">&#9670;&nbsp;</a></span>vtx_tbl_5950</h2>
+<a id="a3486a4a398cefb0f59c4b9a8174ffed2" name="a3486a4a398cefb0f59c4b9a8174ffed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3486a4a398cefb0f59c4b9a8174ffed2">&#9670;&nbsp;</a></span>vtx_tbl_5950</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2643,7 +2583,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> vtx_tbl_5950[36]</td>
+          <td class="memname"><a class="el" href="structVec.html">Vec</a> vtx_tbl_5950[3]</td>
         </tr>
       </table>
   </td>
